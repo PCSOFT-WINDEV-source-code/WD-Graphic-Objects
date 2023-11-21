@@ -1,0 +1,4037 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_WORKSPACE
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : IW_WORKSPACE
+ identifier : 0x201a8f421412d166
+ internal_properties : CAAAAAgAAAC/zpYesrFjdM1l1GnNCw0cJcJpnmssT6QyhWRHsMBIHEve64fQNBZvD34M/na60qd7LdPghAeIpEbGybwMzrWugOynYjPSEGCtoVzzW5upKUgH0Fhz+OKFXiC7PfLexTWvByQ1xzvEN+FyIF4OkpxtMyQTeav8IoKM1//q+7BTR83rMtwYO9VJbLhzuy9VRcO1xcFzkTEASZgyRR7tx42MJcDzjBZlYrK3AypbNuQlZPhBiBciUNRM1eirMwDVk19G/l4RAxYB60L00PDI94xuvnnG+e5zJtih+JgJfG4aOtdWTdJQZhgJZs2X84fs8lLujZ5p48UV4P0n5KlO94ZBpq8QxENZIJ4T2ZGBZgWRvMNVWHR2dYUTwkJjEPQmO4oPVZbGEI3a1GW0T+Knl1xgoKrJmYNW46/iHA8yJhXMI/u2etmUhAuDfV8MwAFtI4VzqThVUiFbTYZWF3E6NmfmuXUF3jv8ADcswstas2udwUOFkptNL7qiX51ROs2jbmlzxXZvNVrt+r2zSgOSTtczMeUt8Qpp0zVhEbQYRO/ZV9FtaA7jsTD12iDdTvUd1QIQICNdjk8yowZqB/zKTHZXT/2cppRB8VFr/1bptfYEIRth1zQApxL8vtQNKl+Y8Ox6q7u3OBcd3dZ0OX6pE0hGvMhzh1hvXYkaPC7lZDRm4pfFrJEbYMFhYi/eWPSqwA==
+ properties :
+  width : 640
+  height : 480
+ controls :
+  -
+    name : IW_WORKSPACE
+    identifier : 0x201a8f421442d166
+    internal_properties : CAAAAAgAAABiswELjE6YBejXp5lCHPC4FtTmxdCtIg/iDMGeISw6xUxvPt3bZMUBkpJVW6A4BP04bwBQJ95F2Zy/gjJ6zkmcKozg6CemoSKcXQz/U23nTO8dVfVH51s2Wk20P8CB4jTAzxHxVwpv65jgf1x7m7Er2rF9PeFMKCovY6ZGR9JTujKJD6terEqQzBJRxfMsBj8OJBTs3e55J7LrvZROreslRUBv4OXgp0iicUMnr2BEzDYClBWGADeDWhLy89M94zuO3n5zZMvCUa/5cHImKBSAbAzl8iQo3Ih6kbqZTbZNne1L/6X4ciGPL14/RPe0PbRkI5Sg4ZzHd5Ok+zDfd0HNVa6IOn7xgwH7z0ZtKkahbsgwVOfgUyskQBiZEs50Go0ffr8ajqH4rwuQQfmk4fbDELSHcceBbPloQ5toc7eG51Uj8fnp8rDe7Kd0HuGw9FFSZxPd6+9x8nzTTftE9vrHA+OlzLWOkbgVOkm3pFgfS9OpS6YcUTw2kcJVgvnlS/wTKEAbEwNjjuPZO270Bm8Oj3o11w3XC8o=
+    properties :
+     width : 640
+     height : 480
+    controls :
+     -
+       name : BTN_CTRL_A
+       identifier : 0x201a8f421443d166
+       internal_properties : CAAAAAgAAADxFok7zs60BadAv12u+AAf8FhKqLX9slTDH6z+xcvew6YA96svGWtWkbzRV8AshBN0Rwh4hVcW0CPVDrte2SDZ9j4BxHnXOl/CB16PtszlwxOdIOg6uQ2/lmjZw72SvX1l8Al+tfFUXC1HWXbT82bbUFotEXKclJDnddnwHZzyTZhojwGw4tkUPPYiiRj9PN2/acbI0sywsNjwZF9ia3Y0S5L0trO6F1MjKAV2wGNU6O51DcYTqmoPim4siAVDJqgDu4XAiXMt8o1fml4R17KzKI3KRg2+11YgLMgX4LwPySu5/t2A9ENc6/eYHbiCA3gP6FANnJNT4o8g3NRnRLjeojsbXpg1siD3a9i6QTlopeCgwryROFz25ipOh/pdL67Mjokxd4TldnQwyq5CIxFfGtHt3diYiibjcwn/1cJFa7o2GP8a16YW8a6RYmjdOqlOl9Vy74rGNox9+hYL6W1sXyjK3Wpx0j3mmwtnfHYb7+Yksznj67W6lKoe/GQ7KBcz3Ywpernb8SUUbZlb6Dlv/cRg6RhlSRU6REZYaVEBVu5NObYMLoLieyz5eL+aP1DUDpjJdfPuSSahoTiPTnSOpEaew8sl7dc5dhGYgqrrcZNsxLq1Nj90RLNvXocFAog8uj4SDvPF/szMgKSu+QNMrAS4Uw4SYuBpxqJwkoiF0wuTKb4T/8HbuEGNxG8KxBqxj9fMmgE+rzU2Bseiz1KKNsYUgE1OasV0uc/274t5oWMmBYv8cpnLALFDEOd645bJPANwz17OJ6jRO3kiJ4wC5lIei+ysb92cvmaAGg+JE2glhkmZCcQ86hbGwzYyDb9ypqPMWMP+6Gkkrxz4F40fWYc9HpVEksZQVGkvcj9O5gToeNGgyU8hiuflNRoHOG4R7dyRTY1Za3xTLn1DUijEahJKWtMAnpu5cdlQprKn78eTiKoySntqt/hw
+       properties :
+        y : -30
+        width : 54
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Selects all
+            MGRSelectAll()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_DEL
+       identifier : 0x201a8f421444d166
+       internal_properties : CAAAAAgAAAD87Arasc4/X25eBObW41e4aZoYbaKy/WUum82k2ukKAG2sa29Q5B2Fzs/mJ7P9hZRT8dzhrivykUALOeMxEJyZsRTgE+6Nr/9mfgTHJbvf2m46Igx3FSjr/JQSPCXAPgavRMzbs8Y6zK8YHQzUCWmjMs6PrV/JUAplXqHx+WzNpnMQByKCTHdmDHHJNwo0hvq9SXyXxArFR/AoDzoN6stj3fd9VFbt3gFk5LLrNd+Q+p/CLZ/vVD1nKb6Ha99Sg+2bQRJrEB/Iptkqf4vODMFUP9c/IcXwb3SlA+5AsJ7MKRCG8Ngm1llbzbXdWX03ZMrp9bz6U+N6p6FVNcRAu0+fIVM4pksiLbK7qYgpg1Jia5mx7MvgsR+x4vC5tRvqhL8UsWsEGUv/yImuHxH4LxG2gripSookOKshUwZd6up33Epe8PniW3kMC1Ud9503rKHKSH2+9l5DVU0hfIQ9+9gU7WdTdS8O69aILAYA2xNviTP060+DIpfyQB1OKImLfaLVOXzEM0KRHTaIJ2fqCkScYoAZ5OXmLTxLr7AtdPcHPg5+chFIaZaJSMxFSfvohpk2EXr5xQ2WRaFqepsMGfn7caHhVCRYbEsMW+rKmsf4x0aKj7geJWNgeAVYuN0EvQxL9w7wYFXCE37WJebebfjd2AwCK+BeyxSy7v57MHHoEzO13ssx0uEgPXmafbc4HEKn9Zjk47+OMwJqaW2WbuE35bmScpnQJY9cWHmwNoRwEQaNvUNKwB9+seN28FiFGb4GcnuE42HuBbuNiZeR1TvPe2qYUq4ANCy6ZH0X2sNk/0XeLrSjZXyLadXNVCibuW7stBIxLumnNfYk6Qta5ROeONp1p+pwD5mIJpGNp6lspwGdH0d+3iIiOqhgRK/6GoywgFW+Wnmea7fMiOl86WpvSOs5kFqg5w==
+       properties :
+        x : 110
+        y : -30
+        width : 54
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Line_Delete
+            MGRSelectionDelete()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_CTRL_D
+       identifier : 0x201a8f421445d166
+       internal_properties : CAAAAAgAAADxPcBdqVts4FBIIX562WhsRe5cC9XxlGtrZX8C7bgPFU+oqLRUNtHJZ95ZM/ub95tWwtzOa65XdsqN4FLAhO3iOduEduXoj32NBH/ZP8KLnJT5zP5iFQVw37RbOkCx8y7rTD+sstz0IIRHCadN/iALprlZ8n3cbSs0F0Nh7Emowi/ArDhT3VLR4yC3fqMNfRsitevzu7rTWJpvLE4VhUYfMIjrIxT32NycNwEQwlY63/0hgMExmouET6CDrgIWFRKYsV+/1tfaoPJiPUJbMKq5KdQ2wuEQZxOrRBTYqY/srsL04S2pFKYw0WlsocDYN2VsYLn/lDX+sN5hAF3FHSa2cCFy0RIdJ3oug43MigRqGJfrvjUjq4oQWsam8oUcCPbntmeGnbnUlFXVa9sYlpscIMkImN22P/N8pJWCOvLNtTpXEhJ2EcmzdSBsXTl34HiuE0Sup8GMKKhuThYRFSgwiZrY7sev8zYYZL7GlnZn6+2j+Cqv8dk+3DvMPP7+uWgD+jMX+5mz8zj+3ZcNUzjYNh8yM1OpT6YxN7jHz8CPgIi3aZLIILDvMr7HFbyp+n0a7v323QIaNXHkzDenGC1flWKoLT6RbhOk+cCCT1IwxYSdPBP0dml8FD2I5tgnV5jPgnvzciAUuRB2fcgH3u7zDmm96CjNp4yaQsJJ5eSkWflirWSb+X4FFkqLLgG2/0Nu8S7oBovPMM/pINRGEvoIFG++vmTw+ErbAXLB6pVg5YkRRKCEA9HjG39SbujJTHcBzyxtlVKqsRVto0IwyfmVQfcB0hFXzuz69TV/doMgv92BCdRaqLJ5w1FMdk2s7y4S0/53yAG7M3oT1R2VfQtWsBFORz+gHp3ZBwJiCrwDipqNpBXPiOc60A6ui7ejjLBWyDc8+UHtrLGi985WW4GoVCOCdAxJRY/VVryI6A==
+       properties :
+        y : -55
+        width : 54
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Duplicates the selection
+            MGRSelectionDuplicate()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_CTRL_C
+       identifier : 0x201a8f421446d166
+       internal_properties : CAAAAAgAAAAzIdKc0rkSWqAVm4jmeiULxYpiMsYRsqhDq9hR9wT5gQYY6b0vH0uDdmJ8tMpCxGA1HpqNkdOAvQ4LidY9jJGS4ahF7pBMIwUmpkE86a7lMf1Z1Z9pzmqlsq/00mTJ3IO8kGOl0w3XIEzXsvdidZnLZ/m1W/Qeq4LKSBRCA2uev/BF0OJAyq3pTJJSiE/mq4c4Q6bjz7zGGJr5jhUWMbLYO+9wOxiqfgVykE8n6t5rs/vfhvnE0rDgkVl7kjs6I72v2gSTLwQdJS/nEa0PqMHGfJEStW17/40sAnRCClQyfpgaYU53Uz6Cl0/BrcN93z5tXxB/nIg6PkezmFrsXdIgbQ71nHVmiJj/sxQdSHJxvFMYdShFaWGDxpk4DbR61ezyFNcumbpPWNiD1sP45T0bF0xXZzNfi2tqNqXhSmoY6kp9VaXBIA5lQNCuk6B8pG6cCc0P9ZA82rsF590gOIbuqSQOiaeCSSXNj7f/dasf4VhPdj6zRhjpiLawaUV7pFf3A3B4SDRIqCmnIz2Rwe5BMP5AA2047Lo6JK4fNafkKqDtDPp6FcxJzhSsMaHz4PHBU01PJFAMyjw2gJ4g9iJ9NYVBRskLjWRkXIfiq2ywKAG0flZWvgvEa6r3abiwnQTVvohxS1uKKcT/rNq9dtQ1xkUFV/XBPPbKbINhoiUms/A2GwN/5RzE26n5/0tjI5BN0ym1K9Bt2ab9F1d5PUYnlmi58XgRNY0THz6ItAjVL27LE19d6Uysuz9l8flRquAw9DE7x2fPAGLvPjN+L5tLk7sfejwC6+EzdZLqdddpOpiT9XTUswK9kzhBFSGSbdj1/aWBZ90uKlsCQfCIMmrUR4mG/1eV8gogtCYXpHxTX7aRmUiciwZWU4WW2juy2+FW74FPgtb+5n2mQV000Tcyk9XRn2MKKA/ROQ==
+       properties :
+        x : 55
+        y : -55
+        width : 54
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            
+            // Copy
+            MGRSelectionCopy()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_CTRL_X
+       identifier : 0x201a8f421447d166
+       internal_properties : CAAAAAgAAABW/uMmLcEGQKTBqZCpZENqFcPkXqMFxL/JwfWyglhQmBS/uV6HG6mAAnKN3aU+izzlwLoaEwPqJT74BSJqXWan+Rhzph/KBigaAUqFDm1cXSTfaJqTluf4vi10GALuiPGLIeBRqIow7CR2Sa/V4Tj/xGsMBsPITCrco1bDbEq85wCowo+LNccIg5SDXaUwIYXR0gvc4byn1AvzXW7mluKPnwSR6m3Qq+F5YRItRLpAoW7MhOAGDuYD8JN+AuTmSj3W5xrndKL/lxxCQx0YQpnDvHPagQg9+bIP9tFTdm1fW89a4uzJwI+nHnBxggO2LCFSmmJTId9movtf5h04nzb/os924ka6IpYd8qm+Hd3kpMN5Bl4c0OiQUlT8wKVBut0HdecRFrTOBhOmyPMhPvAmRb9kETGQ5R9b6KT/vS0+oytT3QFK+FEm5dBO4HaHk5AJVB1E57yg9YYJenk/duDN6Be4THt4UccKj3sqFi1tWFTscH4F8oOnuECXEkJfDV1q92W9a1ADdFqpXq0jdtLhLTzytdN2fSf9WiFDT5n30fdICbjOvWx49hlsV6T86sBbLVkwo+mY8JOfbYnrHeUq6lnWqdKstIZ8EOm0J6WwLOnIon2+/y0VJoZHZEQijysM1Q8jiFOkmPQ7DHpZl/RIEdapvmRk04csczkBt0eIINo9GzTDfviuiuXwxsGxq7xNenDIIMBxgdH8OSxUvQKBC/CMJggnTs8RYLPtdB6u1krqtKU/ww6qnOWai3d/cX8yxZTJVY3592iBo2ema4YiLfYegMASe9WY38ssk1UkKXysJtz8R461SuHCFTeQuBPDjDCLob/W0W2mKDohX4H9ZbwyL2mvlmRXNqPyPbFDvUMBavYEdveMcUwLNleyHt2tvNxDdhCzLcv7B8Budw6OwQi0soLwZrELqYoR
+       properties :
+        x : 110
+        y : -55
+        width : 54
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Cup
+            MGRSelectionCut()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_CTRL_V
+       identifier : 0x201a8f421448d166
+       internal_properties : CAAAAAgAAAANGaTBTW8QxAR83QKefUxwWZLoB9Ht4GcHMVNP8fDXbb9I+AT0ttmRd/6Jw2sLZ4u++gSWQ3a3lqKFuLqobCXaOdtktsX4B3U9hJ+Zf7KrnOyRJFaqDcVg93yIJ4si5AfT1Ke0uqQsaBw/gR8VdkhjrkFv6h20LbckuxOpjM3Ysic8aBjLVfLtW1zHrnPZPUkSVUtji2qb0Gov3J5llXYfuECT20yfWBwk//nISm4CZ43xgBHx2kNc73DTbgJ2JQLgWYcXPq8a4KraZYozmCIh2dQWgnGg/3sL1PSIWb98jhosCeWhHFZAGVHEOagAr40MQDm/RCVWmH7R4D0VTQZmqPlaibold5rGS9XkIuyy4PfrbuUzuxKIila2MpUsmAZf7o9uNcFUJJ0N84NAzsO0kAl4+I325zs8ZIUy2pINxUJfKrrOeVljHbj0ZYHP2MD+c5Rel9GkAAjunpbRxTTMPYaE2uNDl7rM0BKiunJT16F/xFZrxW1C8Afw2EKaJdTnVk+Ddx1H9xxq8fNx3zTUerue37/dsyqls/yDozwLfMxzhf50pDQTNorbcfAldvmeqmni+SYOmbWgoANbdFkLab4EuYplAifotVRucz7McdgJmD+gum1gKAk8Mgxz8ySjrsc/LqTYrQTisZTr2trfwtX5lFQB21CuXuZVuTBQhY1uudBHDYKJmkZfSgWSG18CXUrEMm/z5KO1VCBaruYE2Mt6ChBEDF4/LZadfuemq4fHtl7unbe1OdXIjCKr8pV/raZ7v7xQgwurI9IwaWkVwYeBUpHXTvw6tWU/BjVmd23hzfhe9M4174UYGsnA4xJOlyJ7vE0XHwbnMSGRsd+aTGVyq/NMyrk1u17GlgBHTpYBGDmjJDMWnEJKf1OnADSalAvoTTXZmK2ug3o6R51E8Ee+SDhlWaM5yiBslA==
+       properties :
+        x : 165
+        y : -55
+        width : 54
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            
+            // Pastes
+            MGRPasteFromClipboard()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_CTRL_0
+       identifier : 0x201a8f421449d166
+       internal_properties : CAAAAAgAAAAdt7rNxGLxj1Xy/vcdHh8bkQVFe2pIVkIaSh9SAE5ab0umo0aAjCG0V8HKaWEEiIsfekZ0bZWYW4xwK7iU6O+uMRIvMB+SUiVC6UzvTYFhjkhPCkLg6IU0xfK4JKM/JMMRQ9MZCzs7bSlLfHCq16mMb5xK8OXL6JZkMCUACJCMtYKKnrJ8AcH6tPxhr3MSq8VRkhsMAXyXdDvTvW7WZgJfz5QxSj1ga9E5kYJdhLqwYc6stBCmjpbjQPPeglR2So2m17rnBLL/h9zyEy3YQqlj/LPqEUidCfL/9lGzxp0fS39qIiwZUA/X/oDB0qNWHMFyOlIDgd8WAksfhp2orxbPMr9WgrYqgqZ9AlmuHR20RAP5to680BiworR8YBXROo0XZecxRqSuVpOWGEMB3sBGxf+UYbEw9V9raIT/rT2e8zsDvYE6aLF25eBeMDaHI9CpdI20pxzwNTYpupnPZkh14D9QJNPgya8ihxNCThV1YKxUCNb9OjvvcBiParpHNQUiH531Q/g7HLLhdgWb/lopJQTqTYv+dS910pnbJ6Hf+Y/QAbCGhcTADhGEr/zk8shTNdFoW3EQuCv3BcEDZS0yQuFuAUr0DE40yAFMvy0YVAHwWhW2ByVdfj7fnPwKt5NEvefbwBt84AxzxLLx/3zQab4B1lxsy8/ki9F5L0/wiFKlE8wbJjBWYn1oPhlZE+SlIqgg2AipSenUsUTsBUoJY3iE3oBvplfpuEtFrAA+XNLocth6/jeEtxLzoCKmqGjMLPRVCfGWaGvCt2Kkap+o/kYhkD2cikdUGHIdCKyuZubE/666xwgc/Tq//rnJC2eBSDyXiApJfhBhcV/d+ssvT66WSyXrRhSf7Lmk4m0dO6H2Xo9fS6EptMM5fV24IHN/kzeQyzo/zb2HAv66bmoVzjFlBcmpD9hicMHa
+       properties :
+        x : 55
+        y : -30
+        width : 54
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Adapts the size of selected control
+            MGRAdaptSelectionSize()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_ALT_V
+       identifier : 0x201a8f42144ad166
+       internal_properties : CAAAAAgAAACH5pDYuQL5MoPeQNNI9zPQ0ZnCDaZloWhFOBW5CoyQ1EtlB5T1JiznHKIc5xVW6WSst5ZWLhMGtHdER+LEUPNPHP+YfKFtvvvfqoqKwasE3tqQv6ZUtToW5eQ4w8l+Exd41Oe0ZavNdiSmTbsrWLcr9nueEwlEolfJAImpaBZA+40TYdxhD+MK+cTTPnnZXzIV6A+bdDd8d6iL87351qDSrCIKArFo4X45ij71z1gXWVtXYAQqO4RYKKJxjub4PT0Yt0MjTBBAdA7N73mmLS3Kfbt5Em+jb9DSBxfWHtryLs8uNm+n28Wndxz8tWD9TpSA4yzLJLDg8aHOlDyUi+biBQxBHqUlGlwTLt/AIANqCdGIN05x0PCOLs3h3FGjnBsK0gA/f80I2ui2EAezhMe2UDAbZ0IpTxLGDNIiumeo/guoCcH8hZab40LnWsDmFt2xngqyIabMvQQDXgrWSaiq6ocQa5SHEZjV1sN3QLEJAfDa9gl26R+U/2uvSxLZ6w5OWd+2HLcX2++iZNYfWFbu5Srw4PApOfKE1Y38OTX9Du865elPlF7tdUx60ARSPCHtnbn/AnpVQq/K+oksKBWRa8ACIfq23R8UzF3yOkeSNxDEdIwtdWVL13Llr3Gdq3H0JFrDCSHJp4KO1zuO/AcbTLIugn78p57LLliIOMtva2+9T/FeyxBMVOF6CJFVJ1CftrxW/V1lUFDlBV8SSinRlKPKJNBV5yij1xEx8sci7saND1UFs74dC8qkJmdQu3o5CMOLRklyEQH34Ly1sXSJcausQSKrQbxo5aPXLLPLvWHci02d03SKxKnuMEtnk7zv7lnQ+XsPITkKOuiKMtnurQoGa9VzlSEDJPoASHS8GaiERzyQq81UKLHedhmrl2H1pypeyTSKtW0Jbw9msklyBUC9epn0iI0=
+       properties :
+        x : 220
+        y : -55
+        width : 54
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            
+            // Locks the selection
+            MGRLockSelection()
+           type : 18
+         -
+           type : 161
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADNp5gTOyjn8tXmY4wQO17ftefmEP7L39dF9O/yDFHJmedSUKRlHv0ttoXj6uDOw2TFCGio5n7Haz/GJUbf4Z21fICJ9HB5GWvBo/cNPcuHGwpwyeipfMPCMUECvcYikkEQaGw6RdEUuL4QMWo=
+        code : |1-
+         procedure MyWindow(gsAlias is string = "", gsFile is string = "")
+         
+         ActionsStack	is Stack of strings
+         
+         // Container of a control
+         ObjectSpace		is Structure
+         	// Field
+         	MGRObject		is Control		
+         	Name			is string
+         	
+         	// Edit properties
+         	Locked			is boolean		
+         	Links			is array of strings
+         end
+         
+         // Reference on the window
+         MGRSpace		is Control	<- MySelf
+         VisibleSpace	is rectangle
+         WorkSpace		is rectangle
+         Saved			is boolean
+         
+         // Enumerator of objects
+         MGRObjects		is array of ObjectSpace
+         
+         // Alias
+         if gsAlias <> "" then
+         	MyParent..Alias = gsAlias
+         end
+      -
+        code : |1-
+         
+         // Enables the edit on the internal window
+         WinEdActive(MGRSpace, True)
+         WinEdDeselectAll(MGRSpace)
+         
+         if gsFile <> "" then
+         	
+         	// Loads the document
+         	WinEdLoad(MGRSpace, gsFile)	
+         	WinEdDeselectAll(MGRSpace)
+         	
+         	// Enumerate all the added objects
+         	__MGRSaveControls()
+         end
+         
+         // Updates the screen rectangle
+         VisibleSpace = [0, 0, MGRSpace..Width, MGRSpace..Height]
+         
+         INTERNAL PROCEDURE DeclareMenuLinkAspect( MenuStart is Control, local bStart is boolean )
+         	
+         	// Create entries to format wires: each option calls MGRWireChangeShape with the shape and the point of the corresponding wire
+         	MenuAddOption(MenuStart, MenuStart..Name + "_NONE", 	 "None", 			() => { MGRWireChangeShape(bStart, shapeNone) })
+         	MenuAddOption(MenuStart, MenuStart..Name + "_SQUARE", 	 "Square", 			() => { MGRWireChangeShape(bStart, shapeSquare) })
+         	MenuAddOption(MenuStart, MenuStart..Name + "_ARROW",   "Arrow", 			() => { MGRWireChangeShape(bStart, shapeArrow) })
+         	MenuAddOption(MenuStart, MenuStart..Name + "_DIAMOND",  "Diamond", 		() => { MGRWireChangeShape(bStart, shapeDiamond) })
+         	MenuAddOption(MenuStart, MenuStart..Name + "_ROUND", 	 "Round", 			() => { MGRWireChangeShape(bStart, shapeCircle) })
+         	MenuAddOption(MenuStart, MenuStart..Name + "_TRIANGLE", "Triangle",		() => { MGRWireChangeShape(bStart, shapeTriangle) })
+         	
+         end
+         
+         // Update link formatting menus
+         DeclareMenuLinkAspect(MENU_WORKSPACE.OPT_ED_LINK.OPT_ED_LINK_SHAPE_START, True)
+         DeclareMenuLinkAspect(MENU_WORKSPACE.OPT_ED_LINK.OPT_ED_LINK_SHAPE_END, False)
+         
+         // Updates the working space
+         __MGRComputeWorkspace()
+         __MGRRefreshMenu()
+         
+         // Manages the selection
+         // There are also the trtWinEdMove and trtWinEdResize events
+         MGRSpace..Process[trtDisplayPopupMenu]	= __MGRRefreshMenu
+         MGRSpace..Process[trtWinEdSelection]	= __MGROnSelection
+         MGRSpace..Process[trtWinEdMove]			= __MGROnMove
+         MGRSpace..Process[trtWinEdChangeSize]	= __MGROnResize
+        type : 14
+      -
+        code : |1-
+         
+         // End of Edit
+         WinEdActive(MGRSpace, False)
+        type : 2
+      -
+        code : |1-
+         
+         // Updates the popup menu
+         __MGRRefreshMenu()
+        type : 65659
+      -
+        code : |1-
+         
+         // Updates the screen rectangle
+         VisibleSpace = [0, 0, MGRSpace..Width, MGRSpace..Height]
+         
+         // Updates the working space
+         __MGRComputeWorkspace()
+        type : 65541
+ menu :
+  name : _Menu
+  identifier : 0x263b392d07b1d762
+  internal_properties : CAAAAAgAAAAjoO+VYAXYh2SYpTvD7AgXCHEHRjuTd5K/qNR3zUpM1aIlQYejrbtK76/LWLozAhgdmcRuoxDXe7vi3lf8PoZYYzNtPYlgCK9AarNrSCSSPpGDp+KLIikSwO2L+lCfwFobS8WKQZu2noN9WV5ipxuLKjTaOvfojbcmu1i6FPrF8FEPa+oQBHdRyMYNLYyLF/nTGn2y7NBixG5dC7y2wsO4aXA1CKpzZUca8sBJUrSr9FqhTJMK37pOOZqMTeCIo+trbOMI1osTdzjD26auXrzETrP8OxsAt+HgvahLwDb4kRpR6lQOjBIj
+  options : []
+ popup_menus :
+  -
+    name : MENU_WORKSPACE
+    identifier : 0x201a8f42144bd166
+    internal_properties : CAAAAAgAAABJe4RWUFBSgEhbGiDSIX4x/Hm/2vo8xGi+G39fK8cmA5lKAKw8CxvZXF6Qsyj2mjbuFZcLwFh+StdNSFhJNzjF358Gsyof18H+w0aJsSTW3AaEa05VBdMUY9dHvACzXOXhDAqRtX3QC7IRh82b1kwfLuvMLpSyTlv8ZQFzaHef/dNKnBhZsFlEbldyC7Jgq+v2ZY+yVyxuoaoFoWsyjzDKOos40eRJhmkBFFn898YBLzAReKMpkVcK/ArA6heZZQTE/n7aLDksQvpYE7qlU59jiYx9DzXWN62+xuufJZBxvF/Yrk0kW/47j9F7I5TLRNKMHpZ2PHZap6kX24Wy7unGJ1ZYZ5xO1YmqagqjctDYo0kfxJMqkX/m6ndd85xC8lG6KmDK2jwfF5nElQ4=
+    options :
+     -
+       name : OPT_ED_CANCEL
+       identifier : 0x201a8f42144cd166
+       internal_properties : CAAAAAgAAACOJ6t0YKsmTeMcNZIOA0JrRJYACt4XL1eHsSUAlwMOHKGPKgBCUGfyjzdUsoxDWslDAVOFTsuNhICNqgibu12NeT7m5xov9k/VsA6Wj/V0cMK5Tu6GaGh4NXYIzX0t4DPvA0dUFxmv01HSxraPCar3jZuJ0tN/ephZorZyV6QAVYhjYFo15BGs8qvBedYlfxp9SnsHuWNBvAIzDGLnoby03gJqYQsFd23vQY6afu9F/G1P674eLlz9MnCAjPhcw6gSIGN5Nx9Pl2JmeCQuClZ2ufQK7clM2BEbj9N3liPkZA9IGuvoFuvj8m/RpV3Q+38QertDs9Ao/V4/qDKcfAKLt6MYD8GBrCHGKrtOgptLZceFqtJ63mzNyY2U23+trZ6GAPfSc1+TQxmMsobjWscDMAvkpYwKvKGSJv6JkN+j7edFmDORbqPfAK5tPd7IfRcNhbsVNXZxrPZz/99evLXFBLhaVeIZd0Fk3A==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Cancel
+            WinEdUndo(MGRSpace)
+           type : 32
+     -
+       name : OPT_ED_RESTORE
+       identifier : 0x201a8f42144dd166
+       internal_properties : CAAAAAgAAADCJS7xQeGGK8TIdXpyDS1/ePTP941v1RcV4PhpdqYvsGdSbmhCCddonk7u26E1Qf8eni9FfYrILHMz7folUdT0TbOs+TU8PzcLiItISb39ErdQxBaBCocXMTVDhFO/ijUQRsWJHnjHcrDQvYzViHS4YEOK1pN8WIXJiMU7F5ZUMCUPEwQmVk+YtBa5PIU1RZwVPpxMHrkeEIE3nbdlqy4B+6ZmDg55cvC8/6VH3mwanFWCt5PIYlN9TO1hKB8UMBvSmq88s7ixfvuoNMlKiQVBd9ZynolNpCxk6ReM7Gmq/Jw9Ya9HNlZMSR/JgbE9dyFwbsGbq0XyppGmzXMYUlbh6gY/aOEjyBiEcloLfajhu9XcvrV8LfgIRqmmvNngPLl2GPxKijFopO1E7gm50bqeZkkf+ZHML2X/wzk1SmiegmFa/REYpjP4I4P6obu2/UqgS6XOEreXM1bsXqp8Ykisc96/DNeH16BK6yM=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Restore
+            WinEdRedo(MGRSpace)
+           type : 32
+     -
+       name : OPT_Separator1
+       identifier : 0x201a8f42144ed166
+       internal_properties : CAAAAAgAAABcNWPBC/RBwBuu85uLJsfrtwz28s1uAkJOQSBLu83+JPDUZ5eG7ZF1K12dZhQa0EbwbBcnTsUeCqEYWlFgT6ceuF01I5pA63A8V7EMyAMXjWDZLk/TskfYPJBGXo33CvxKzTAGoAvbbP7gUtDslFppSYwHUKLcV26troCegbIcjKFI/ddoxwQons5Pi7o4aJyFBuamazIw7aMQ9P3EwNI9GlV7kSB85D8RqULeGxNerFgFSF0nABBpfTdRCKe0uDPp8dZ8hA+wjA2RvBJUT1c9fGpeyTuMW0ib3kJlM7UxnDS8z/4/R9SVOolA6vmtQMFK6LdcXvQuOqGjrmpBPuop34etocA67Dt6ioBdzc9Ab5lFLQ8Zk1VAjYrN6mSrGl+hm6bLLo9v1WLlhO634A==
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_ED_CUT
+       identifier : 0x201a8f42144fd166
+       internal_properties : CAAAAAgAAAA1G+PstBndXOFrWvJ9gOVVtMVt8zm4lID3X0eVUz4r+CDcSWpORZx1bqSMeuRcdyCE1DJZ5KUkIUck4imkIQQsC7dtCuFB2oFeUAsJE4a+suRpT/YiJSw/mYyxlCFWeS39I2++wHi180W6SKXwU5Nz4/FKmttQTWS6gEKE79ChcFEG/eIC7CQoHMh785EJTm/9I8+oUmJDMZOP5sF65xxu4xebUStOMbAkHciVP9f/K7+7kdzDKI2spoOSLRxafu+NUXxJ/+xC4ljqAeNoCnixqizQ/zbxnKCgejOjM6vhCDLSpbmzIHqwS42c5D8qM/y07BZC9SYjIFRdQdmqGuG1eJp1CWRYMJ1Acwzztu71Ne59KSMJUie3wNcZmhoQHjQcPDGZasSGL1UiHoFNMiDGVdRG5oI/SCo684ZAPZJkh1VaSjwriTNhAYh8LvCVdiOb1vajVGRC0Mn6uaZaLSVKwOP+06X3jW0b
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Cup
+            MGRSelectionCut()
+           type : 32
+     -
+       name : OPT_ED_COPY
+       identifier : 0x201a8f421450d166
+       internal_properties : CAAAAAgAAADxltu+jq577geHsjExTu64sw3oADrEuiqgFxVkkXeYQTaDn133HjzHwe0bAth+mhgZN0ii/gsJD9Kq5mGcmm0dBGj1nuoxBGqGrwgTjJJSeQTRRWcyI0j+iFx016agm357R9b6n/GANc/zjtsUuY1hOwAbc5jBTvc3VGMtL6zWaAODtybMpLvmaqJnMmFT1yrtgPr0+q0UfNjasgaY1AN6WuB4Ig5Z0HyUgb3LYLNo8D+Wi/l2tYCuhc4gV17RvXZLHSitTNG4iSafx1JDtAh25s1tURzA8QFZ6lqDG0xRFb/mkPICTW9lpqwEFAzclvLvg+wCerZB73bTmm4TV1Nsz7tcs6wYw50R98++2E1y+lphMzg3ahs1W7aH9xytqUTDjQldZf4bWbbdFwCwykNF7/KQKGBd3hKIXGIsweFnaaYHckzTw3Y9RGT7gNqX0r014DKxPUwivC81F/G7IwnzOBt8zxJMkt23mFA=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Copies the selection
+            MGRSelectionCopy()
+           type : 32
+     -
+       name : OPT_ED_PASTE
+       identifier : 0x201a8f421451d166
+       internal_properties : CAAAAAgAAADpjsOW5lQdqDnRLHP/TBh2ceNm0rCmaNBejVMpbHKDApOcoKyCeSX4wixSHyvpiX2+rG0lsdbCKDepgSZHNayqxRnWpS38td+3Xot8O2nZ1EVWdq452t0D2Y93SDX/Rte4jD9RQgyhMnRmhegf5ECiZO1oJosspaQq3UjhT3obFtIa1taDQpswPN53kJ8KXT3zE4m1yyZP3inmSnhFKUQFaVjEpmIFfACM7RGP9bdEuIoWi7l2lWAO5a5GDZSPR5x1R95L4qdyQ/zxm0Dx9EjWdnWvPyJ4uUu3iOjzu7rjW4EgQoBwT23b4G5Y/IRIapYftfggUBKVyQxpPqhVF0t0y0X8tZZwG++vLYMoQvXSijYbGwohwnOLrZinsVZleZS/B/Ffv6bDi8y7O/rasmOlJxRIKjq9PnCSWiam69E3WXrlXkLpF7L7JoLnsmQfEn15NLrdQcySLB9Rz/2fQ6lTxM+si240esWvgEg=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Pastes from the clipboard
+            MGRPasteFromClipboard()
+           type : 32
+     -
+       name : OPT_Splitter
+       identifier : 0x201a8f421452d166
+       internal_properties : CAAAAAgAAAAjFIpWgnv8k1bpzOh0YZyQ9sM1MwytQY0JDO0d8ZXKUGRIj18IHckJS73TqEpijJIYZAcHbGkGJvmAeO9iQ382CI3d21lj6n/rpt7l0XrsuqPkyQBmVZKP8w+/xyL236GNoGs7B86Go53XC4nV+4uy5C9SxRG/slFwYa1DIh50rGU0gRNat+iUOiIFLXCwuMzFFpJqneKsAnonmdDTH78oeXRK8mM3h1j85PNlWrrLHzdcpwagh6GA1P6ggWArg4isxBFJscJ1y0xA42Pdts42R0URjug3yC8SJZF+3NxoRU+PSiukIkEIiShVhVhsJRQx30450Rcpf0j6C93EmbNgln5UOscx+9BN3e3gvM5lkoxw8MxeVhL/TMmMK6Vq5aRk5nn488KcgNlsGxeYDw==
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_ED_ESTABLISHLINK
+       identifier : 0x201a8f421453d166
+       internal_properties : CAAAAAgAAABTK4HsGlsh65M+dw/+Ts/G1EBx1jfNUSCYaFhuyjlVNCescv6sZrxEWM6xXLzfLM0gdbfiSsNr0UX1dug+1zti023kPDlZRROFQfKYaZAoxZD4h3OkALWCjet+se5ZAxG7U1n22r/phs+H4pwqB3/81pv62SukLg5GQpsGsRKcgd4d90a3sKd9EPE1eQpQIdaOJjg0qCy0O+4+9yrsXNWctpymHgwb55VW/ty0MCofv1XtTuhiZ9yDqxBzxgRKOD2yaqcFt3GgaJm4WBb2Qu78sWHoLy8Vm7OWUAIr/Omb7Ey6arhB+d1fczdkGGkcRxZKjud9OlJLpI6T4IupMoqVQsO11dfK6dc8vbdPl9KRUsOyrVEIYJcBRV1go5L7g9EZqFrJ1kmCVLFPZLj2ExWCQMA=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            MGRCreateLink()
+           type : 32
+     -
+       name : OPT_ED_DUPLICATE
+       identifier : 0x201a8f421454d166
+       internal_properties : CAAAAAgAAABB6ftYm6qI301rSITD7WD8zk9GFVZlZKW7VIKMVcXUTszShmQmjeJ4CE2k+alXcHQ2cxl765x8gRFfukRPmsH1MBzwCRtHX0j8Z/KxEtNWt3l+/+3Rj8hUcWkQLPLFEvjf9ePAGhpXSXC5vQm6UE7OPBvsBWFRXQN/gKW0o5jioHATJe18ngqKmEFOc/qobuTTSUBMBoME+ZQIVMSwIJ5fd0zF3kHRrvhm3Du28nGoW/pejlYzJJRSabRl6E3GnpB+mfiAZlSQXLVkMKSFwNAjEOz6Ti+ngzwNlVfalLeF1l1pbNgotDvTqsFse8vLBLccGOOMPcz4iInZsxzo9/MNZApIJJTCos39GNb0hwEph4u8KEzjXLkOtullsStc7leTP/QYOVi0aQJt+UVngoIT156EO5nJ8/grvuW6b7utRrYny5CVBVI=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Duplicates the selection
+            MGRSelectionDuplicate()
+           type : 32
+     -
+       name : OPT_ED_DELETE
+       identifier : 0x201a8f421455d166
+       internal_properties : CAAAAAgAAABjBE0UYNeSMcL8f1B2+68H7kxXQUcPP7s1PoD5oO775occhMAOVZ3IbqxKN6d1kaEyLPGRjUpCsKOhSXabadzuWYna+dHgled7ziM8V61ZLGjiAgpFXqn/bSvjPKHr+kOs2Nut7mAdPhji4ewb8NTe6Ak0Iufgm8YuzXCRYQt5OYGbfObHd4QouZHCk6cIc0IJNiJmiEMGi6iUbMUf4943cMSgIm7RXIhU1WnvKB6HiUMm/1Vay6rQ80jOe6pja8ARY/pnjgPmN7AVrZafVu4YaM97RRAwYekxfp6nRzKr8/UWrtxcVXft9oxQBj6cXtr7cTywwAKVwRxx5gDtb/tUA5VEhR5oE2/n3WPokrXKIrazq0Lh8sNTjZDtr1Rzq/rxsQ99hTxtreJN+QCwyFUrucb+4Hj7cKLwNGwEmQe5T5z/ZJhH1YRNHFSl2PJthAPjtABhdVokPK+1lXG7NXd9iu+2B+q2+EMpCsI=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Line_Delete
+            MGRSelectionDelete()
+           type : 32
+     -
+       name : OPT_Separator2
+       identifier : 0x201a8f421456d166
+       internal_properties : CAAAAAgAAAAVgdYZ1XaIbcQDfbLPNDj3adxH88UNKy5N1tnY1pjDOu/ftGwpHrtvXRjIqkT4MqEvoMnofvvwB+DGnNwRZf2aZiDCUEGkSqlYYtCDX1BGASBrrBCuAIBfuj0NZNL1BFzhkS6zMhWQeyyF7mNt56+o+/XPaB1jfQHt5sUea+llROvrrk10pbmF6ZsrdRqJGLnnTqPA8IVkNz6GcQIMsJ/NQ/wEuz7Q9aeYFcV5+zE3uD+Ifb+hghevEE0YQ4fScT9OUs0KEpaRZ3tiWiGa6CXxGMy1uKzIHKzutDGM18O46kerBIZnMeljNb8JAS9HhjeHeLvE+0k65ay61WQuXDtpoC3Umc/sJADMZ+7RpqxMXf/X9Zay8J5P3JU3ojQVqPWnCTENqi1SNt3FKGSM
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_ED_SELECT_ALL
+       identifier : 0x201a8f421457d166
+       internal_properties : CAAAAAgAAAA8Rem91BF/ya7M7PXdo5jiK6eN6j8eUI3radvqTbY/cioQgwAsQT1Ym2fdlNdQolzRQ57vvnkd6xw3LHGeLXA8XV4d1Yfs+UR/lXPggDFZ2BEx2UnX3Bt4YhpIFxpkn0aFVQBT6QyI6yCxBi0YVoM2Mk+1CWd2Gi4DBQbOFhQFO8lZ84oSCUsXvtNtnwNvQrqKeUxMrIpr7pHzBoXzNzMYQ0F62Vaifj0CLe752aXuTt/eAIF0hEn9pI0zbiP+MQz7+x0hCNf2u0T0Xl2e629fx0z7+mXy9sdUS/GpWcBq/VbkzxOhnZm0R3R1W68OeSExQ0IyMCLSTL2dpOVs/XtsG/3D6+fwISPTev+7XroGbxxnwBKzTGX1zn2IvgqlF2aq6MJS4gtOd+Ej+5SsQWXl2wgr1W/Y4xn1N6fNQ+ogQvXd0+kM+cAD9C87
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Selects all
+            MGRSelectAll()
+           type : 32
+     -
+       name : OPT_SEP_ALIGN
+       identifier : 0x201a8f421458d166
+       internal_properties : CAAAAAgAAABywHepILIHO7ST1wQLoGr9S8YBxPkb9wxYWENgMR7C8p4wvlp0QR6hLfRQWMG4ip0e6H7sufkCRkNZ/a/uvNz6a1SxLLyvZq48DqvVehap7o++cfCo7gNYUnA/YjjSXVGVFfafFsrFM3DWHhBeeLqGZff9vBllchfGNvytvNcIGOwb44c5unHEZ8SDM8Bj/Vq1jrHrrceiyQ9uj/kMX3/pI2SkF5YGkFIvIz/COy8XCtBhsE5N/dOCmlgLx0sjV9ZX1g01gEF8kfsaGiVgGSS8y0k4ChPFvzWb81BwWFbvMTSlZ8d1LPZA88uSjSRqwItF9OvM9RH6R2Fmb9GhfrtvVjQhwCZh9YGhciNY8gMP/L8TGAshl0QSaVREIivEkNDwKa4IyDiY8JkBn9KPicDowFXp
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_ED_LINK
+       identifier : 0x201a8f421459d166
+       internal_properties : CAAAAAgAAAAoYgx1yecp0VUJbMaGqe28JHovxTj3hvj7iWpIvOEsOydJ9jqqh0lr4a7yrLMxlJqS85gAcdLv2LVQhyk3N67d9738h1zYoXRW4nSpqCiqVs+EwU5vcb7FPHi7eznJMlCmNwceC/gBxY5crg+nI4PRtSgy5S1k08DMJFxIGZEhCIeclOxbc3CmPTjWb0Edh5tS3ndZZ5Nz3hKE7x0AzHK/9UIep7PijYEp5mmEGw2u/ulZL9BhF0ZlpCJAuL0T5v7LdYZu+HDkWTggvyi4oWFiM3XUCNQIUyQ3Jxu5fjBSgVQFM5uc9r3JX5ryHmAJ6U2djErfIAre1+mj1Rj3KDdMfeoFa4/aPeqnG1LhXU3lnu6MsSZXUfVjEbLEOLrhtOAHgqdflCuTncUPu/RHcZSeGGvieIDuVZUNJ/Lt
+       options :
+        -
+          name : OPT_ED_LINK_SHAPE_START
+          identifier : 0x201a8f42145ad166
+          internal_properties : CAAAAAgAAADres8LHUk4dI8AWyhNJ9DN7DaLWWn0Z4UmVw9S10wMd2bHxFagSLygLfNisSyt+MRqoCk1bBHw9cR7dezE2Z0ZHtolqOyFAR5v6zza3+CgVrYCPciV0FZ6H5JgAAomTVaZ1fuC8qmxYLaHFE0GPFRZ8pyxqAY2nog+wfwxQRqAOdS6yeAn3TvY2QrS1VgecZyVM8Aq0iWIXtp03+1/KsUBFmbErtjXi5OPLy3+sLS2ziIaNvop33Dgq9fBxbd0MDrqWE1imUuJyn10cCH4JR3kKUMFmBlLbAm+Vp/1TXyMk9SbOqBCYCu7IFyfGHJC+BiHP5kdBe43+RkqYtYHm7+xG8ADqtOyis9U8z9BuKIkoWjVnU57nup+oTVP+HweX3/jMX0VUcF/kGEJSxBwm8YzcHkO7A/lbxFRSH2EB/xs+G0=
+          options :
+           -
+             name : OPT_ED_STARTEND_NONE
+             identifier : 0x201a8f42145bd166
+             internal_properties : CAAAAAgAAABm2Luw7WenDAkhz6cML9mEeJNzKCNrLiRAntsGTCS+HJzIWjB25n+4gt9xq39DzimvhNKxrCMtjEBDm+ljTmfmGykqfn7PSzRwhumr+F5EHjFKb3reVCFdeVrfHDt/gBdYEET0eAHCsKcjv/NGgAmZOxSUBsQbJy61Bt/sAfqFGojbOPq7yVRpa26cjJwbyiomOtoRxPlh6q7JbtzipGy6C82rarrbN3kULuVFdtEqy5tC1iwuo4K1xdXn6Bi2jukug0+9iaVoCXqlkuzXa/IiLni1KQFo4axQTSPKRkiei40/YJBlPhYWmjZTMmmciMYei66n4pwxzm9AsY5VBbtqqbyjyW+DCAUILlUnKhpQQm5bqX3s6V55y7MiLOFMbnYH5hpvI3xP/6f9u2db3kGtbfU=
+             code_elements :
+              type_code : 26
+              p_codes : []
+          controls : []
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_ED_LINK_SHAPE_END
+          identifier : 0x201a8f42145cd166
+          internal_properties : CAAAAAgAAAC63ad1Cjw3jpoFAIxZjUEPhSekst7l5iyIi9I9T/aQ8kxy0c2QI5p2Gj0C1UbW6hlfAy2kCtaaqW2Rn0BrhsIxyRJzNAMQJ8240+L3E7A0vjzG9VdRtAJ8cZkWx6N4wKLZMIWezHSXfX+h1VrqOrsPq0SshMtPnK6CvrxgiGF+8o3sdycoLcqfEc34BzwMkzavzaFrbg3XxCjPnusqX0KbTqmygPAz4VqGyXCaSSxyE58N9WWLx4pRdGe87LYqWkcWEvW0e1AgY8/Ve7K0YfGri/lZK7uWis8XTgVNRG2doIS8A1jRyRzmYJvjlyG5Rw44nqGUU073XSbYxicd1CCUT4/rowVcttfLVyEuIla0UOa5ATMOeILTqOw2BEKVKwrZdkTvtN+9Ns4KbayLaTDNf/sDhZQTj4arMNESW7c1suYacSkd
+          options :
+           -
+             name : OPT_ED_ENDEND_NONE
+             identifier : 0x201a8f42145dd166
+             internal_properties : CAAAAAgAAAA0A5V8Hi2yQklYokc9b/MQXBBmewr/qIbUnqj2WbykuC9YwuCoCZNUfoi7Sw94W9z0Hs9/RMdPzzHI55Vk07mYbqC4oTnL8DXJKO5ZWag4W+VuaQM9lLCjf6PeQAWysd5hx4XdTIDloC6BDbGnVlTNSq/FOYeZIP5qjKKgeW9e5ya4B7PP7hbqoOImK2DFfxD1ReGemtb8F2f3CtG6iVLDrG8/rRQcIrzsul+IzmZA9rpekrtigi9mdy9tU6p3+n6nbb8mwdRtzhrDUHkTgr5fO6ytSBH3XmFIE2EzEMvYwqT0gMWPIw+8k+dF2cZcgiSD2DjsnSaTGu4eQ+NrtYEAkUCUxzJkZDX5c9prkmsTvsXBuRbkQO6HW+aQMmS90Fkyrw0lLaHKimUBN74LbQpp/RMv
+             code_elements :
+              type_code : 26
+              p_codes : []
+          controls : []
+          code_elements :
+           type_code : 26
+           p_codes : []
+       controls : []
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_ED_LOCK
+       identifier : 0x201a8f42145ed166
+       internal_properties : CAAAAAgAAADy1ofNw9h3TK0zuquXjn96L9CJoL8nurjL5R42JXU8VJ2o9Kx9WhtPUwC9xrPB9sHcz+Av+sWe/FwmsKp8AZW2rvAEB6YE1v5aVoN9V067yYtn2U1AVdQPav7Ib6a3O3vXFOXAy2JJ5L2Ep6aVOWEwSSFMLpk9JhXNKiLgZKv86KuxNnVSNJ4OObnSw1j6YzhesX2fsAVgGqR0mM54mA05OTHlw6WlY8bElostu3glaTNbn7GNk3O4+59yXmVo3PcePNUmUmBwLfdQ1migGJmqHqClSWNBGGP7/kcwp7e7Xvch9iYlakJVOuVGRESvhojYKmUPhjQ/j6fRTqE/rtVjnJXlVQOuJZQRs6kTGYzp3+J31nEOD9TmCbPcm8sjXC8ytwqFFBJqfJlaH7/GZ1ULH1exHLMxuqOd7/0N7CupQc9b
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            ExecuteProcess(BTN_ALT_V, trtClick)
+           type : 32
+     -
+       name : OPT_ED_ADAPT_SIZE
+       identifier : 0x201a8f42145fd166
+       internal_properties : CAAAAAgAAACBc390wBB10C3znu+GddQ+cu0tjoK9BHCt8jYDptw+E/+Wuy8CjqprjL2969dDI3BoIRhT6WhyU/qj1Fzik/W/gyto4VNcOfzUleLKr6qfptyWJH3JDsLLTxGYIGGi5hss/ITfhPzZPhVitOrZa3j1eMQkb+ZUAJqmzgtsU9UDJzVMn5dUWUh9BlFEclM722Tl86BsWVuldtmdPaJ+fJvzh+9609z6WjNcjRt71CCBr0Hn3CD4QDZv225362nLTid6lJL4SJZ6TMVSe5Ej1w+zJlsyiP4unCBEOiecXpicLcqiz1HqXPJY6E9gq47FbPgt/UmDyF+SAQ0l3Arz1WDJSpglhE6Yhin4HZr2UjPHJqX2i9ts8ex9aVV+pT4+pa7a5DxfMnQbN168LuhvL5TBTWcKmj11lqEU8Er5dDQ8Cu32PLia2cYzVT85kwKr43C0cA==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Adapts the size of selected control
+            MGRAdaptSelectionSize()
+           type : 32
+     -
+       name : OPT_ED_ALIGNMENT
+       identifier : 0x201a8f421460d166
+       internal_properties : CAAAAAgAAABCRtkkEesK6qbwAN6jKyv5EygFUGX71f3k/BOEfhs8+9jqoLrkv6hWYtzYypa370ygqPWlkUciWdQJR11taplRtta250ho6XNWpmM71YT5U5crmbJwY0reFigOg8H2zsOuzDjSMPw4lAZIcHqmYBOP4fEmD83+BgeEYCxphA1vyWKk65Bo6jWheUXI27E1y1KFW4VfAR3kt/8GMN5V9FM0sA4Iu1ZWgpeYjMAsw2vu2JhQi4MdpAzX3VWjVvJs5UYHIT59zqomUKdap68/ef49W6Xk7u42GlSbRKVfYJwGckgFQHjJ3iDZuYcHzNUkiP6i6qkRyo4rQ/spyCN6QDrZ0V89auRN+J82l5cBWQfq5S8mCeaJMCmV3xMuTYHICvTohP6T8kWaOMOuBeXwr4GvT68++QFZWYY5ehCjgaADET/L
+       options :
+        -
+          name : OPT_ED_ZORDER_UP
+          identifier : 0x201a8f421461d166
+          internal_properties : CAAAAAgAAACT/EwWO8iItAoMETOq+WGZdTgHjtCNQw3pRfLm6cidWcV/7gov6ylDpE3+4rhW1wbhOw0bi5Xp0/CXCGuTukEJf7pzwxIqzGK97zsd7BH8iorjycZ4ObN50OOWsQp7pe6La9J5hfkpI1hkSWrn8PEwQiwve9/wQUsiNjJ6SytYxxZWs+mQ8YkD4epk0IsWCAtCQqQIY5ZqYwSCNHhpYnLeEP8eGKB+uDH7jSBPceWFKSyx/zH89JsMK0DA0d9cvb2L0VUZpCPfwX2VQ4mc9PXy2mHleyZdnnuo//m7134HUGSW0rrmQ0sysQ7zFIAkZ7s1CYsZUASD6SL+chIsggW4J8GQOxiArPBWvKafiGsc8qzJRLzfoGn4KZyhLJAemoKqfn09IZN9PLlxu0K6sahryV+Isaeu5ftDm2t01WmuPoXOa718WvSyio/VqIvYpUNNpTdwLOYhOnlyig==
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Modifies the z-order
+               MGRSelectionZOrder(MoveUp)
+              type : 32
+        -
+          name : OPT_ED_ZORDER_MAX
+          identifier : 0x201a8f421462d166
+          internal_properties : CAAAAAgAAABYnDwY3rStkPym3YGXZzJBfGHZOuDZITLLvXoXMBPp1qHzuXidmAlPpR2coYTffFY2nnIyVxLsXRATdU3B7ljfZ3BYbC+a2DQvXr0D2ie6PvexGqW+YHE/GLG6t+X1z2AQIAvHM/awy6r2a8ePG79vw0qQENvSpbY9rXJKPhg7LYAMwBN6HjZLupWjEVSpxfu8C2Zb3sPitwbejrZgTqdaurxpakMOzkralHXAH0xeCMBb8VtrvW4Lq/rkLCuCz7V14AE0ot3AAyBxLnTx7lvf/oA04K37SsPnqm8gtCYwrKHGIz4m8HHu7/r0HBmGrltl5ilJ3q4GjO4UyyZXwqB0WBVbAlEgbmcGj4TEUoIhq370ncWrVRNUWMWokoOOxB6N699iSq2vZuo7ivJ33HZKqbm9Fb25Zy1I8L4RAqRBoIbQ1XJXMv0uY+oGRHnyh+OwdaYd1RVBg2SdHbv9cz/M
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1+
+               
+               // Modifies the z-order
+               MGRSelectionZOrder(Foreground)
+              type : 32
+        -
+          name : OPT_ED_ZORDER_DOWN
+          identifier : 0x201a8f421463d166
+          internal_properties : CAAAAAgAAADWR+W3g5wsKoZUTkNqBApiVqfXWOdpPewlPDiF8faLZb1hpy/96Ky0R9DQX4QLy0uz2FwfyM1HFi6LI1ssYKUg7sNFNkbn7/R4YxNvmus9UU6lEb1OvMuHcm9gFH1bDya1rSrlnpePt+1zJoBDJ16aVr/QjyItV3gTJHvr/ob5bUlwzko0vByjBh67Fuzwq0Vf3TZ9OY16e6g1aKIfeFNd1xfDVFdFhtkwY0Tc5jzEFj0TNuUckeEdnXB6ztvbbAj/EhhY8iQPk+DHiLT0UFUIV34bzgHybKtr7r3akHWQgAbHaHP/hWhy5iE9HSiIDjxWTBKJqrjkuY1fYH0Ei1S/in8xmASkZ8J5BW0ZLleOR+E+qlIzciomoFMuKfTpxtWu5sR70fE6HnbN1Ul/8CVGR9uPE7BhQ3YMT1+cRZzCcEk5aklLZQwzidDptfRwgS6Jv10EsqNMJoa7poRFYg==
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1+
+               
+               // Modifies the z-order
+               MGRSelectionZOrder(MoveDown)
+              type : 32
+        -
+          name : OPT_ED_ZORDER_MIN
+          identifier : 0x201a8f421464d166
+          internal_properties : CAAAAAgAAACtrxzCX4dMD0rRgBl3idB91V199CmE2CQ49S2j9IZnm1X1SpbFKN3/UyUKJrZsNCN/KO/cm7MHCzLPpuSuAhQ3xA/EggUUkVnxHkBLTiU/X+swEACFDmHgpEB23T6Pkv/bA11q6EXdTOkWoeihs9+qpBtQ/NFlcTljc2lDqM9P4K1VHCfv2o1W7U/7VE4Y4oKa+xuEwcs9Ywt3dkGOR7Y18wH5tBEqKcfu0VM03ktFbtRInV4hLiqhD4jV4tCDLdguc8S6r2p3+Oe2aurduHOj1eIPQoINMjFkJCxmcH8nKR+O3CfRt8sz4bvM7QI6vHkedSi47IEGc8DNKKCpjePZ6hVvrzZkm0PXkX49dLX2Dc+ljBkX9KXwYrOqLsb1FRqxIvyCw1/M/umiCVA0/GwJmfsL6LWeSWcAE8sj2YGwg5q/Nfk23gzKGQtln+2oQ8BlRKQ07L+3trI0XrEnSL/7/aKu
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Modifies the z-order
+               MGRSelectionZOrder(Background)
+              type : 32
+        -
+          name : OPT_Separator6
+          identifier : 0x201a8f421465d176
+          internal_properties : CAAAAAgAAADsRRPRG8RR8Gve44ubFhcbhxwmAl3+kvLesRA0BzECiBTok3uK0V15D2mJqmDO5Lr0UNPrAklqDqUkxoUs0+tCHBGpU+KCFQYueUOmNiX5r7qb3LVFdMmm1pqwGMvh1Aasz178glVdWigy7FpaFlTrI+6l3kymQUy/cNLAVzLczEHIPffoxySIns6Pazp46JylxibGa7LQPVMghM2UMEItaiUrQZDsdA/BOVIuq4NOHCgNYOE7KDwdXVeJgMuUfPcpcYYIcB+UqH0hzCpYd0shVEJ2/XdM79TzRjqF39V1YGRkN9IDX4DJclEYOgGFKBky2FfE/gyO4ulb7jIRLhrJbw8FEfjqdIu6Kji9peeoR8F1XV/JI+XQHRpdGlTbai+Ri5bbHp9/5XL1lJ5nUA==
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_ED_ALIGN_BORDERLEFT
+          identifier : 0x201a8f421466d176
+          internal_properties : CAAAAAgAAADZgjZZJRQHs9Rg4ZrtIZQ123iuv+53jiNcNmgwpaKVI00EvZEs6uH7oXq5l/YIyex0RRvvg+Qdw+4JeHF3Jbf6mm6hO1ArvB8zHtP4v6K+pD7aGRUBdcSkrN4qNIfOs7kAa1FMlHkmXBj4otzAusgAeYKoILWqMbY0AnQEakEqfLk1KZGxzD6DqZsGJodwGGu9jUEyRgRxyz9gm0+drdIot6FjzxWX1nTEIaYsuMrke7mfFelJt2TDAYjDsLCCK0UtpmMk2zgsonxrelwzlhbOXmSzY7smwsD9YX8bgAdHJKXjtSEz1ZwG+/5l8yxQcF5Gl1DnwYxwnd1bv53Fvkuci8Csg0gWEsh3L9ehVqo2NWw+ApHhMKBPWeUdr6ZhSThKMRib9lp+7X8EmclOMdCouwvM0UO6p04yDiHsqjSexsimfZwB/5x6R/E90WcaqhEIJc3lY9IODIeP/lMDzvamnaz6Jcad
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Alignment
+               MGRSelectionAlign(AlignBorderLeft)
+              type : 32
+        -
+          name : OPT_ED_ALIGN_BORDERRIGHT
+          identifier : 0x201a8f421467d176
+          internal_properties : CAAAAAgAAADUn4YcWcdZRg0/PQcFO31EEi2jIsl0mQaJt5/+2+JctHZ4gFYBkVuvvCdC26bHxbVSmA7BOXbhNYwHnAyBBbL8hFdHPw4p7g8NTeZY4/h1QaM2XgAGbfZrtAnXd6SvujI9NuXsL6+pPr+s7+e8t7eRwbrKaPSI26hEhwMiJBQEeCiIMI+sdXXil8rWQwWBRf9lzScsC0HieQpwudhAC8Bau4bdwTAVGEPS1YIyjEe0LRS29kcpLFNIOliuPN94Z3BlCuyiRTmM4ZJhWLtQf+el9v8ClC1c2UOd9tih+9gPIYULt/+b83P/mm59+mwo6p4qQ1yyDd8LyiDbj/ly5Z1Cht3ObmHtF/lElHRYS0RyUOqqdjUgsc/qdYJwtZkaEv+z6r9q6IhwBNRZRWfcG2oUU5OEMu8o9A1wMGOVPpXRHi1SmuYD+ty/7jyYFI6bU7CZppq2wGM3Y2fGGXMXYGT1KDhOiMuQ
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Alignment
+               MGRSelectionAlign(AlignBorderRight)
+              type : 32
+        -
+          name : OPT_ED_ALIGN_BORDERTOP
+          identifier : 0x201a8f421468d176
+          internal_properties : CAAAAAgAAAAttCk2rwcXa+fw22zx3No1ra+//YL73yBF7U8kGrJIRHfShV9ayuZoskQAY7PuW2yiORoo5TJ2+4O4ZM0DtTG5tFppdYOS01+RuEFigFV8W/ouiF4ZfBvbVrHYNFsnLfcT/kWZrBDBizfT7lvG6iNTFBA4uQWugQEUgr/+MD3AE5UZ3GQi9ZPWvISABxgz0wqIjbkqDedElcShYxkLCrnqFE6FW3KYd2GQdyx27qA48dblC3q1t+aBDMNFM/nmsvFVNNTA8wV0ZWihB1KIBcC4s16ABJ4FLpr09e7yEvT1ai0+Tna/JOOoJc4Rxl0dkCoeo5vf4jF9zyI6WXT03G2YGm/D+mwBrbEfkWk+aYt0KMralE9EyjfuJOTDb7MvJWFpZK87ak4+w0isNgsuJQNnXHha0TB2SN1mhAKkB6Ey/ix3PFQ4ph38SiVmVwrYbun0hUZ9J2omeGtQFBMLGY4f6+8e1Q==
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Alignment
+               MGRSelectionAlign(AlignBorderTop)
+              type : 32
+        -
+          name : OPT_ED_ALIGN_BORDERLBOTTOM
+          identifier : 0x201a8f421469d176
+          internal_properties : CAAAAAgAAACG4KcpYfgIVhN8XjbnKTf/Pnx0xefFMteD4bz0IOg7ari3tptjLpc0Cn55x49ATI5remMG4K2zntngBx0DpH5WMFLkQLXbjLzUPXA8T4ts9NUME+2aal7McHpDiZrW8cwdd/SCBL3ZlLRrm84ny85jkvHIMj6XNMz56CvIg+pWQ2Tji5f0IhrW16Z3K2htp1CxVl4mTf7nszRrwLixZ29ZNo5WmAmQyAqlg7+F5sHX3JGlqnRee9UZrVOKW3baFO09D/0e8fJLKeXh3H3SglRX2pHcjLP3/nRXBbRnbx7xQRfDSgy6UuBhXVLpWhC4CPMUjnli0LzX4FwFKdTmNctjVetFuk08ukXQi/5/wUeBE4xxEh4RilsfV18fCrPqUAPWBtntcRZqz4cHlMVJYQMyv0QcnP/OsYY4xQJkXGyKk7lVgGyLt8nTgP5bmh731Djt5m30ZMWNRXVNn467awZRSCRD58GF5MKs
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Alignment
+               MGRSelectionAlign(AlignBorderBottom)
+              type : 32
+        -
+          name : OPT_ED_ALIGN_VMIDDLE
+          identifier : 0x201a8f42146ad176
+          internal_properties : CAAAAAgAAACZq3gBp23X9/jMr53zUB9/I1nJCis5gRpVumKE7NEJffP07SWGpgkxlG+1VMMdmOm+XHEhxNXGSVjVtm22KWeiJhMG6igqV0KN+ipNu1MVmwDaKjpP3paVVyjbVrcpKJ4yupZnQe9J7AFfUlJou1lzDKCcAivt/stwkn2/GnwFRCZVZ/CUePiQu0kCbHiJsp9tmwX+MfBpU9dmxjAgb6inNnIlS6J9flKaMa9myG8kkOBTauu1w35VrwsBodx1Odx9Sx8r5ym9O6b8Ztbm37W1c+V9W/RWzGUrP1QPsfNfWjLKtggHjx/uWCaHQQYDETVhy4roqPvuZCC8fjBYYtL3OJj3OoMstA5h/l3U6EiHcdaggK+ulDCVvwk8FIe3xIKvJFEiU1kFn5tUnua5VVDzkYbnUpdpGTb60WO47EIqhhEVaPbe/SJGMHOqzuznd4vo/VkzRoEA6vTHZB9NafLt2RS4gggj7Xiq6qQj3xu0yIyI
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Alignment
+               MGRSelectionAlign(AlignVerticalMiddle)
+              type : 32
+        -
+          name : OPT_ED_ALIGN_HCENTER
+          identifier : 0x201a8f42146bd176
+          internal_properties : CAAAAAgAAAAyOtQo6Yh6eedK/tAmoiqz75qKaJP9MHMz4hGcmz5YrXLsMI309wjHDhv3g0zUhcBAYjFp17oxpK+wy1rDYBa2fDJxeZJ6NMMudpYqKIEXRnnrranNbTEtt9ZFNMiVWyQhCcCVl7KJ1VAOH8ud44TeX2NCNLrzP6m/BDhi2xZfEuOZ71WOyv2MS1dp37YJMcfbKSYXrK3xv1tSq1tGvCaS9pHIfMcMIOjZPKvFNheu6AZX6PdKYwSo6rViAzvglfBsxVaHwsdABLeqGrY8djzFE/2FN2m+wbJy4Z3i7pqNpGfKPKWNmRowtkmIZHjdXfm97rBk0qxU+1FHm0exnXHbMXZ6FfF04fZz9z/Ds7hqMCkJSHsQKZveWMrTtWbsDA0hkSkswKZNfiTceiR3um2RmsOA1GwEVDMNXoRjvEve48FNVc6d85Kk/OBG9VzwQ2IS8C00LKii0YXNvd6x13dsq8ZS5gUgYvU34a7pFandHg==
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Alignment
+               MGRSelectionAlign(AlignHorizontalCenter)
+              type : 32
+        -
+          name : OPT_ED_ALIGN_SWAP
+          identifier : 0x201a8f42146cd176
+          internal_properties : CAAAAAgAAACmaeDIApR6DQF1YCPLLBPMNrqxWlK6zteQROCGDYFGa0xYGUZKQyRPJRj2s4+sPyctl6r/3+aLwKEoZdWZbY9NSP+0LQPiYZOXEeOsu7WgMpaUSvFpUOz0c85wSUDej0oiZNrpYTOozBJ2MaGOK6dSV/gWsuo324WqexDQ1Ejfz+DWuMMAcJAmiIcO1Y1ZVeN8HajrrnZJRJwpdozb7CMgpDDWBQ6UfRsOZn21HfReBG9+F6JZ6BzSkQNgjfRBJwOhKzWbrBhngwtGS5pSkZqzKjjbpvGb9Tag1djW9WrG5OEcU9xfWQ1eSDnC/ac6FRobvhxof30vkeRjQ0IQQBNUTrCRHX2ul+JPoAR7pMgDTJiV3lQlxNz8CBwAeGHUHCQYOcw6LhomxRC1oBkx2JEQad4LY4b4dR94kUQy645/6TvhFkx1Sh1RR4Eq+pWAy3ML5H1YV5X0e+LVoGtSYRA9rBVsU1wIQ+mSBCszWL57X8M0HVeJ0ejZ33fyIbrr27Oi
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Alignment
+               MGRSelectionAlign(AlignSwapPosition)
+              type : 32
+        -
+          name : OPT_Separator4
+          identifier : 0x201a8f42146dd176
+          internal_properties : CAAAAAgAAACogd9FvyilpI/yx+d/apufC9BqflnK7q5q7YwvOV/gPgLG1RVAZyPj/V8v+DrMeqB6Rr0lWNdQELt6NJM2+cnwUv+XhrtCCdqG0XuKSiWpZ+JbCEFhlBXCNoKA/EeZLFbc9xpQXsVpVvC67OaWxoQz+y5RwsAu7SgfeGoUK6JUpPk4AYOsF8C0vuZfv96ooFRFTrqKB1q0CxFuUk8ChvBvIFNJr6aKOlW3H0gAcdHcnqaDnt9ZzqrL481/IoHKoqlPJ0zOPn3qfrPnGvRuRXnjksjsYwXSrVJxxLDfvTvLKlJKTWj5lf6HiDdkhqEJ4GHuHHMEBtj2SgUnIi5R8tqJuxtpKWheJPsm5mRpBWvA7x3Bkat9dzGcKRZZZphn5qtt73L/+vvTuQZZCGIjlA==
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_ED_ALIGN_SAMEWIDTH
+          identifier : 0x201a8f42146ed176
+          internal_properties : CAAAAAgAAAA2oQF/c6VtT9cGWHBFoql50jf7Bn70grcTecvLLQWv7ESWo7+/VjBHRCNXEdOCpbarNkuVsadp5T2IM7LD+mU+7V6+ZM5qazu6myPKuQHxUPYcnWnnCI61+XTDhNTdP0zENofvttx0Fe5zw/ykfgFp/pufpUcaDM6ziI/ONGDD7KyKlv6RD8dGucf0xMThDOfogiKJdlDqyBye7AvgW1VA3RMMNKzop0LC94Ocej7Ny27hXhx/WP4ycXtb5nXeBLzidJYDx/7qAjloe/x05jVyngj2jvimDiG2JbtP944uIMVoe/8khw87vEePArWSG3YhB+kfdY9wzv/B0/TdYLsDWcNOS6sJOrLexliTNKpvk4Z7/Olgg9JALxBWj9xonTv8CI0kXiI7VzjRyPUQUU7VCyh44yYDqPU4GD3vab89rrsWXsUNER88vOo4x9mm31NNDfrGLFXNLbCz/DQmiRNnBhCFrYk=
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Alignment
+               MGRSelectionAlign(AlignWidth)
+              type : 32
+        -
+          name : OPT_ED_ALIGN_SAMEHEIGHT
+          identifier : 0x201a8f42146fd176
+          internal_properties : CAAAAAgAAAAhmQwsjfPALsaCOD/q6qbBNxuIAKiSGHXRKmM28eUCKKDL5yc/iASCNWdp0QcOUWidd8Ut8+N64f2aZsp/w9vcCPioVjBWSx4NnNsZyZPgV7aNSmAVWAOpQDEKSb0/GDllXkn8QguIkgN2oJozh1xXFdIN/JBCDZzeL2UBAaZk5PdUn+/7KNfFeeHHHVCSPIEqKBnPmPWoe5e5f9jJwXCwbvunXo8oKo4vDYJjlK4SlcJV7zoHsOVR2GM+o014OTnAoEOZcwkjqMeyFyaBDK+2VRgmNsKNsmHlXvbJlDO4dKQ8nz4zvviUlhUanz5iF+0m7Ff56Va7w5rBh6aF3iqupzHziz/rYINP8w0iPbAZjOrvNoPZKmtKMLKUrFAj3gyRG7pfAEA9EJ1ueAdGj1dE4OMLSYKdXrc2Yrmb2GXPeifSHooeqh8ksPHLMSM8QSFbmwk9+ENE9kJeE8dqSpGcvqJ/un4=
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Alignment
+               MGRSelectionAlign(AlignHeight)
+              type : 32
+        -
+          name : OPT_Separator5
+          identifier : 0x201a8f421470d176
+          internal_properties : CAAAAAgAAAAPYHYqVl+Qd/oNkLQoRWC0arcJn7jpDcnFyDliLFi7WU+DBoSRzFx4DmiOq2HN5bv3Q97sEZy9/fSLf05lgjj36xhW1p+Y0zhQq1fWrvvHVayd4iNxPn9oDHg4NA+bXqgCpQR61o/L+A5QAAKy7EZlHchDvDDYd84JItZIF2jmFn/aRZOaNygUOmKFLXAweAwFVlIqnaIs4hqHeXBzP19IGVTqEkMXpzicRFM9htr3u1fE/wYKG9vy4KpemzIvGZJYYMUNcx7XtcjM+SWTXqCEJ13pXnKrWkHmeW9YPrh255NLfm/qsh+eEdAHc3o882bhDx6NJ9tfNTzucbeesZlK7o6Eknlp9QolxUOqSkLXcOgchLjiyo57SPU4R7lGgUCA+oXsj25AZP1Ab/uEMw==
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_ED_ALIGN_SAMEHSPACE
+          identifier : 0x201a8f421471d176
+          internal_properties : CAAAAAgAAAA88mum4QsiAYdeVOo1U6D8nvxDweLtHKYAmL3NhtdHKTiOz/arcdz4g3hXqg4kKhNl2U4Hm+zhQiJgjCUTbK+rrkeY/mc7FfbIZVxSzKAvLB4/LLfcrzDJ7i1rJ5s4yQRklczYziYAefxKHd3whRjwb2c/x+fn2ZjXBQChLHRIBBVZ3DAMF1b+T/54+9GIPi/0oGlr9xlYDxt7OkDaONE2SOrLbgRcS7vWxUQWep85fDaLwP0BGsgHnV61PodwrC1mtWrJEOg18zzQ/dWOntVZvJ0+X9Z5ucotrtfmJVVsswRzGjQUAAJCQ+cvhClGvsTb5p9cQJknB3Lnqs9qS/f4izy0BimqrlPzQYTNgEQaDoA7iYYA/rolb+9S2EIy9z1V6NJ6nX1pUApxnWIBcdSqD3OHaaLI1YCt5/sNi5dpjSeHeUOn2No0kmXjPuOUTJtWwaCTvnetnLcVkoXdo1zWiAgpssCUFvknZL2ZnELHeUarub4=
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Alignment
+               MGRSelectionAlign(AlignSameHorizontalSpace)
+              type : 32
+        -
+          name : OPT_ED_ALIGN_SAMEVSPACE
+          identifier : 0x201a8f421472d176
+          internal_properties : CAAAAAgAAABums1WPrkI4S7+T/SJTjC0kGbKNBGKf6CYrJ9VKhAPpmkVIBkxgJAe++o33dT/nCOTvMN19Kh0G5fx8fNOTgeH+G/ff0PrJ5DCjcca9hLQCJFQV93c0fP8A3ucuvfqO1NSSXuZfDglNiCYpwQDmZLupxXPL47xl8S+dBNJ33Ml/ZrtPHnRf03vDnLXXgyEvyM2Vu5vaG54lqK/Cuts4y7fLV26FZu3dqxCls0zuHnwWQ7HDWkmkoszFsn/fcWk6npz1x38gKHoEM2/vb+z7UTtR2V9beKgEh/rUQ5XHZdJYMxyTnA7i0Uwgk65IZz7mo35owxUrPlgzkb6A/N5lx2wZ2NOHTFGSaNYuW9XnctduR5xZv5CXN1wf1Sd9QhIn5sF8ud4YHbn8uGJB0mppooAgIcnDvrIHBKCTPi7MLo6hGtyTyXdV0OBfLZgQfnLBdbK1bxsyq2tZqIQ+wAdyZIkg4Ugkz/0yVrooALW+PJ/FXv/
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Alignment
+               MGRSelectionAlign(AlignSameVerticalSpace)
+              type : 32
+       controls : []
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_Separator3
+       identifier : 0x201a8f421473d176
+       internal_properties : CAAAAAgAAAC5kgDUDPl2CdxvstpKX+rOxNFjSeZDc9P/2ounhsHO1GjMB68YYYF5LyEXcAo2eDaEwK//BJVGJp1snOeKL1tiVHlHRXkT3vv/IhoNiRaIljfgWSgOKVKPb8OLZ4IaY/0x3MtTZ4rO6xk7L4ntxyeGiHtC/XkTOhnknfl7oq7kJNXklQdmvwxwyhKFQRxguMzNzj6eSZIQ+GhVt/oxRV3Kj8rA2OmtRV5iSmnvKMjBET1a9Rx+7cfmaiTGgxaZsSr6gtdnF7BjOUJmgb1rBATY7ZufBP7Fpk34W09oOireT3W1wJlKEGdmX24jH/biS07HdXQ3D90fNS4wMdfyb8GCtNz66A33oW47y9s6mjQ75GpeRmawBMQxsm8iXZeYN3pa3GeKbUgmClfqmZEShQ==
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_ED_STYLE
+       identifier : 0x201a8f421474d176
+       internal_properties : CAAAAAgAAABQ+gR9AaxOaiywiT+AErwba7k7CEa6OR8Mdy7BGWHQzUkMwG/1NxyHE66iH4Uu5H/m+frEbEmeKLoK2kSQ3MzdQLJzjoMs9a4oHMyyYq/yFvaTuEcxtE1/Afg6CiPe3LB+P8Cq2KsxAedg8nv/BaC4SyvQb8Z/4p4CKFMDBAR0JQ1A8saF+3jeiOc5+gp63F60362bffXLRI+jT/5I5OUcL3uxkEmZ9zuJuo+bVE1vlZbMU+1BQzd00t9MtRCOBGVh1EglACglC5SsX25w8YDzC0xJ3pQ4PmEdCDa47AbpKIgMJjT1Pgaxfvml8f3AK/MvysU/XBGFhCIixB4HCIOU/ArVsLgoHTrJ7USVaBOc1XldrOOUZdgeDDrmtWi2DnaKdkjuV5gmc222HGvSlmXmWMfkGOBYnZ0FL4oV
+       options :
+        -
+          name : OPT_ED_BORDER
+          identifier : 0x201a8f421475d176
+          internal_properties : CAAAAAgAAADJYyZdDMHW/whnTVkl5gleBHRluc151b9g08BoCIJfSL5WqjcqMnNWrZHaFHFbsDx9uH5XpbqZMIro6c1XKehkqkQJOrvbEoYezyx+mlPHJ6S9XC3ieMs+Lr1v1YxT7Q27l3exzn5UjZZYwU4Zy+Oab8VHvQEihyIdK91vZmnNlVSZtqgh+FBfAaUItqnEXkXjs8iypWXTXBqCe0Mz3ctxg9RDN+rJoPujQ5FlAKaweo3Nx9IM53agb14VNkwZGUJLLt5HCLGrzPZ348n3c64ROxUULjYSMmQ+xuj0OSxVfn+9f8mADA0F/4k7/QuPJRg+eeef0HEuwpGAFNOpawc7QYWF5FLApJnRjPgP3X95Zf7Imy8ht9hdZAnn1jr4kqcbFZKYAwTOGDh4ZTclZd8c9B1ztdTHIF0ZWeCeyg==
+          options :
+           -
+             name : OPT_ED_BORDER_THICKNESS
+             identifier : 0x201a8f421476d176
+             internal_properties : CAAAAAgAAADsynJrC/+WiNF+OewkZ1hYfoFR7p6xfaNfDmF0vBs/mLjbk8APkBDAaYZmGXN9JshrTS4tbo0NxNLy51nwF/mw+IglGkMS3aI5gc4rgCYiY5PyBIguqISjQtGwujwVd3sQ0YrIb4biHsFLEiLNcJb7gwC1zcJtUBHRHEUc1AqsLYb/eaprO5m4+GAozzBiGNn2F/xfpBixeiBbUL4eTJep1/iuIozVT0O9sXxgsa8in5QX6hTBxfkcqxWGHEyF/AYsajxT6Dr97noRFuoTyiwJB8j0kqRiPD4L0F/yIWoQqPOcmYmtWNPpXAP8pmsDlBuIHIHMObph5PVxc8j6oCh8YeDmHWFIJbCE4dipWLjsoQG4wUMtElXs8oPVpfu0E8r/TO9dxeSYFOUQSl4AIO0gDnHnRInrCURKsRKlrwaMEYBiUR+YIVDgUrh/ocHitIzMe67zUFDX
+             code_elements :
+              type_code : 26
+              p_codes :
+               -
+                 code : |1-
+                  
+                  nThickness		is int
+                  oBorder			is Border
+                  sPropertyName	is string	= "Border"
+                  
+                  // At least one control must be selected
+                  if not WinEdSelectOccurrence(MGRSpace) >= 1 then return
+                  
+                  // A single selected control
+                  if WinEdSelectOccurrence(MGRSpace) = 1 then
+                  	
+                  	// Retrieves the selected control
+                  	oReference is Control <- WinEdSelect(MGRSpace, 1)
+                  	
+                  	when exception in
+                  		// Retrieves the property
+                  		oBorder = EvaluateExpression(StringBuild([
+                  			oReference..%1
+                  		], sPropertyName))
+                  	do
+                  		ToastDisplay("Property not available for this object", toastShort, vaMiddle, haCenter)
+                  		return
+                  	end	
+                  	
+                  	nThickness = oBorder.Thickness
+                  end
+                  
+                  // Opens the color picker
+                  if Input("New border thickess: ", nThickness) then
+                  	
+                  	// Modifies the property on the selection
+                  	MGRModifySelectionProperty(sPropertyName + "..Thickness", nThickness)
+                  end
+                 type : 32
+           -
+             name : OPT_ED_BORDER_COLOR
+             identifier : 0x201a8f421477d176
+             internal_properties : CAAAAAgAAAC3niIsRZwnG2xcwOjcfbblewBMDpkor2fo6v00yf9qrWCtQdzw1IKQX24i657su8FOmVTd3Xn15VCEFYQ3c7Oc6KEZc61npigJ5HMJ7uzrTdt+378T7gxuzfcop3Kl++QEBWzgSpCXkKCdeMc958qgcCoSs+67OMgxnVXAVUT2pMaXNoDpwcf+025RwYBPa3FMlNq0f1H0kUiOqA+UE5MoONQ2iSOTpws6HmYB4J3LyE7KNGcmL7BPaG8+wA0gcO0cM4pncuGcvlvwv36RpjFMe8SNKKW8mN74UmGzO5KVW+b+qo4LSyZg48/YXtQ+vXAxPdSg+iQbcsea/aiAT/X5uDMwuwpUo1PHpD19IMVypDHLcepxj1V8zgopVT1wR4oy4tLguCFywvwP5TC1JVIwepCs
+             code_elements :
+              type_code : 26
+              p_codes :
+               -
+                 code : |1+
+                  
+                  nColor			is int
+                  oBorder			is Border
+                  sPropertyName	is string	= "Border"
+                  bInit			is boolean
+                  
+                  // At least one control must be selected
+                  if not WinEdSelectOccurrence(MGRSpace) >= 1 then return
+                  
+                  // A single selected control
+                  if WinEdSelectOccurrence(MGRSpace) = 1 then
+                  	
+                  	// Retrieves the selected control
+                  	oReference is Control <- WinEdSelect(MGRSpace, 1)
+                  	
+                  	when exception in
+                  		// Retrieves the property
+                  		oBorder = EvaluateExpression(StringBuild([
+                  			oReference..%1
+                  		], sPropertyName))
+                  	do
+                  		ToastDisplay("Property not available for this object", toastShort, vaMiddle, haCenter)
+                  		return
+                  	end	
+                  	
+                  	bInit	= True
+                  	nColor	= oBorder.Color
+                  end
+                  
+                  // Opens the color picker
+                  if SelectColor(nColor, scAnyColor + (bInit ? scInit else 0)) then
+                  	
+                  	// Modifies the property on the selection
+                  	MGRModifySelectionProperty(sPropertyName + "..Color", nColor)
+                  end
+                 type : 32
+          controls : []
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_ED_COLOR
+          identifier : 0x201a8f421478d176
+          internal_properties : CAAAAAgAAADq7Qy9vr+Bg8gjcedwGUxwvQx2zHk8n5+3sKKKIg+CsgJnaZZZ1ibgbxR27USohf/JABF3gMPqCjQ9MyzQvFlZri4NbpqLrHSkzhfD15uHnJwmw0zdPA202MLs7pNxe9GWacNJmcBnrdf8DYrCxiiV160C1mO92ZOlHJ19XC7SOYPrAw/+IeQjb5jeylQsqqBh2wFzYJKYcaxM3zuU9iVqP++t2YQjeMJqTHI/woxOSmjscPADmyOhie04XNDS/JsfEu9Pjk6pmDWqfpNaBNfnhI/rX6rufrlNp0zGVTYmd8GWQoFRRWu4BZc9GowUQnq0anC1ltIXdf04TAQ4S9VqtnMuu9a3he6tRVEQzzjVmnpf0wb/tnelIYOVk6hJKAbTIUIWyhHb0sunRfRF/6f/bg==
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               nColor			is int
+               sPropertyName	is string	= "Color"
+               bInit			is boolean
+               
+               // At least one control must be selected
+               if not WinEdSelectOccurrence(MGRSpace) >= 1 then return
+               
+               // A single selected control
+               if WinEdSelectOccurrence(MGRSpace) = 1 then
+               	
+               	// Retrieves the selected control
+               	oReference is Control <- WinEdSelect(MGRSpace, 1)
+               	
+               	when exception in
+               		// Retrieves the property
+               		nColor = EvaluateExpression(StringBuild([
+               			oReference..%1
+               		], sPropertyName))
+               	do
+               		ToastDisplay("Property not available for this object", toastShort, vaMiddle, haCenter)
+               		return
+               	end	
+               	
+               	bInit = True
+               end
+               
+               // Opens the color picker
+               if SelectColor(nColor, scAnyColor + (bInit ? scInit else 0)) then
+               	
+               	// Modifies the property on the selection
+               	MGRModifySelectionProperty(sPropertyName, nColor)
+               end
+              type : 32
+        -
+          name : OPT_ED_BACKGROUNDCOLOR
+          identifier : 0x201a8f421479d176
+          internal_properties : CAAAAAgAAAAYNGHwlnPSSLVACn5Rs49JmPrvIuSASBi5edarTTONQ5pVRUrJGvFtq74hkcSLcj9fglZSoEMyb0zSFyKttMEapz0XT7+umBCBlnBWegElFUUFHy/YZzZNcIhrqb4S7zwJ3JDEKY2aNuKfQb0yGRFKM/42M8VnbCmW8jSAz1gE0hZaPrtdAgsxGWDt5OZwZBovaaKQ8UrKC/J334Qn5tPLaPHDp1GWp38ekbHpjCq14RFYLNrdpJNsgN31dVA30C/tlnyykhP9mZPlziiZzHeZL2Ed8HiFmb9Z+9bjoYKNp9iwBGXIXA0EiUbfcjebEEpHNlZXzuQM1SVnpCLNXNFSMAHBFZPoU8toAEyRhr5BPqNhBURxnmOQ0LaLpAO18enB8BxF9pQ3H86Kp7UHWZRvSJyUrJm22As/r0fraww=
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1+
+               
+               nColor			is int
+               sPropertyName	is string	= "BrushColor"
+               bInit			is boolean
+               
+               // At least one control must be selected
+               if not WinEdSelectOccurrence(MGRSpace) >= 1 then return
+               
+               // A single selected control
+               if WinEdSelectOccurrence(MGRSpace) = 1 then
+               	
+               	// Retrieves the selected control
+               	oReference is Control <- WinEdSelect(MGRSpace, 1)
+               	
+               	when exception in
+               		// Retrieves the property
+               		nColor = EvaluateExpression(StringBuild([
+               			oReference..%1
+               		], sPropertyName))
+               	do
+               		ToastDisplay("Property not available for this object", toastShort, vaMiddle, haCenter)
+               		return
+               	end	
+               	
+               	bInit = True
+               end
+               
+               // Opens the color picker
+               if SelectColor(nColor, scAnyColor + (bInit ? scInit else 0)) then
+               	
+               	// Modifies the property on the selection
+               	MGRModifySelectionProperty(sPropertyName, nColor)
+               end
+              type : 32
+       controls : []
+       code_elements :
+        type_code : 26
+        p_codes : []
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - en-GB
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAD5ioeojMEYiXW+j1kMr7Rtj7eHlLFn+0/dpGH6enR+9p1s/g7pHF4FocSxeMlLEAYlVjnV2dvZYVVzY9F6PQ==
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : MGRSelectionAlign
+     internal_properties : CAAAAAgAAABUf8f7AhQRWtkQ3DQ8FbXzkQf+YRxn2oWYyPoY0m6WHntkvolLf7ku07sJwx0YxFI04gMPuC84l9CD3lJW1zNtIn4wns6LuIOjy2nMNnbipn0vcsqbp8X19RfT/G/lV+LNBvVGBOb4MpJA3owuadNCFCtpSyhYn7If6SEvQCGswz7E
+     procedure_id : 1160397367663120742
+     type_code : 14
+     code : |1-
+      // Summary: Aligns the selected controls (with management of UNDO/REDO)
+      // Syntax:
+      //[ <Result> = ] MGRAlignSelection (<eAlignment> is combination)
+      //
+      // Parameters:
+      //	eAlignment (combination): Alignment to perform
+      // Return value:
+      // 	boolean: True if the alignment was performed, False otherwise
+      //
+      procedure MGRSelectionAlign(eAlignment is Alignment) : boolean
+      
+      // At least two selected controls are required to manage the alignments
+      if not WinEdSelectOccurrence(MGRSpace) >= 2 then
+      	ErrorThrow(500, "No current selection")
+      	return False
+      end
+      
+      // Checks the alignments
+      // - Cumulated alignments not compatible
+      // - Alignments requiring a specific status or selection
+      // - ...
+      if True in (...
+      	// Invalid combinations
+      	eAlignment[AlignBorderTop + AlignBorderBottom], ...
+      	eAlignment[AlignBorderLeft + AlignBorderRight], ...
+      	// Cannot be cumulated
+      	eAlignment[AlignSwapPosition] _and_ eAlignment <> AlignSwapPosition, ...
+      	eAlignment[AlignSameHorizontalSpace] _and_ eAlignment <> AlignSameHorizontalSpace, ...
+      	eAlignment[AlignSameVerticalSpace] _and_ eAlignment <> AlignSameVerticalSpace, ...
+      	// Specific conditions
+      	// - Vertical or horizontal spacing: at least 3 controls are required
+      	(eAlignment[AlignSameHorizontalSpace] _or_ eAlignment[AlignSameVerticalSpace]) _and_ WinEdSelectOccurrence(MGRSpace) <= 2) then
+      	return False
+      end
+      
+      INTERNAL PROCEDURE __ExecuteAlignment( coEAlignmentEnd is Alignment )
+      	__MGRRunSelectionAlign( coEAlignmentEnd )
+      end
+      
+      // Saves the action and runs the alignment	
+      WinEdDo(MGRSpace, __ExecuteAlignment, (eAlignment))
+      
+      return True
+     type : 458752
+   -
+     name : __MGRRunSelectionAlign
+     internal_properties : CAAAAAgAAABONnsOttGXrPXdrCDvdMpUH7Pv3RRbp7tbYXp7MmQMKgL9mhJxSJTl+p/hBshDoHGjnBbDxcHUZ1ODmHjGtXbGvhL4ll/WvKOhyaDhPTYWjDCYAzZwmGfAFQJ72egJL7WjNEJpQwIj1opGwTRiNKsNzMwq8m1QDvWir7B3144WD2mztxXpD88HOR/EX716VhM8kxQNu7GmppeOdheeSOCrvJdJTtMqzx/ixmE9yGnx1Bf0A7PS7ZbPgM/UH4JfJLi/CYRRu/mgSGbPgcH1RXFzujx77U2ndWljQqe6Sp5B76BVnj6x49HRVUESiQ==
+     procedure_id : 1160397367663186278
+     type_code : 14
+     code : |1-
+      // Summary: Runs the alignment (for UNDO/REDO)
+      // Syntax:
+      //[ <Result> = ] __MGRRunSelectionAlign (<eAlignment> is combination)
+      //
+      // Parameters:
+      //	eAlignment (combination): Alignment
+      // Return value:
+      // 	boolean: True if the alignment was applied, False otherwise (no backup for UNDO/REDO)
+      //
+      procedure private __MGRRunSelectionAlign(eAlignment is Alignment) : boolean
+      
+      arrControls		is array of champs
+      oReference		is Control
+      bModify			is boolean
+      aaOrigins		is ASSOCIATIVE ARRAY of rectangle
+      
+      Push(ActionsStack, "Align the selection")
+      
+      // Retrieves the selected controls
+      for i = 1 _to_ WinEdSelectOccurrence(MGRSpace)
+      	oReference <- WinEdSelect(MGRSpace, i)
+      	Add(arrControls, oReference)
+      	
+      	// Stores the dimensions
+      	aaOrigins[oReference..FullName] = [oReference..X, oReference..Y, oReference..Width, oReference..Height]
+      end
+      
+      // The first selected control is the reference control
+      oReference <- arrControls[1]
+      MGRSpace..DisplayEnabled = False
+      
+      ////////////////////////////////////////////////////////////
+      // Align the borders
+      ////////////////////////////////////////////////////////////
+      
+      switch True
+      	// Top border
+      	case eAlignment[AlignBorderTop]	
+      		for i = 2 _to_ arrControls.Count
+      			arrControls[i]..Y = oReference..Y
+      		end
+      		
+      		if not bModify then bModify = True
+      		
+      	// Bottom border
+      	case eAlignment[AlignBorderBottom]	
+      		for i = 2 _to_ arrControls.Count
+      			arrControls[i]..Y = (oReference..Y + oReference..Height) - arrControls[i]..Height
+      		end
+      		
+      		if not bModify then bModify = True
+      		
+      	// Left border
+      	case eAlignment[AlignBorderLeft]	
+      		for i = 2 _to_ arrControls.Count
+      			arrControls[i]..X = oReference..X
+      		end
+      		
+      		if not bModify then bModify = True
+      		
+      	// Right border
+      	case eAlignment[AlignBorderRight]		
+      		for i = 2 _to_ arrControls.Count
+      			arrControls[i]..X = (oReference..X + oReference..Width) - arrControls[i]..Width
+      		end
+      		
+      		if not bModify then bModify = True
+      end
+      
+      ////////////////////////////////////////////////////////////
+      // Align the dimensions
+      ////////////////////////////////////////////////////////////
+      
+      switch True
+      	// Width
+      	case eAlignment[AlignWidth]	
+      		for i = 2 _to_ arrControls.Count
+      			arrControls[i]..Width = oReference..Width
+      		end
+      		
+      		if not bModify then bModify = True
+      		
+      	// Height
+      	case eAlignment[AlignHeight]	
+      		for i = 2 _to_ arrControls.Count
+      			arrControls[i]..Height = oReference..Height
+      		end		
+      		
+      		if not bModify then bModify = True
+      end
+      
+      ////////////////////////////////////////////////////////////
+      // Centers
+      ////////////////////////////////////////////////////////////
+      
+      switch True
+      	// Width
+      	case eAlignment[AlignVerticalMiddle]	
+      		
+      		for i = 2 _to_ arrControls.Count
+      			arrControls[i]..X = oReference..X + ((oReference..Width - arrControls[i]..Width) / 2)
+      		end
+      		
+      		if not bModify then bModify = True
+      		
+      	// Height
+      	case eAlignment[AlignHorizontalCenter]	
+      		for i = 2 _to_ arrControls.Count
+      			arrControls[i]..Y = oReference..Y + ((oReference..Height - arrControls[i]..Height) / 2)
+      		end		
+      		
+      		if not bModify then bModify = True
+      end
+      
+      ////////////////////////////////////////////////////////////
+      // Swap position 
+      ////////////////////////////////////////////////////////////
+      
+      if eAlignment = AlignSwapPosition then
+      	
+      	// Stores the coordinates of first control
+      	oFirst is point = [arrControls[1]..X, arrControls[1]..Y]
+      	
+      	// Swaps the positions of controls with the next controls
+      	for i = 1 _to_ arrControls.Count - 1
+      		arrControls[i]..X	= arrControls[i + 1]..X
+      		arrControls[i]..Y	= arrControls[i + 1]..Y
+      	end
+      	
+      	// The last control swaps position with the first one (saved)
+      	arrControls[arrControls.Count]..X	= oFirst..X
+      	arrControls[arrControls.Count]..Y	= oFirst..Y
+      	
+      	if not bModify then bModify = True
+      end
+      
+      ////////////////////////////////////////////////////////////
+      // Spacings
+      ////////////////////////////////////////////////////////////
+      
+      // At least 3 controls are required
+      if arrControls.Count > 2 then
+      	
+      	// Copies the controls for a sort
+      	arrSortedControls is array of champs
+      	Add(arrSortedControls, arrControls)		
+      	
+      	switch True
+      		// Width
+      		case eAlignment[AlignSameHorizontalSpace]	
+      			
+      			nWidthSum					is int
+      			nMinX, nXMax, nSpace, nXPos	are int
+      			oFirst, oLast				are Controls
+      			
+      			// Sort the controls
+      			Sort(arrSortedControls, asFunction, __SortX)
+      			INTERNAL PROCEDURE __SortX(o1 is Control, o2 is Control)
+      				if o1..X < o2..X then return -1	
+      				if o1..X > o2..X then return 1	
+      				return 0
+      			end			
+      			
+      			// Top and end of list
+      			oFirst <- arrSortedControls[1]
+      			oLast <- arrSortedControls[arrSortedControls..Count]
+      			
+      			// Cumulates the widths
+      			for i = 1 _to_ arrSortedControls..Count
+      				nWidthSum += arrSortedControls[i]..Width
+      			end
+      			
+      			// Min x
+      			nMinX	= oFirst..X
+      			// Max x
+      			nXMax	= oLast..X + oLast..Width
+      			
+      			// If the width of the selection is less than the cumulated widths of controls
+      			if nXMax - nMinX < nWidthSum then
+      				
+      				// Abandons the alignment
+      				break switch
+      			else
+      				
+      				// Calculates the best spacing
+      				nSpace = ((nXMax - nMinX) - nWidthSum) / (arrSortedControls..Count - 1)
+      				if not bModify then bModify = True
+      			end
+      			
+      			// Start position of second selected control
+      			nXPos = oFirst..X + oFirst..Width + nSpace
+      			
+      			// For each one of the other controls from left to right
+      			for i = 2 _to_ arrSortedControls..Count
+      				
+      				// Moves the control
+      				arrSortedControls[i]..X += (nXPos - arrSortedControls[i]..X)
+      				
+      				// Next position
+      				nXPos += arrSortedControls[i]..Width + nSpace
+      			end
+      			
+      		// Height
+      		case eAlignment[AlignSameVerticalSpace]	
+      			
+      			nHeightSum					is int
+      			nMINY, nMaxY, nSpace, nYPos	are int
+      			oFirst, oLast				are Controls
+      			
+      			// Sort the controls
+      			Sort(arrSortedControls, asFunction, __SortY)
+      			INTERNAL PROCEDURE __SortY(o1 is Control, o2 is Control)
+      				if o1..Y < o2..Y then return -1	
+      				if o1..Y > o2..Y then return 1	
+      				return 0
+      			end
+      			
+      			// Top and end of list
+      			oFirst <- arrSortedControls[1]
+      			oLast <- arrSortedControls[arrSortedControls..Count]
+      			
+      			// Cumulates the heights
+      			for i = 1 _to_ arrSortedControls..Count
+      				nHeightSum += arrSortedControls[i]..Height
+      			end
+      			
+      			// Min y
+      			nMINY	= oFirst..Y
+      			// Max y
+      			nMaxY	= oLast..Y + oLast..Height
+      			
+      			// If the height of the selection is less than the cumulated heights of controls
+      			if nMaxY - nMINY < nHeightSum then
+      				
+      				// Abandons the alignment
+      				break switch
+      			else
+      				
+      				// Calculates the best spacing
+      				nSpace = ((nMaxY - nMINY) - nHeightSum) / (arrSortedControls..Count - 1)
+      				if not bModify then bModify = True
+      			end
+      			
+      			// Start position of second selected control
+      			nYPos = oFirst..Y + oFirst..Height + nSpace
+      			
+      			// For each one of the other controls from top to bottom
+      			for i = 2 _to_ arrSortedControls..Count
+      				
+      				// Moves the control
+      				arrSortedControls[i]..Y += (nYPos - arrSortedControls[i]..Y)
+      				
+      				// Next position
+      				nYPos += arrSortedControls[i]..Height + nSpace
+      			end
+      	end
+      end
+      
+      MGRSpace..DisplayEnabled = True
+      
+      // Declares the cancelation
+      ActionDeclareUndo(__CancelAlignment)
+      INTERNAL PROCEDURE __CancelAlignment()
+      	
+      	Pop(ActionsStack)
+      	MGRSpace..DisplayEnabled = False
+      	
+      	// Restores the controls
+      	for i = 1 _to_ arrControls.Count
+      		__RestoreRectangle(arrControls[i])
+      	end
+      	
+      	MGRSpace..DisplayEnabled = True
+      	
+      	// Restores the rectangle of a control
+      	INTERNAL PROCEDURE __RestoreRectangle(oControl is Control)
+      		oRect is rectangle = aaOrigins[oControl..FullName]
+      		(oControl..X, oControl..Y, oControl..Width, oControl..Height) = (oRect.X, oRect.Y, oRect.Width, oRect.Height)
+      	end
+      end
+      
+      return bModify
+     type : 458752
+   -
+     name : MGRSelectionZOrder
+     procedure_id : 1160397367663251814
+     type_code : 14
+     code : |1-
+      // Summary: Modifies the z-order of selected controls (with management of UNDO/REDO)
+      // Syntax:
+      //[ <Result> = ] MGRSelectionZOrder (<eZOrderDirection> is enumeration)
+      //
+      // Parameters:
+      //	eZOrderDirection (enumeration): Z-order direction
+      // Return value:
+      //	boolean: True if the change of z-order was performed, False otherwise
+      //
+      procedure MGRSelectionZOrder(eZOrderDirection is ZOrder) : boolean
+      
+      // At least one selected control is required to manage the z-orders
+      if not WinEdSelectOccurrence(MGRSpace) >= 1 then
+      	ErrorThrow(500, "No current selection")
+      	return False
+      end
+      
+      // Saves the action and runs the change of z-order	
+      WinEdDo(MGRSpace, __MGRRunSelectionZOrder, (eZOrderDirection))
+      
+      return True
+     type : 458752
+   -
+     name : __MGRRunSelectionZOrder
+     internal_properties : CAAAAAgAAACGxzfg16SINRrs7TSj9ScQYCdCn6IxPdz1KXSorI2IxeKN7VMztV08LWhdJZwU9rdY/QHiCnoskyJYVVkQa0pNMNamn/lnVgmW0Uf8NKtgdfrXzlXKzWJHFeVieVTLmGcyz5EUi9gZTPVwojld
+     procedure_id : 1160397367663317350
+     type_code : 14
+     code : |1-
+      // Summary: Runs the change of z-order (for UNDO/REDO)
+      // Syntax:
+      //[ <Result> = ] __MGRRunSelectionZOrder (<eZOrderDirection> is ZOrder)
+      //
+      // Parameters:
+      //	eZOrderDirection (ZOrder): Z-order direction
+      
+      // Return value:
+      procedure private __MGRRunSelectionZOrder(local eZOrderDirection is ZOrder)
+      
+      arrControls		is array of champs
+      oReference		is Control
+      bModify			is boolean
+      aaOrigins		is ASSOCIATIVE ARRAY of int
+      nDecZOrd		is int
+      
+      Push(ActionsStack, "Modify the z-order of the selection")
+      
+      // Retrieves the selected controls
+      for i = 1 _to_ WinEdSelectOccurrence(MGRSpace)
+      	oReference <- WinEdSelect(MGRSpace, i)
+      	Add(arrControls, oReference)
+      	
+      	// Stores the dimensions
+      	aaOrigins[oReference..FullName] = oReference..ZOrder
+      end
+      
+      // Sorts the control by z-order according to the requested direction
+      Sort(arrControls, asFunction, __SortZOrder)
+      INTERNAL PROCEDURE __SortZOrder(o1 is Control, o2 is Control)
+      	
+      	switch eZOrderDirection
+      		case Moveup, Foreground
+      			if o1..ZOrder < o2..ZOrder then return 1	
+      			if o1..ZOrder > o2..ZOrder then return -1	
+      			
+      		case MoveDown, Background
+      			if o1..ZOrder < o2..ZOrder then return -1	
+      			if o1..ZOrder > o2..ZOrder then return 1	
+      	end
+      	
+      	return 0
+      end		
+      
+      // The highest selected control is the reference control
+      oReference <- arrControls[1]
+      MGRSpace..DisplayEnabled = False
+      
+      // Modifies the z-order of the first control
+      switch eZOrderDirection
+      	case Moveup
+      		oReference..ZOrder += 1
+      		nDecZOrd = -1
+      		
+      	case Foreground
+      		oReference..ZOrder	= 0xFFFF
+      		nDecZOrd			= -1
+      		
+      	case MoveDown
+      		oReference..ZOrder -= 1
+      		nDecZOrd = +1
+      		
+      	case Background
+      		oReference..ZOrder	= 1
+      		nDecZOrd			= +1
+      		
+      end
+      
+      // Modifies the z-order of next control according to
+      // the previous control at each iteration
+      for i = 2 _to_ arrControls.Count
+      	arrControls[i]..ZOrder = arrControls[i - 1]..ZOrder + nDecZOrd
+      end
+      
+      if not bModify then bModify = True
+      MGRSpace..DisplayEnabled = True
+      
+      // Declares the cancelation
+      ActionDeclareUndo(__CancelZOrder)
+      INTERNAL PROCEDURE __CancelZOrder()
+      	
+      	Pop(ActionsStack)
+      	MGRSpace..DisplayEnabled = False
+      	
+      	// Restores the controls
+      	if nDecZOrd > 0 then
+      		for i = arrControls.Count _to_ 1 STEP -1 
+      			arrControls[i]..ZOrder = aaOrigins[arrControls[i]..FullName]
+      		end			
+      	else
+      		for i = 1 _to_ arrControls.Count
+      			arrControls[i]..ZOrder = aaOrigins[arrControls[i]..FullName]
+      		end		
+      		
+      	end
+      	
+      	MGRSpace..DisplayEnabled = True	
+      end
+      
+      return bModify
+     type : 458752
+   -
+     name : AAFCanUndo
+     internal_properties : CAAAAAgAAAAeQeZWqR4YD9gNuw5ISpse4q5d4YfQh8vxSSLWonylqfGpzXAstIQfjtu5yNZJ9N/c91UXiZv53fcJCNn0zKQH2jXtD1BPimLproJX87E+1RbRiyhFUUvyPW0p6P5mipLcRRthNLb+/G4cHMU2fOcWaLmnLrlIMic+6HTcyeP/rQgO
+     procedure_id : 1160397367663382886
+     type_code : 14
+     group : 3
+     code : |1-
+      // Summary: Defines whether an UNDO is possible
+      // Syntax:
+      //[ <Result> = ] AafUndoPossible ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True if an UNDO is possible, False otherwise
+      //
+      // Automatic process of exceptions:   run CASE EXCEPTION:
+      //
+      procedure AAFCanUndo() : boolean
+      let aafCancel = 32095
+      return AAFPossible(MGRSpace, aafCancel)
+      
+      case exception:
+      return False
+     type : 458752
+   -
+     name : AAFCanRedo
+     internal_properties : CAAAAAgAAAAeQeZWqR4YD9gNuw5ISpse4q5d4YfQh8vxSSLWonylqfGpzXAstIQfjtu5yNZJ9N/c91UXiZv53fcJCNn0zKQH2jXtD1BPimLproJX87E+1RbRiyhFUUvyPW0p6P5mipLcRRthNLb+/G4cHMU2fOcWaLmnLrlIMic+6HTcyeP/rQgO
+     procedure_id : 1160397367663448422
+     type_code : 14
+     group : 3
+     code : |1-
+      // Summary: Defines whether a REDO is possible
+      // Syntax:
+      //[ <Result> = ] AafRedoPossible ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True if a REDO is possible, False otherwise
+      //
+      // Automatic process of exceptions:   run CASE EXCEPTION:
+      //
+      procedure AAFCanRedo() : boolean
+      let aafRestore = 32096
+      return AAFPossible(MGRSpace, aafRestore)
+      
+      case exception:
+      return False
+     type : 458752
+   -
+     name : MGRSelectionDuplicate
+     procedure_id : 1160397367663513958
+     type_code : 14
+     code : |1-
+      // Summary: Duplicates the selected controls (with management of UNDO/REDO)
+      // Syntax:
+      //[ <Result> = ] MGRDuplicateSelection ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True if the duplication was performed, False otherwise
+      //
+      procedure MGRSelectionDuplicate()
+      
+      // At least one selected control is required to manage the duplication
+      if not WinEdSelectOccurrence(MGRSpace) >= 1 then
+      	ErrorThrow(500, "No current selection")
+      	return False
+      end
+      
+      // Saves the action and runs the duplication	
+      WinEdDo(MGRSpace, __MGRRunSelectionDuplicate)
+      
+      return True
+     type : 458752
+   -
+     name : __MGRRunSelectionDuplicate
+     internal_properties : CAAAAAgAAADoQLnB018qD1YhXIbvUkt04/aV+9W1bieYqIZ+nQ/ksYp6Xs6HNpZq3qw/zHhX6Vsc/aeaj+lTrruuOO7q1ngSE99E8RLZ72s4twdL1YfJAcAzHE0JDJEuyK1Y/tkaZAkr6vFzyCu/aKpVYOOCZPueqY+DDvgR1GsSzw4UU9tplOc56avIxQ77lzx+prvfpjx4yeyZkKRyKCmAVmyXAlQdn75+Fg6L
+     procedure_id : 1160397367663579494
+     type_code : 14
+     code : |1-
+      // Summary: Runs the duplication of the selection (for UNDO/REDO)
+      // Syntax:
+      //[ <Result> = ] __MGRRunSelectionDuplicate ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True if the duplication was performed, False otherwise
+      //
+      procedure private __MGRRunSelectionDuplicate()
+      
+      arrCopies	is array of strings
+      oReference	is Control
+      bModify		is boolean
+      stCopy		is MemoryControlObject
+      
+      Push(ActionsStack, "Duplicate the selection")
+      
+      MGRSpace..DisplayEnabled = False
+      
+      // Enumeration
+      for i = 1 _to_ WinEdSelectOccurrence(MGRSpace)
+      	
+      	// Reference
+      	oReference <- WinEdSelect(MGRSpace, i)
+      	
+      	// Retrieves the properties and stores them
+      	Add(stCopy.ListObjects, __MGRSaveObjectProperties(oReference))
+      end
+      
+      // Cancels the selection
+      WinEdDeselectAll(MGRSpace)
+      
+      // To duplicate, clone the selected controls
+      for i = 1 _to_ stCopy.ListObjects..Count
+      	
+      	// Modifies the name and the position
+      	stCopy.ListObjects[i].Name = MGRGetUniqueName(stCopy.ListObjects[i].Name)
+      	
+      	// Creates the control from properties
+      	oControl is Control <- __MGRCreateObject(stCopy.ListObjects[i])
+      	
+      	// Forces the maximum z-order and position
+      	oControl..X += 12
+      	oControl..Y += 12
+      	oControl..ZOrder	= (stCopy.ListObjects[i].Properties["ZOrder"]) + 1
+      	
+      	// Makes the control visible
+      	oControl..Visible	= True
+      	
+      	// Selects the control
+      	WinEdSelectPlus(MGRSpace, oControl)		
+      	Add(arrCopies, oControl..Name)			
+      end		
+      
+      bModify						= (arrCopies.Count > 0)	
+      MGRSpace..DisplayEnabled	= True
+      
+      // Declares the cancelation
+      ActionDeclareUndo(__CancelDuplication)
+      INTERNAL PROCEDURE __CancelDuplication()
+      	
+      	Pop(ActionsStack)
+      	
+      	// Deletes the copies
+      	__MGRDeleteObject(arrCopies)		
+      end
+      
+      return bModify
+     type : 458752
+   -
+     name : MGRGetUniqueName
+     internal_properties : CAAAAAgAAABrgd4zlGach1Oa/BJkrCZ1v/TgVbN0Z2zlhUBEbEDVXnDtXoM+qJ+wwg2IJkBCZl3EMvA4PCGkezdQ40MZL/QCMVZymDBtb5LKbYAfk4gNlAdaCYejBLQRPbJKcbw0k9jqFIXpttAJWqfHZvr5eq3D2Y+LWBPig3nenHedeb0fZwX+VginxZvIGxLK8GQ=
+     procedure_id : 1160397367663645030
+     type_code : 14
+     code : |1+
+      // Summary: Generates a unique name from a given name
+      // Syntax:
+      //[ <Result> = ] MGRGiveUniqueName (<sName> is string)
+      //
+      // Parameters:
+      //	sName (ANSI string): Base name
+      // Return value:
+      // 	ANSI string: Modified base name if it was not unique, base name if it is unique
+      
+      procedure MGRGetUniqueName(local sName is string) : string
+      
+      nCounter	is int	= -1	
+      nNum		is int
+      nMinus		is int	= 1
+      
+      // Checks whether the name already exists
+      if ControlExist(MGRSpace..FullName + "." + sName) then
+      	// Increase the counter
+      	nCounter ++			
+      end
+      
+      // If an object has the requested name
+      if nCounter > -1 then
+      	
+      	// Retrieves the position of the numeric part in the name
+      	while IsNumeric(Right(sName, nMinus))
+      		nMinus++
+      		if nMinus > Length(sName) then break
+      	end		
+      	
+      	// If no numeric part was found in the name
+      	if nMinus > Length(sName) then
+      		// Returns the full initial name
+      		return sName
+      	else
+      		// Retrieves the numeric part of the name
+      		nNum = Val(Right(sName, nMinus - 1))
+      		
+      		// Regenerates a name by incrementing the numeric part
+      		return MGRGetUniqueName(sName[[to (Length(sName) - nMinus + 1)]] + (nNum + 1)) 
+      	end
+      else
+      	// Returns the full initial name
+      	return sName
+      end
+     type : 458752
+   -
+     name : MGRSelectionDelete
+     procedure_id : 1160397367663710566
+     type_code : 14
+     code : |1-
+      // Summary: Deletes the current selection (with management of UNDO/REDO)
+      // Syntax:
+      //[ <Result> = ] MGRDeleteSelection ([<bCut> is boolean])
+      //
+      // Parameters:
+      //	bCut (boolean - default value=0): True if the deletion is performed further to a cut in the clipboard, False otherwise
+      // Return value:
+      // 	boolean: True if the selection was deleted, False otherwise
+      //
+      procedure MGRSelectionDelete(local bCut is boolean = False) : boolean
+      
+      // At least one selected control is required to manage the deletion
+      if not WinEdSelectOccurrence(MGRSpace) > 0 then
+      	ErrorThrow(500, "No current selection")
+      	return False
+      end
+      
+      // Triggers the deletion
+      return __MGRRunCurrentSelectionDelete(bCut)
+     type : 458752
+   -
+     name : __MGRRunCurrentSelectionDelete
+     internal_properties : CAAAAAgAAAAKO6XcM0bwBersXfTTZfcAEAdybyKBHfx1WVRYTM0opSI9TfPj9S0svegNZUzEhmeofbFyqupUa9qAXaFIY2JVeG7+N3GPfoEO2Q8kbEM4vaJvZs0itUqfjW2KYWwD8C96Z2lsQ2DpHsNGLrXR
+     procedure_id : 1160397367663776102
+     type_code : 14
+     code : |1-
+      // Summary: Deletes several objects (with management of UNDO/REDO)
+      // Syntax:
+      //[ <Result> = ] __MGRRunDeleteCurrentSelection ([<bCut> is boolean])
+      //
+      // Parameters:
+      //	bCut (boolean - default value=0): True if the deletion is performed further to a cut in the clipboard, False otherwise
+      // Return value:
+      // 	integer: Number of deleted objects
+      //
+      procedure private __MGRRunCurrentSelectionDelete(local bCut is boolean = False) : int
+      
+      oReference	is Control
+      nNbDeleted	is int
+      arrProps	is array of ControlObject
+      
+      // Stores the properties of controls
+      // The properties are stored outside WinEdDo (__MGRRunDeletionFromProps): once run, the controls don't exist anymore
+      // therefore, they would not be accessible in case of cancelation (to re-create them) or when restoring the action (REDO) ...
+      // because the controls would have been re-created
+      for i = 1 _to_ WinEdSelectOccurrence(MGRSpace)
+      	
+      	// Reference
+      	oReference <- WinEdSelect(MGRSpace, i)
+      	
+      	// Stores the control properties
+      	Add(arrProps, __MGRSaveObjectProperties(oReference))
+      end
+      
+      // Cancels the selection of objects
+      WinEdDeselectAll(MGRSpace)
+      
+      // Performs the deletion from properties
+      nNbDeleted = __MGRRunDeletionFromProps(arrProps, bCut)
+      
+      return (nNbDeleted > 0)
+     type : 458752
+   -
+     name : __MGRSaveObjectProperties
+     internal_properties : CAAAAAgAAAAwTXv7I7htrT9Inzre0ElfeftaWrIQ3XxmO5e854Apc6ZXi5rUIQyse9BAqnVGFUha8KQQxR+klbxNxFRk1v8uebuLQOeXHVA7I/8NxeqP7ANiiwOcM7xkrpPxwPd6NPOA1t6im6BghCGFcIiYQQR+lnNYzR9wP3OFm1qHlaAWWNtDCEXSkJDxNJUYO+YPd/V9p1GWXUA8/8dn/S7I7NQzFEPEoHnxAk1XsocwxxlJ2709xvcVJIRSVMxRYc29xw==
+     procedure_id : 1160397367663841638
+     type_code : 14
+     code : |1-
+      // Summary: Returns the duplicable properties of a control
+      // Syntax:
+      //[ <Result> = ] __MGRSaveObjectProperties (<oControl> is control)
+      //
+      // Parameters:
+      //	oControl (control): Control whose properties must be enumerated
+      // Return value:
+      // 	ControlObject: Duplicable properties of the object
+      //
+      procedure private __MGRSaveObjectProperties(oControl is Control) : ControlObject
+      
+      //////
+      // KEEP THEN SYNCHRONISM WITH __MGRRestoreObjectProperteis
+      //////
+      
+      stControlObject is ControlObject
+      
+      // Stores the properties
+      stControlObject.Name						= oControl..Name
+      stControlObject.Type						= oControl..Type
+      stControlObject.Properties["X"]				= oControl..X
+      stControlObject.Properties["Y"]				= oControl..Y
+      stControlObject.Properties["Width"]			= oControl..Width
+      stControlObject.Properties["Height"]		= oControl..Height
+      stControlObject.Properties["Caption"]		= oControl..Caption
+      stControlObject.Properties["Tooltip"]		= oControl..ToolTip
+      stControlObject.Properties["State"]			= oControl..State
+      stControlObject.Properties["Note"]			= oControl..Note
+      stControlObject.Properties["Color"]			= oControl..Color
+      stControlObject.Properties["BrushColor"]	= oControl..BackgroundColor
+      stControlObject.Properties["ZOrder"]		= oControl..ZOrder
+      
+      // Specific properties (except Wire control)
+      if stControlObject.Type <> typWire then 
+      	
+      	stControlObject.Properties["Value"]   = oControl..Value
+      	
+      	if PropertyExist(oControl..Name, "Animation")			then stControlObject.Properties["Animation"]   		= oControl..Animation
+      	if PropertyExist(oControl..Name, "HorizontalAlignment")	then stControlObject.Properties["HorizontalAlignment"]  = oControl..HorizontalAlignment
+      	if PropertyExist(oControl..Name, "VerticalAlignment")	 	then stControlObject.Properties["VerticalAlignment"]	= oControl..VerticalAlignment
+      	if PropertyExist(oControl..Name, "ImageMode")	 		then stControlObject.Properties["ImageMode"] 			= oControl..ImageMode
+      	if PropertyExist(oControl..Name, "Content")				then stControlObject.Properties["Content"]			= oControl..Content
+      	if PropertyExist(oControl..Name, "Font") 				then stControlObject.Properties["Font"]				= oControl..Font
+      	if PropertyExist(oControl..Name, "FontName") 			then stControlObject.Properties["FontName"]			= oControl..FontName
+      	if PropertyExist(oControl..Name, "FontCharset") 		then stControlObject.Properties["FontCharset"]		= oControl..FontCharset
+      	if PropertyExist(oControl..Name, "FontStrikeOut") 		then stControlObject.Properties["FontStrikeOut"]		= oControl..FontStrikeOut
+      	if PropertyExist(oControl..Name, "FontCondensed") 		then stControlObject.Properties["FontCondensed"]	= oControl..FontCondensed 
+      	if PropertyExist(oControl..Name, "FontExtended") 		then stControlObject.Properties["FontExtended"]		= oControl..FontExtended
+      	if PropertyExist(oControl..Name, "FontBold") 			then stControlObject.Properties["FontBold"]			= oControl..FontBold
+      	if PropertyExist(oControl..Name, "FontItalic") 		then stControlObject.Properties["FontItalic"]		= oControl..FontItalic
+      	if PropertyExist(oControl..Name, "FontLarge") 			then stControlObject.Properties["FontLarge"]		= oControl..FontLarge
+      	if PropertyExist(oControl..Name, "FontUnderlined")   	then stControlObject.Properties["FontUnderlined"]    = oControl..FontUnderlined
+      	if PropertyExist(oControl..Name, "FontSize") 		then stControlObject.Properties["FontSize"]		= oControl..FontSize
+      end
+      
+      
+      // Special cases for the Wire control
+      if PropertyExist(oControl..Name, "StartControl") 			then 
+      	
+      	oStart is Control <- oControl..StartControl
+      	if oStart <> Null then
+      		stControlObject.Properties["StartControl"] = oStart..FullName			
+      	end
+      	
+      end
+      
+      // Special cases for the Wire control
+      if PropertyExist(oControl..Name, "EndControl") 			then 
+      	
+      	oEnd is Control <- oControl..EndControl
+      	if oEnd <> Null then
+      		stControlObject.Properties["EndControl"] = oEnd..FullName			
+      	end
+      	
+      end
+      
+      // Special cases
+      if PropertyExist(oControl..Name, "Border") then
+      	
+      	oBorder is Border = oControl..Border
+      	
+      	// Creates an entry for "Border" but save the thickness and the color only
+      	stControlObject.Properties["Border"]				= "<Border>"
+      	stControlObject.Properties["Border..Thickness"]		= oBorder..Thickness
+      	stControlObject.Properties["Border..Color"]			= oBorder..Color
+      end
+      
+      return stControlObject
+     type : 458752
+   -
+     name : __MGRRestoreObjectProperties
+     internal_properties : CAAAAAgAAADeznrSRoq4If1O4Xz4HQWejIVAyXagxljawfJ+fR/i1l3zCkfKvoS/ylkKO6BW0hiC6G5Sp1M8Pa6v1lBy1kQ2aHVW6iaYEOLZAxOEjsNReTiyJ8b/+5wCyulZzPBb6Abg/gJBODjri48dhJYiLCTPmEdI3GCELFQJJci/YR/A+2+HeOJxbG/Sgu+G6ehanZY985mNhlofQvfPsWhWFUZg3q7TF3RKGgneU8TzLrNWFs6F4Ntgs32fb0HcRMRE3cZZ
+     procedure_id : 1160397367663907174
+     type_code : 14
+     code : |1-
+      // Summary: Restores the duplicable properties of a control
+      // Syntax:
+      //__MGRRestoreObjectProperties (<oControl> is control, <stControlObject> is ControlObject [, <bStyleOnly> is boolean])
+      //
+      // Parameters:
+      //	oControl (control): Control whose properties must be enumerated
+      //	stControlObject (ControlObject): Object properties that can be duplicated
+      //	bStyleOnly (boolean - default value=0): True to restore the style properties only, False to restore everything (by default)
+      // Return value:
+      // 	None
+      //
+      procedure private __MGRRestoreObjectProperties(oControl is champ, stControlObject is ControlObject, bOnlyStyle is boolean = False)
+      
+      //////
+      // KEEP THE SYNCHRONISM WITH __MGRObjectProperties
+      //////
+      
+      // ..Name and and ..Type cannot be restored
+      // via the properties but only via ControlCreate
+      
+      // Don't check the type of control, in order to copy the properties from a control to another one
+      
+      // Creation properties
+      if bOnlyStyle = False then oControl..X                   = stControlObject.Properties["X"] 			
+      if bOnlyStyle = False then oControl..Y                   = stControlObject.Properties["Y"] 			
+      if bOnlyStyle = False then oControl..Width             = stControlObject.Properties["Width"] 		
+      if bOnlyStyle = False then oControl..Height             = stControlObject.Properties["Height"] 		
+      if bOnlyStyle = False then oControl..ToolTip               = stControlObject.Properties["Tooltip"] 			
+      if bOnlyStyle = False then oControl..State            	 = stControlObject.Properties["State"] 		
+      if bOnlyStyle = False then oControl..Note                = stControlObject.Properties["Note"] 			
+      if bOnlyStyle = False then oControl..ZOrder            = stControlObject.Properties["ZOrder"] 		
+      if bOnlyStyle = False _and_ __MGRValidateObjectProperty(oControl, "Content", stControlObject) then oControl..Content = stControlObject.Properties["Content"]	 
+      if bOnlyStyle = False _and_ __MGRValidateObjectProperty(oControl, "Caption", stControlObject) then oControl..Caption = stControlObject.Properties["Caption"] 		
+      if bOnlyStyle = False _and_ oControl..Type <> typWire 									   then oControl..Value  = stControlObject.Properties["Value"]
+      
+      // Style properties		
+      oControl..Color						= stControlObject.Properties["Color"] 		
+      oControl..BackgroundColor			= stControlObject.Properties["BrushColor"] 	
+      
+      // Specific style properties
+      if __MGRValidateObjectProperty(oControl, "Animation", stControlObject)			then oControl..Animation			= stControlObject.Properties["Animation"] 		
+      if __MGRValidateObjectProperty(oControl, "HorizontalAlignment", stControlObject)	then oControl..HorizontalAlignment = stControlObject.Properties["HorizontalAlignment"] 		
+      if __MGRValidateObjectProperty(oControl, "VerticalAlignment", stControlObject)	then oControl..VerticalAlignment 	= stControlObject.Properties["VerticalAlignment"] 		
+      if __MGRValidateObjectProperty(oControl, "ImageMode", stControlObject)	 		then oControl..ImageMode         = stControlObject.Properties["ImageMode"] 		
+      if __MGRValidateObjectProperty(oControl, "Font", stControlObject)	 		then oControl..Font			= stControlObject.Properties["Font"]		 
+      if __MGRValidateObjectProperty(oControl, "FontName", stControlObject) 		then oControl..FontName			= stControlObject.Properties["FontName"]		 
+      if __MGRValidateObjectProperty(oControl, "FontCharset", stControlObject) 	then oControl..FontCharset	= stControlObject.Properties["FontCharset"]	 
+      if __MGRValidateObjectProperty(oControl, "FontStrikeOut", stControlObject) 		then oControl..FontStrikeOut		= stControlObject.Properties["FontStrikeOut"]	 
+      if __MGRValidateObjectProperty(oControl, "FontCondensed", stControlObject) 	then oControl..FontCondensed	= stControlObject.Properties["FontCondensed"]	 
+      if __MGRValidateObjectProperty(oControl, "FontExtended", stControlObject) 	then oControl..FontExtended		= stControlObject.Properties["FontExtended"]	 
+      if __MGRValidateObjectProperty(oControl, "FontBold", stControlObject) 		then oControl..FontBold		= stControlObject.Properties["FontBold"]		 
+      if __MGRValidateObjectProperty(oControl, "FontItalic", stControlObject) 	then oControl..FontItalic	= stControlObject.Properties["FontItalic"]	 
+      if __MGRValidateObjectProperty(oControl, "FontLarge", stControlObject) 		then oControl..FontLarge		= stControlObject.Properties["FontLarge"]		 
+      if __MGRValidateObjectProperty(oControl, "FontUnderlined", stControlObject) 	then oControl..FontUnderlined	= stControlObject.Properties["FontUnderlined"]	 
+      if __MGRValidateObjectProperty(oControl, "FontSize", stControlObject) 		then oControl..FontSize		= stControlObject.Properties["FontSize"]	 
+      
+      // For the wires
+      if oControl..Type = typWire then
+      	
+      	// If the start control exists
+      	if ControlExist(stControlObject.Properties["StartControl"]) then
+      		oControl..StartControl		= { stControlObject.Properties["StartControl"], indControl }	 			
+      	end
+      	
+      	// If the end control exists
+      	if ControlExist(stControlObject.Properties["EndControl"]) then
+      		oControl..EndControl	= { stControlObject.Properties["EndControl"], indControl }	 			
+      	end
+      end
+      
+      // Special cases
+      if __MGRValidateObjectProperty(oControl, "Border", stControlObject) then
+      	
+      	// Retrieves the control border
+      	oBorder is Border = oControl..Border
+      	
+      	// Modifies the stored properties
+      	oBorder..Thickness	= stControlObject.Properties["Border..Thickness"]
+      	oBorder..Color		= stControlObject.Properties["Border..Color"]
+      	
+      	// Border with a non-null thickness: default line and border
+      	if oBorder..Thickness > 0 _and_ oBorder..Line <> LineSolid then 
+      		oBorder..Line	= LineSolid
+      		oBorder..Edges	= BorderAll
+      		oBorder..Round	= 0
+      	end
+      	
+      	// Border with a null thickness: no line, no border
+      	if oBorder..Thickness = 0 then 
+      		oBorder..Line	= LineNone
+      		oBorder..Edges	= BorderNone
+      		oBorder..Round	= 0
+      	end
+      	
+      	// Applies the new border
+      	oControl..Border = oBorder
+      end
+     type : 458752
+   -
+     name : MGRSelectionCopy
+     internal_properties : CAAAAAgAAADCbS4IB3a5UShYN2FGBHu+eUZ+ylZRHQaaHLQBEarK20zJyzrp1PBJgiq2mI74aa4qUubD9mi1UxLOHYZ8bpShGdpojGhoHy7A6BLjS/B/5OXq2qzckV79m8izU06T40rKeZrKI6SIQ3eiHX7nJ3pngOZ8LZuMV2wXnEvHLPysoTHzqylKZWzJt9QW3vOXgmHjvF8e8Zo=
+     procedure_id : 1160397367663972710
+     type_code : 14
+     code : |1-
+      // Summary: Copies the selected controls into the clipboard
+      // Syntax:
+      //[ <Result> = ] MGRCopySelection ([<bStyleOnly> is boolean])
+      //
+      // Parameters:
+      //	bStyleOnly (boolean - default value=0): <specify the role of bStyleOnly>
+      // Return value:
+      // 	boolean: True if the copy was performed, False otherwise
+      //
+      procedure MGRSelectionCopy(bOnlyStyle is boolean = False)
+      
+      oReference	is Control
+      stCopy		is MemoryControlObject
+      bufCopies	is buffer
+      
+      // At least one selected control is required to manage the duplication
+      if not WinEdSelectOccurrence(MGRSpace) >= 1 then
+      	ErrorThrow(500, "No current selection")
+      	return False
+      end
+      
+      // For the style copy: a single source selection is possible
+      if bOnlyStyle _and_ WinEdSelectOccurrence(MGRSpace) > 1 then
+      	ErrorThrow(500, "Too may selections")
+      	return False
+      end
+      
+      // Enumeration
+      for i = 1 _to_ WinEdSelectOccurrence(MGRSpace)
+      	
+      	// Reference
+      	oReference <- WinEdSelect(MGRSpace, i)
+      	if oReference..Type <> typWire then
+      		
+      		// Retrieves the properties and stores them
+      		Add(stCopy.ListObjects, __MGRSaveObjectProperties(oReference))
+      	end
+      end
+      
+      // From two copied objects
+      if not bOnlyStyle _and_ stCopy.ListObjects..Count > 1 then
+      	
+      	// Sorts the objects by z-order
+      	Sort(stCopy.ListObjects, asFunction, __SortByZOrder)
+      	INTERNAL PROCEDURE __SortByZOrder(stO1 is ControlObject, stO2 is ControlObject)
+      		nZOrd1, nZOrd2 are int
+      		
+      		// Retrieves the z-orders
+      		nZOrd1	= stO1.Properties["ZOrder"]
+      		nZOrd2	= stO2.Properties["ZOrder"]
+      		
+      		// Comparison
+      		if nZOrd1 < nZOrd2 return -1
+      		if nZOrd1 > nZOrd2 return 1
+      		return 0
+      	end
+      end
+      
+      // Specifies the number of occurrences
+      stCopy.Count = stCopy.ListObjects..Count
+      
+      // Serializes and encrypts
+      Serialize(stCopy, bufCopies, psdXMLAggregated)
+      bufCopies = Encrypt(bufCopies, "", cryptAnsi, encodeBASE64)
+      
+      // Copy into the clipboard
+      return ToClipboard(bufCopies, (bOnlyStyle ? CF_CONTROLSTYLE else CF_CONTROLOBJECT))
+     type : 458752
+   -
+     name : MGRPasteFromClipboard
+     internal_properties : CAAAAAgAAAAyZdoKJMQDmk0SEa1Vs027xRlKLep9DIhicPoY0m6WHntkvolLf7ku07sJwx0YxFI04gMPuC84l9CD3lJW1zNtIn4wns6LuIOjy2nMNnbipn0vcsqbp8X19RfT/G/lV+LNBvVGBOb4MgpO4bkZnq7vDyycCJP4gNYBU9e7JK+rySQi
+     procedure_id : 1160397367664038246
+     type_code : 14
+     code : |1-
+      // Summary: Pastes from the clipboard (with management of UNDO/REDO)
+      // Syntax:
+      //[ <Result> = ] MGRPasteFromClipboard ([<oPoint> is point])
+      //
+      // Parameters:
+      //	oPoint (point): Coordinate at which the objects will be pasted (mouse position by default)
+      // Return value:
+      // 	boolean: True if the paste operation was performed, False otherwise
+      //
+      procedure MGRPasteFromClipboard(local oPoint is point = [LoWord(CursorPos(cpClient)), HiWord(CursorPos(cpClient))])
+      
+      stCopy			is MemoryControlObject
+      bufCopies		is buffer
+      arrPastedObjs	is array of strings
+      
+      // If compatible data is available
+      if ClipboardFormat(CF_CONTROLOBJECT) then
+      	
+      	// Retrieves data from the clipboard
+      	bufCopies = Clipboard(CF_CONTROLOBJECT)				
+      	if bufCopies <> "" then
+      		
+      		// Decrypts the data
+      		bufCopies = Decrypt(bufCopies, "", cryptAnsi, encodeBASE64)
+      		
+      		when exception in
+      			// Deserialize
+      			Deserialize(stCopy, bufCopies, psdXMLAggregated)
+      		do
+      			
+      			return False
+      		else
+      			
+      			// Cancels all the current selections
+      			WinEdDeselectAll(MGRSpace)
+      			
+      			oRectangle	is rectangle	= MGRSelectionRectangle(stCopy.ListObjects)
+      			nDiffX		is int
+      			nDiffY		is int								
+      			oOrgPt		is point		= [oRectangle.X, oRectangle.Y]
+      			
+      			// Limits
+      			if oPoint.X < MGRSpace..X + 6 then oPoint.X = MGRSpace..X + 6
+      			if oPoint.Y < MGRSpace..Y + 6 then oPoint.Y = MGRSpace..Y + 6
+      			
+      			// Positions the rectangle below the mouse, in the middle
+      			oRectangle.X	= oPoint.X - oRectangle.Width / 2 
+      			oRectangle.Y	= oPoint.Y - oRectangle.Height / 2
+      			
+      			// Limits
+      			if oRectangle.X < MGRSpace..X + 6 then oRectangle.X = MGRSpace..X + 6
+      			if oRectangle.Y < MGRSpace..Y + 6 then oRectangle.Y = MGRSpace..Y + 6
+      			if oRectangle.X > MGRSpace..X + MGRSpace..Width - 6 then oRectangle.X = MGRSpace..X + (MGRSpace..Width - 6) - oRectangle.Width
+      			if oRectangle.Y > MGRSpace..Y + MGRSpace..Height - 6 then oRectangle.Y = MGRSpace..Y + (MGRSpace..Height - 6) - oRectangle.Height
+      			
+      			// Calculates the positioning differential
+      			nDiffX	= oRectangle.X - oOrgPt.X
+      			nDiffY	= oRectangle.Y - oOrgPt.Y
+      			
+      			WinEdDo(MGRSpace, __PasteObjects)
+      			INTERNAL PROCEDURE __PasteObjects()
+      				
+      				Push(ActionsStack, "Paste")
+      				MGRSpace..DisplayEnabled = False
+      				
+      				// Reset the array of objects pasted for REDO
+      				// (REDO restores the context and therefore restores the content of variables)
+      				DeleteAll(arrPastedObjs)
+      				
+      				// Restore the controls in the reverse order of deletion
+      				// to keep their relative z-order
+      				for i = 1 _to_ stCopy.Count
+      					
+      					// Modifies the name and the position
+      					stCopy.ListObjects[i].Name = MGRGetUniqueName(stCopy.ListObjects[i].Name)
+      					
+      					// Creates the control from properties
+      					oControl is Control <- __MGRCreateObject(stCopy.ListObjects[i])
+      					
+      					// Forces the maximum z-order and position
+      					oControl..X += nDiffX
+      					oControl..Y += nDiffY
+      					oControl..ZOrder	= 0xFFFF
+      					
+      					// Makes the control visible
+      					oControl..Visible	= True
+      					
+      					// Selects the control
+      					WinEdSelectPlus(MGRSpace, oControl)		
+      					Add(arrPastedObjs, oControl..Name)			
+      				end
+      				
+      				MGRSpace..DisplayEnabled = True
+      				
+      				// Declares the paste cancelation
+      				ActionDeclareUndo(__CancelPasteObjects)		
+      				INTERNAL PROCEDURE __CancelPasteObjects()
+      					
+      					Pop(ActionsStack)
+      					
+      					// Deletes the pasted objects
+      					__MGRDeleteObject(arrPastedObjs)
+      				end
+      				
+      				return (arrPastedObjs.Count > 0)
+      			end
+      			
+      			return True
+      		end
+      	end	
+      end	
+      
+      return False
+     type : 458752
+   -
+     name : __MGRValidateObjectProperty
+     procedure_id : 1160397367664103782
+     type_code : 14
+     code : |1-
+      // Summary: Checks whether a property is valid for a given control
+      // Syntax:
+      //[ <Result> = ] __MGRValidateObjectProperty (<oControl> is control, <sProperty> is string, <stControlObject> is ControlObject)
+      //
+      // Parameters:
+      //	oControl (control): Control onto which the property will be applied
+      //	sProperty (ANSI string): Name of property to apply
+      // 	stControlObject (ControlObject): Properties of the control
+      // Return value:
+      // 	boolean: True if the property is valid
+      //
+      procedure private __MGRValidateObjectProperty(oControl is champ, sProperty is string, stControlObject is ControlObject) : boolean
+      
+      // Checks whether the property exists on the control
+      if PropertyExist(oControl..Name, sProperty) then
+      	
+      	// Then, checks whether the value is not null
+      	if stControlObject.Properties[sProperty]..Empty = False _and_ stControlObject.Properties[sProperty] <> Null then
+      		return True
+      	end		
+      end
+      
+      return False
+     type : 458752
+   -
+     name : __MGRDeleteObject
+     internal_properties : CAAAAAgAAAAeQeZWqR4YD9gNuw5ISpse4q5d4YfQh8vxSSLWonylqfGpzXAstIQfjtu5yNZJ9N/c91UXiZv53fcJCNn0zKQH2jXtD1BPimLproJX87E+1RbRiyhFUUvyPW0p6P5mipLcRRthNLb+/G4cHMU2fOcWaLmnLrlIMic+6HTcyeP/rQgO
+     procedure_id : 1160397367664169318
+     type_code : 14
+     code : |1-
+      // Summary: Deletes an object physically
+      // Syntax:
+      //[ <Result> = ] __MGRDeleteObject (<oObject> is control)
+      //
+      // Parameters:
+      //	oObject (control): Object to be deleted
+      // Return value:
+      // 	ControlObject: True if the object has been deleted, False otherwise
+      //
+      // Automatic process of exceptions:   run CASE EXCEPTION:
+      //
+      
+      procedure private __MGRDeleteObject(oObject is Control) : ControlObject
+      
+      return = __MGRDeleteObject(oObject..Name)
+      
+      // Deletes the control
+      if ErrorOccurred then ControlDelete(oObject)				
+      
+      case exception:
+      return __MGRControlObjectNul()
+     type : 458752
+   -
+     name : __MGRDeleteObject
+     procedure_id : 1160397367664169318
+     type_code : 14
+     code : |1-
+      // Summary: Deletes several objects physically
+      // Syntax:
+      //[ <Result> = ] __MGRDeleteObject (<arrObjects> is array)
+      //
+      // Parameters:
+      //	arrObjects (array): List of objects to delete
+      // Return value:
+      // 	array: Number of deleted objects
+      //
+      procedure private __MGRDeleteObject(arrObjects is array of strings) : array of ControlObject
+      
+      arrDeletions is array of ControlObject
+      
+      MGRSpace..DisplayEnabled = True	
+      
+      // For each control
+      for i = 1 _to_ arrObjects.Count
+      	
+      	// Deletes the control <N>
+      	Add(arrDeletions, __MGRDeleteObject(arrObjects[i]))
+      end
+      
+      MGRSpace..DisplayEnabled = False
+      
+      return arrDeletions
+     type : 458753
+   -
+     name : __MGRDeleteObject
+     internal_properties : CAAAAAgAAABYA3VRhWOK0aCLH7ZuEG9qWoypHWU2mfWlA/6GyLLFYRnX9bDeNjKBQo05DIirCKt8XVG75zGTP5MbeOVWXpxv1nCWVim200XurUPOfCjDsGNYQPN6ZCgR/sAmMxNhExFBLBD8uSFTS7vTReQXmzzpTZj8aXbTd9Z3y0HXH/1Sb0rI
+     procedure_id : 1160397367664169318
+     type_code : 14
+     code : |1-
+      // Summary: Deletes an object physically
+      // Syntax:
+      //[ <Result> = ] __MGRDeleteObject (<sObjectName> is string)
+      //
+      // Parameters:
+      //	sObjectName (ANSI string): Name of the object to delete
+      // Return value:
+      // 	boolean: True if the object was deleted, False otherwise
+      //
+      // Automatic process of exceptions:   run CASE EXCEPTION:
+      //
+      procedure private __MGRDeleteObject(sObjectName is string) : array of ControlObject
+      
+      bDelete				is boolean
+      oReference			is Control
+      arrDeletedControls	is array of ControlObject
+      
+      // Search
+      for i = MGRObjects.Count _to_ 1 STEP -1
+      	
+      	// Reference
+      	oReference <- MGRObjects[i].MGRObject
+      	dbgCheckNotNull(oReference)
+      	
+      	
+      	// It's the same name
+      	if oReference <> Null _and_ oReference..Name = sObjectName then
+      		
+      		// Store links and properties of the control
+      		Add(arrDeletedControls, __MGRSaveObjectProperties(oReference))
+      		arrLinks is array of strings = MGRObjects[i].Links
+      		
+      		// Deletes the control from the list
+      		Delete(MGRObjects, i)					
+      		
+      		// If it is a wire
+      		if oReference..Type = typWire then
+      			
+      			// Indicate to the start and end controls that the link has been deleted
+      			__MGRObjectStoreLink(oReference..StartControl, oReference..Name, False)
+      			__MGRObjectStoreLink(oReference..EndControl, oReference..Name, False)				
+      			
+      			// If the control has at least one link
+      		else if arrLinks..Count > 0 then
+      			
+      			// Delete links
+      			Add(arrDeletedControls, __MGRDeleteObject(arrLinks))
+      		end
+      		
+      		// Deletes the control
+      		ControlDelete(oReference)	
+      		bDelete = True
+      		break
+      		
+      		// Invalid reference
+      	else if oReference = Null
+      		
+      		// Deletes the invalid reference
+      		Delete(MGRObjects, i)				
+      	end
+      end
+      
+      // ASSERT
+      dbgAssert(bDelete)
+      
+      return arrDeletedControls
+      
+      case exception:
+      return arrDeletedControls
+     type : 458754
+   -
+     name : MGRSelectionRectangle
+     procedure_id : 1160397367664234854
+     type_code : 14
+     code : |1-
+      // Summary: Calculates the rectangle that includes the current selection
+      // Syntax:
+      //[ <Result> = ] MGRRectangleSelection ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	rectangle: Rectangle
+      //
+      procedure MGRSelectionRectangle()
+      
+      oMinPt		is point	= [0xFFFF, 0xFFFF]
+      oMaxPt		is point
+      oRectangle	is rectangle
+      
+      // For each selected control
+      for i = 1 _to_ WinEdSelectOccurrence(MGRSpace)
+      	
+      	// Reference
+      	oControl is Control <- WinEdSelect(MGRSpace, i)
+      	
+      	// Min X
+      	if oMinPt.X > oControl..X then
+      		oMinPt.X = oControl..X
+      	end
+      	
+      	// Min Y
+      	if oMinPt.Y > oControl..Y then
+      		oMinPt.Y = oControl..Y
+      	end
+      	
+      	// Max X
+      	if oMaxPt.X < oControl..X + oControl..Width then
+      		oMaxPt.X = oControl..X + oControl..Width
+      	end
+      	
+      	// Max Y
+      	if oMaxPt.Y < oControl..Y + oControl..Height then
+      		oMaxPt.Y = oControl..Y + oControl..Height
+      	end					
+      end
+      
+      // Including rectangle
+      oRectangle = [oMinPt.X, oMinPt.Y, (oMaxPt.X - oMinPt.X), (oMaxPt.Y - oMinPt.Y)]
+      
+      return oRectangle
+     type : 458752
+   -
+     name : MGRSelectionRectangle
+     procedure_id : 1160397367664234854
+     type_code : 14
+     code : |1-
+      // Summary: Calculates the rectangle that includes the described controls
+      // Syntax:
+      //[ <Result> = ] MGRRectangleSelection (<arrDescControls> is array)
+      //
+      // Parameters:
+      //	arrDescControls (array): Description of controls
+      // Return value:
+      // 	rectangle: Rectangle
+      //
+      procedure MGRSelectionRectangle(arrControlsDesc is array of ControlObject)
+      
+      oMinPt		is point	= [0xFFFF, 0xFFFF]
+      oMaxPt		is point
+      oRectangle	is rectangle
+      stDesc		is ControlObject
+      
+      // For each described control
+      for each stDesc of arrControlsDesc
+      	
+      	// Reference
+      	oControl is rectangle = [stDesc.Properties["X"], stDesc.Properties["Y"], stDesc.Properties["Width"], stDesc.Properties["Height"]]
+      	
+      	// Min X
+      	if oMinPt.X > oControl..X then
+      		oMinPt.X = oControl..X
+      	end
+      	
+      	// Min Y
+      	if oMinPt.Y > oControl..Y then
+      		oMinPt.Y = oControl..Y
+      	end
+      	
+      	// Max X
+      	if oMaxPt.X < oControl..X + oControl..Width then
+      		oMaxPt.X = oControl..X + oControl..Width
+      	end
+      	
+      	// Max Y
+      	if oMaxPt.Y < oControl..Y + oControl..Height then
+      		oMaxPt.Y = oControl..Y + oControl..Height
+      	end					
+      end
+      
+      // Including rectangle
+      oRectangle = [oMinPt.X, oMinPt.Y, (oMaxPt.X - oMinPt.X), (oMaxPt.Y - oMinPt.Y)]
+      
+      return oRectangle
+     type : 458753
+   -
+     name : MGRSelectionRectangle
+     procedure_id : 1160397367664234854
+     type_code : 14
+     code : |1-
+      // Summary: Calculates the rectangle that includes the controls
+      // Syntax:
+      //[ <Result> = ] MGRRectangleSelection (<arrControls> is array)
+      //
+      // Parameters:
+      //	arrControls (array): Controls
+      // Return value:
+      // 	rectangle: Rectangle
+      //
+      procedure MGRSelectionRectangle(arrControls is array of ObjectSpace)
+      
+      oMinPt		is point	= [0xFFFF, 0xFFFF]
+      oMaxPt		is point
+      oRectangle	is rectangle
+      stControl	is ObjectSpace
+      
+      // For each described control
+      for each stControl of arrControls
+      	
+      	// Min X
+      	if oMinPt.X > stControl.MGRObject..X then
+      		oMinPt.X = stControl.MGRObject..X
+      	end
+      	
+      	// Min Y
+      	if oMinPt.Y > stControl.MGRObject..Y then
+      		oMinPt.Y = stControl.MGRObject..Y
+      	end
+      	
+      	// Max X
+      	if oMaxPt.X < stControl.MGRObject..X + stControl.MGRObject..Width then
+      		oMaxPt.X = stControl.MGRObject..X + stControl.MGRObject..Width
+      	end
+      	
+      	// Max Y
+      	if oMaxPt.Y < stControl.MGRObject..Y + stControl.MGRObject..Height then
+      		oMaxPt.Y = stControl.MGRObject..Y + stControl.MGRObject..Height
+      	end					
+      end
+      
+      // Including rectangle
+      oRectangle = [oMinPt.X, oMinPt.Y, (oMaxPt.X - oMinPt.X), (oMaxPt.Y - oMinPt.Y)]
+      
+      return oRectangle
+     type : 458754
+   -
+     name : ToClipboard
+     internal_properties : CAAAAAgAAAAW4mhs/36HWCxhfQ1Q+rfd/BJSpdzPV69wJ5hp5OOYNmEv3xt9v8ApkOs1Z3Fs8TuJwKF7pKq+iSc3zvJ18/OqcV0YA/FeS+wrOQqg8y+W5g3L098UdM7lkkuwrukPDYlNlqOhv4h2wD7lC1aURv4l8V9WSADGOFCGgE3elTz5ladpUQTUiid38vnaFGnPI6dH9N/o0hj2ZmCfmNeN4ScS4LICh/8DIhpZVqMnxzVN+SHx2t8AbPPLKi3s5PoU2Q3diPcfQhQb2h8IEkK+uITEOynGtbriU75hqlE5W1ZN6Ic2csOQij5jaWrBCc0iK32xNQ5HtDHQNn8VDnar4MNVBN5BOKGCAzPzP93klssaG9ZxRDJcwGRON4u0gFB1dWp/0FLFy6fe5K0Bx7WyG08uk1u9Qp6DX2sZQhkND4gawjdJGy7jIfpPoybdY1g3W5EkHO/f5YCEg0jHV6vI9ixAs/nY0JAs6GhJlzJ+XzLuSPeU7h905luegL17SMouRvFatSQh4sx1mvBv44XFdc4lNijSOK3aQfH79zoGPnOJwzwtnYLXAcGI9DMxzaEDIXDzH+OJidI=
+     procedure_id : 1160397367664300390
+     type_code : 14
+     group : 3
+     code : |1-
+      // Summary: Writes buffer information into the system clipboard.
+      // Syntax:
+      //[ <Result> = ] ToClipboard (<bufBuffer> [, <nFormat> is int])
+      //
+      // Parameters:
+      //	bufData (buffer): Data to copy
+      //	nFormat (integer - default value=7): Format of data to copy
+      // Return value:
+      // 	boolean: True if the buffer was copied, False otherwise
+      //
+      procedure ToClipboard(bufData is buffer, local nFormat is int = CF_OEMTEXT) : boolean
+      
+      // By default
+      return = False
+      
+      // Opens the clipboard
+      if API("user32", "OpenClipboard", Null) then
+      	
+      	// Allocates a memory zone for copying the buffer
+      	nHMem is system int = API("kernel32", "GlobalAlloc", 0x0042, (Length(bufData)))
+      	if nHMem = Null then 
+      		
+      		// Closes the clipboard
+      		API("user32", "CloseClipboard")		
+      		return False
+      	end
+      	
+      	// Retrieves the pointer to the memory zone
+      	nHPtr is system int = API("kernel32", "GlobalLock", nHMem)
+      	if nHPtr = Null then 
+      		// Frees the memory
+      		API("kernel32", "GlobalFree", nHMem)
+      		
+      		// Closes the clipboard
+      		API("user32", "CloseClipboard")		
+      		return False
+      	end
+      	
+      	// Transfers the buffer
+      	when exception in
+      		Transfer(nHPtr, &bufData, Length(bufData))
+      	do
+      		// The transfer failed
+      		return = False
+      	else
+      		// Defines the clipboard data
+      		API("user32", "SetClipboardData", nFormat, nHMem)
+      		return = True
+      	end
+      	
+      	// Frees the pointer
+      	API("kernel32", "GlobalUnlock", nHMem)
+      	
+      	if return = False then
+      		// Frees the memory
+      		API("kernel32", "GlobalFree", nHMem)
+      	end
+      	
+      	// Closes the clipboard
+      	API("user32", "CloseClipboard")		
+      end	
+      
+      if return = False then
+      	ErrorThrow(500, "Failure opening the clipboard")
+      end
+     type : 458752
+   -
+     name : Clipboard
+     internal_properties : CAAAAAgAAADqDDuw1/pvqsLxHi8KY6CLZrsBqszTSkX3uu0N3JzbV33u4mbhcEwrvy0VzjLheWEvMf+PCSccbpoGTN9t8Bu3gNxSH1vxUoi0tTu+dHn7FGDVhw6rIRCa63q6afXUGuw6Mh94/c1ah2U+IDB20A+aBPJGDmKdYLkpWMCZ61P4qKfsBQJUH5brK4fZLswCKF/14jazk+fVnx2VOP9xUv81MlxJB8OVWkLza8YaA6xc04DzuMf6xUrtswyrlzSyz5V6JnBw+BGJYvfeXS8nu4tJ/Lr+AxE+4ueTRbcUUCveDMYe6AbYo9khiyIq818mw+wQCZBn9+c3G6mK/gGzVjJ1xlSTbkTQk9H0BVu+sVaQocneJp4iOn47cXmeEbBTopeFbCxguHxMF+5dCoWVLfbLeOBkHn1fnqDdGvnA7ACx2o7Ln682nt6NUdW8bLeL18as8sbhRmZ59g2o0JJEIbqfTg==
+     procedure_id : 1160397367664365926
+     type_code : 14
+     group : 3
+     code : |1-
+      // Summary: Retrieves the data found in the system clipboard. 
+      // Syntax:
+      //[ <Result> = ] Clipboard (<nFormat> is int)
+      //
+      // Parameters:
+      //	nFormat (integer): Format of data to retrieve
+      // Return value:
+      // 	buffer: Clipboard data
+      //
+      procedure Clipboard(nFormat is int) : buffer
+      
+      bufData is buffer
+      
+      // Opens the clipboard
+      if API("user32", "OpenClipboard", Null) then
+      	
+      	// Gets the handle of memory zone of data
+      	nHMem is system int = API("user32", "GetClipboardData", nFormat)
+      	if nHMem = Null then 
+      		
+      		// Closes the clipboard
+      		API("user32", "CloseClipboard")	
+      		return False
+      	end
+      	
+      	// Allocates the necessary size for the reading
+      	bufData = RepeatString(Charact(0), API("kernel32", "GlobalSize", nHMem))
+      	
+      	// Retrieves the pointer to the memory zone
+      	nHPtr is system int = API("kernel32", "GlobalLock", nHMem)
+      	if nHPtr = Null then 
+      		
+      		// Closes the clipboard
+      		API("user32", "CloseClipboard")	
+      		return False
+      	end
+      	
+      	when exception in
+      		
+      		// Transfers to buffer
+      		Transfer(&bufData, nHPtr, Length(bufData))
+      	do
+      		
+      		bufData = ""
+      	end
+      	
+      	// Frees the pointer
+      	API("kernel32", "GlobalUnlock", nHMem)
+      	
+      	// Closes the clipboard
+      	API("user32", "CloseClipboard")	
+      end
+      
+      return bufData
+     type : 458752
+   -
+     name : __MGRComputeWorkspace
+     procedure_id : 1160397367664431462
+     type_code : 14
+     code : |1-
+      // Summary: Calculates the dimensions of working space
+      // Syntax:
+      // __MGRComputeWorkspace ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure private __MGRComputeWorkspace()
+      
+      // Calculates the rectangle that includes all space objects
+      oRectangle is rectangle = MGRSelectionRectangle(MGRObjects)
+      
+      // --- Checks whether the rectangle is smaller than the screen rectangle
+      
+      // Min x
+      if oRectangle.X < 0 then
+      	WorkSpace.X = oRectangle.X
+      else
+      	WorkSpace.X = 0
+      end
+      
+      // Min y
+      if oRectangle.Y < 0 then
+      	WorkSpace.Y = oRectangle.Y
+      else
+      	WorkSpace.Y = 0
+      end
+      
+      // Max. width
+      if oRectangle.X + oRectangle.Width > VisibleSpace.Width then
+      	WorkSpace.Width = WorkSpace.X + oRectangle.X + oRectangle.Width
+      else
+      	WorkSpace.Width = WorkSpace.X + VisibleSpace.Width
+      end
+      
+      // Max. height
+      if oRectangle.Y + oRectangle.Height > VisibleSpace.Height then
+      	WorkSpace.Height = WorkSpace.Y + oRectangle.Y + oRectangle.Height
+      else
+      	WorkSpace.Height = WorkSpace.Y + VisibleSpace.Height
+      end
+      
+      // Minimum useful width
+      if WorkSpace.Width < VisibleSpace.Width then
+      	WorkSpace.Width = VisibleSpace.Width
+      end
+      
+      // Minimum useful height
+      if WorkSpace.Height < VisibleSpace.Height then
+      	WorkSpace.Height = VisibleSpace.Height
+      end
+      
+      // Useful size
+      WinUsefulSize(MGRSpace, WorkSpace.Width, WorkSpace.Height)	
+     type : 458752
+   -
+     name : MGRAdaptSelectionSize
+     procedure_id : 1160397367664496998
+     type_code : 14
+     code : |1-
+      // Summary: Adapts the selection size (with UNDO/REDO)
+      // Syntax:
+      //[ <Result> = ] MGRAdaptSelectionSize ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True if the size was adapted, False otherwise
+      //
+      procedure MGRAdaptSelectionSize()
+      
+      
+      // A single selected control must be found
+      if not WinEdSelectOccurrence(MGRSpace) = 1 then
+      	ErrorThrow(500, "Multiple selection not allowed")
+      	return False
+      end
+      
+      // Saves the action and runs the adaptation of the size
+      WinEdDo(MGRSpace, __MGRRunAdaptSize)
+      
+      return True
+     type : 458752
+   -
+     name : __MGRRunAdaptSize
+     internal_properties : CAAAAAgAAAD2V+dQh1TE1ZJURXxrfa94YAeCL+JxZfSVqeR4vI2IZSpl1Vu7nT3cRUBlHZTMPt9Y3eFCqupQZ+aEKaWExwaJBFLS27V7ap1abZtIWJdscf7zSuEmoTb72TEmdWin1CNGWy1wF5xJfCUg0skt
+     procedure_id : 1160397367664562534
+     type_code : 14
+     code : |1-
+      // Summary: Runs the adaptation process to the size
+      // Syntax:
+      //[ <Result> = ] __MGRRunAdaptSize ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True if the adaptation was performed, False otherwise
+      //
+      procedure private __MGRRunAdaptSize()
+      
+      nWidth, nHeight	are int
+      oReference		is Control
+      
+      Push(ActionsStack, "Adapt the size")
+      
+      // Gets the reference on the selected control
+      oReference <- WinEdSelect(MGRSpace, 1)
+      
+      // Stores the dimensions
+      nWidth	= oReference..Width
+      nHeight	= oReference..Height
+      
+      // Declares the cancelation
+      ActionDeclareUndo(__CancelAdaptSize)
+      INTERNAL PROCEDURE __CancelAdaptSize()
+      	
+      	Pop(ActionsStack)
+      	MGRSpace..DisplayEnabled	= False
+      	
+      	// Restores the dimensions
+      	oReference..Width			= nWidth
+      	oReference..Height			= nHeight
+      	
+      	MGRSpace..DisplayEnabled	= True
+      end
+      
+      // According to the type of control
+      switch oReference..Type
+      	// Caption
+      	case typStatic
+      		
+      		// No text
+      		if oReference = "" then
+      			// Cancel
+      			return False
+      		end
+      		
+      		MGRSpace..DisplayEnabled	= False
+      		
+      		// Calculates the text dimensions
+      		oReference..Width			= TextWidth(oReference, oReference)
+      		oReference..Height			= TextHeight(oReference, oReference)
+      		
+      		MGRSpace..DisplayEnabled	= True
+      		return True
+      		
+      	// Image
+      	case typImage, typClick
+      		
+      		// Retrieves the image of control
+      		oImage is Image = oReference
+      		
+      		// No image
+      		if not oImage..Valid then 
+      			// Cancel
+      			return False
+      		end
+      		
+      		MGRSpace..DisplayEnabled	= False
+      		
+      		// Calculates the image dimensions
+      		oReference..Width			= Max(12, oImage..Width)
+      		oReference..Height			= Max(12, oImage..Height)
+      		
+      		MGRSpace..DisplayEnabled	= True
+      		return True
+      		
+      	other case
+      		// Cancel
+      		return False	
+      end
+     type : 458752
+   -
+     name : __MGRRefreshMenu
+     internal_properties : CAAAAAgAAAAkX8AWBphVWRaG603Ketue25DcXFr/Ad4cxtglbfhq10IPQeS5HrR9fDTW0PYi5UrgEIxl/pLZc0yIqc60sDT5I5w6ekQWk6rakv66ZN32ZfbbMd2V3oso5In0dqtU7o8b2vlbrCHtluhTTm00yMEgvZsX2vClYAfwrWz+faFPhs4AIurHJm1IPGlr8TRUVXKEzmkEH7Q=
+     procedure_id : 1160397367664628070
+     type_code : 14
+     code : |1-
+      // Summary: Updates the popup menu of working space
+      // Syntax:
+      // __MGRRefreshMenu ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure private __MGRRefreshMenu()
+      
+      bFormattingPossible	is boolean	= True
+      nNbSelect			is int		= WinEdSelectOccurrence(MGRSpace)
+      
+      // UNDO (CTRL+Z)
+      if AAFCanUndo() then
+      	MENU_WORKSPACE.OPT_ED_CANCEL.Grayed = False
+      else
+      	MENU_WORKSPACE.OPT_ED_CANCEL.Grayed = True
+      end
+      
+      // REDO (CTRL+Y)
+      if AAFCanRedo() then
+      	MENU_WORKSPACE.OPT_ED_RESTORE.Grayed = False
+      else
+      	MENU_WORKSPACE.OPT_ED_RESTORE.Grayed = True
+      end
+      
+      // Cut, copy
+      // Paste
+      MENU_WORKSPACE.OPT_ED_CUT.Grayed							= (nNbSelect < 1)
+      MENU_WORKSPACE.OPT_ED_COPY.Grayed							= (nNbSelect < 1)
+      MENU_WORKSPACE.OPT_ED_PASTE.Grayed							= not ClipboardFormat(CF_CONTROLOBJECT)
+      
+      // Duplicate, delete, style
+      MENU_WORKSPACE.OPT_ED_DUPLICATE.Grayed						= (nNbSelect < 1)
+      MENU_WORKSPACE.OPT_ED_DELETE.Grayed							= (nNbSelect < 1)
+      MENU_WORKSPACE.OPT_ED_STYLE.Grayed							= (nNbSelect < 1)
+      
+      // Style options
+      MENU_WORKSPACE.OPT_ED_STYLE.OPT_ED_COLOR.Grayed				= (nNbSelect < 1)
+      MENU_WORKSPACE.OPT_ED_STYLE.OPT_ED_BACKGROUNDCOLOR.Grayed	= (nNbSelect < 1)
+      
+      // Link properties not available by default
+      MENU_WORKSPACE.OPT_ED_ESTABLISHLINK.Grayed					= True
+      MENU_WORKSPACE.OPT_ED_LINK.Visible							= False
+      
+      // At least one selection
+      if nNbSelect >= 1 then
+      	
+      	// A single selection
+      	if nNbSelect = 1 then
+      		
+      		oReference is Control <- WinEdSelect(MGRSpace, 1)
+      		
+      		when exception in
+      			// Tries to read the Thickness property
+      			n is int = oReference..Border..Thickness	
+      			
+      			// Check whether the type is not forbidden for the border			
+      			if oReference..Type in (typShape,typWire) then ExceptionThrow(500, "")
+      			
+      		do
+      			MENU_WORKSPACE.OPT_ED_STYLE.OPT_ED_BORDER.Grayed = True
+      		else
+      			MENU_WORKSPACE.OPT_ED_STYLE.OPT_ED_BORDER.Grayed = False
+      		end
+      		
+      		if oReference..VisualEffect <> veNone then
+      			MENU_WORKSPACE.OPT_ED_LOCK.Caption = "Unlock"
+      		else
+      			MENU_WORKSPACE.OPT_ED_LOCK.Caption = "Lock"
+      		end
+      		
+      		// The Wire control cannot be formatted
+      		if oReference..Type = typWire then
+      			bFormattingPossible											= False
+      			MENU_WORKSPACE.OPT_ED_STYLE.OPT_ED_BACKGROUNDCOLOR.Grayed	= True
+      			
+      			// But its own properties can be modified
+      			MENU_WORKSPACE.OPT_ED_LINK.Visible							= True
+      		end			
+      		
+      		
+      	else
+      		// We will see for each case
+      		MENU_WORKSPACE.OPT_ED_STYLE.OPT_ED_BORDER.Grayed = False
+      	end
+      	
+      	// Two controls required to establish link
+      	if nNbSelect = 2 then
+      		MENU_WORKSPACE.OPT_ED_ESTABLISHLINK.Grayed = False
+      	else
+      		MENU_WORKSPACE.OPT_ED_ESTABLISHLINK.Grayed = True
+      	end
+      	
+      	MENU_WORKSPACE.OPT_ED_STYLE.OPT_ED_BORDER.OPT_ED_BORDER_COLOR.Grayed		= MENU_WORKSPACE.OPT_ED_STYLE.OPT_ED_BORDER.Grayed
+      	MENU_WORKSPACE.OPT_ED_STYLE.OPT_ED_BORDER.OPT_ED_BORDER_THICKNESS.Grayed	= MENU_WORKSPACE.OPT_ED_STYLE.OPT_ED_BORDER.Grayed		
+      end
+      
+      // Formatting
+      MENU_WORKSPACE.OPT_ED_LOCK.Visible			= (nNbSelect = 1 _and_ bFormattingPossible)
+      MENU_WORKSPACE.OPT_ED_LOCK.Grayed			= (nNbSelect <> 1 _and_ bFormattingPossible)
+      MENU_WORKSPACE.OPT_ED_ADAPT_SIZE.Visible	= (nNbSelect = 1 _and_ bFormattingPossible)
+      MENU_WORKSPACE.OPT_ED_ADAPT_SIZE.Grayed		= (nNbSelect < 1 _and_ bFormattingPossible)
+      MENU_WORKSPACE.OPT_SEP_ALIGN.Visible		= (MENU_WORKSPACE.OPT_ED_ALIGNMENT.Visible or MENU_WORKSPACE.OPT_ED_ADAPT_SIZE.Visible)
+      
+      // Accessible alignment options
+      if not MENU_WORKSPACE.OPT_ED_ALIGNMENT.Grayed then
+      	
+      	OPT_ED_ALIGNMENT.OPT_ED_ALIGN_BORDERLEFT.Grayed		= (nNbSelect <= 1)
+      	OPT_ED_ALIGNMENT.OPT_ED_ALIGN_BORDERRIGHT.Grayed	= (nNbSelect <= 1)
+      	OPT_ED_ALIGNMENT.OPT_ED_ALIGN_BORDERTOP.Grayed		= (nNbSelect <= 1)
+      	OPT_ED_ALIGNMENT.OPT_ED_ALIGN_BORDERLBOTTOM.Grayed	= (nNbSelect <= 1)		
+      	OPT_ED_ALIGNMENT.OPT_ED_ALIGN_HCENTER.Grayed		= (nNbSelect <= 1)
+      	OPT_ED_ALIGNMENT.OPT_ED_ALIGN_VMIDDLE.Grayed		= (nNbSelect <= 1)
+      	OPT_ED_ALIGNMENT.OPT_ED_ALIGN_SWAP.Grayed			= (nNbSelect <= 1)
+      	OPT_ED_ALIGNMENT.OPT_ED_ALIGN_SAMEWIDTH.Grayed		= (nNbSelect <= 1)
+      	OPT_ED_ALIGNMENT.OPT_ED_ALIGN_SAMEHEIGHT.Grayed		= (nNbSelect <= 1)
+      	
+      	// For the spacing, at least 3 controls must be selected
+      	OPT_ED_ALIGNMENT.OPT_ED_ALIGN_SAMEHSPACE.Grayed		= (nNbSelect < 3)
+      	OPT_ED_ALIGNMENT.OPT_ED_ALIGN_SAMEVSPACE.Grayed		= (nNbSelect < 3)		
+      end
+      
+      OPT_ED_ALIGNMENT.OPT_ED_ZORDER_MIN.Grayed			= nNbSelect < 1
+      OPT_ED_ALIGNMENT.OPT_ED_ZORDER_MAX.Grayed			= nNbSelect < 1
+      OPT_ED_ALIGNMENT.OPT_ED_ZORDER_UP.Grayed			= nNbSelect < 1
+      OPT_ED_ALIGNMENT.OPT_ED_ZORDER_DOWN.Grayed			= nNbSelect < 1
+      
+      MENU_WORKSPACE.OPT_ED_ALIGNMENT.Visible				= nNbSelect >= 1
+      MENU_WORKSPACE.OPT_ED_ALIGNMENT.Grayed				= ( nNbSelect < 1 )
+     type : 458752
+   -
+     name : MGRSelectionCut
+     procedure_id : 1160397367664693606
+     type_code : 14
+     code : |1+
+      // Summary: Cuts the current selection to the clipboard
+      // Syntax:
+      // MGRSelectionCut ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure MGRSelectionCut()
+      
+      // Copies the selection
+      if MGRSelectionCopy() then
+      	
+      	// Deletes the selection
+      	MGRSelectionDelete(True)
+      end
+     type : 458752
+   -
+     name : MGRSelectAll
+     procedure_id : 1160397367664759142
+     type_code : 14
+     code : |1-
+      // Summary: Selects the controls on the screen
+      // Syntax:
+      // MGRSelectAll ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure MGRSelectAll()
+      
+      stObject is ObjectSpace
+      
+      MGRSpace..DisplayEnabled = False
+      
+      // For each one of the controls found in the working space
+      for CHAQUE stObject of MGRObjects
+      	
+      	// Selects the control
+      	WinEdSelectPlus(MGRSpace, stObject.MGRObject)
+      end
+      
+      MGRSpace..DisplayEnabled = True
+     type : 458752
+   -
+     name : MGRAddObject
+     procedure_id : 1160397367664824678
+     type_code : 14
+     code : |1-
+      // Summary: Adds an existing control into the space
+      // Syntax:
+      //MGRAddObject (<oControl> is control)
+      //
+      // Parameters:
+      //	oControl (control): Control to add
+      // Return value:
+      // 	None
+      //
+      procedure MGRAddObject(oControl is Control)
+      
+      stStc is ObjectSpace
+      
+      // Saves the control
+      stStc.MGRObject <- oControl	
+      stStc.Name = stStc.MGRObject..Name
+      
+      // Special case of locked controls
+      if oControl..VisualEffect <> veNone then
+      	stStc.Locked = True
+      end
+      
+      // Adds
+      Add(MGRObjects, stStc)
+      
+      WinEdDeselectAll(MGRSpace)
+      WinEdSelectPlus(MGRSpace, oControl)
+     type : 458752
+   -
+     name : __MGRCreateObject
+     procedure_id : 1160397367664890214
+     type_code : 14
+     code : |1-
+      // Summary: Creates an object (WITHOUT management of UNDO/REDO)
+      // Syntax:
+      //[ <Result> = ] __MGRCreateObject (<stObjectInfo> is ControlObject)
+      //
+      // Parameters:
+      // 	stObjectInfo (ControlObject): Info about the object to create
+      // Return value:
+      // 	control: Created control
+      //
+      procedure private __MGRCreateObject(stObjectInfo is ControlObject)
+      
+      nType		is int		= stObjectInfo.Type
+      sName		is string	= MGRSpace..FullName + "." + MGRGetUniqueName(stObjectInfo.Name)
+      stControl	is ObjectSpace
+      
+      // Re-creates the control
+      stControl.MGRObject <- ControlCreate(sName, nType, MGRSpace..X, MGRSpace..Y, 10, 10, False)
+      stControl.Name = stControl.MGRObject..Name
+      
+      // Restores the properties
+      __MGRRestoreObjectProperties(stControl.MGRObject, stObjectInfo)
+      
+      // Indicate the start and end controls of the link
+      if nType = typWire then
+      	__MGRObjectStoreLink(stControl.MGRObject..StartControl, stControl.MGRObject..Name, True)
+      	__MGRObjectStoreLink(stControl.MGRObject..EndControl, stControl.MGRObject..Name, True)
+      end
+      
+      // Adds the control into the list
+      Add(MGRObjects, stControl)
+      
+      return stControl.MGRObject
+     type : 458752
+   -
+     name : MGRCreateObject
+     procedure_id : 1160397367664955750
+     type_code : 14
+     code : |1-
+      // Summary: Creates an object into the space from a description
+      // Syntax:
+      //[ <Result> = ] MGRObjectCreate (<stObjectInfo> is ControlObject)
+      //
+      // Parameters:
+      // 	stObjectInfo (ControlObject): Description of the control to create
+      // Return value:
+      // 	control: Created control
+      //
+      procedure MGRCreateObject(stObjectInfo is ControlObject)
+      
+      oReference	is Control
+      sName		is string
+      stLocalInfo	is ControlObject <= stObjectInfo
+      
+      // Declares the action and creates the object
+      WinEdDo(MGRSpace, __ObjectCreate)
+      INTERNAL PROCEDURE __ObjectCreate()
+      	
+      	Push(ActionsStack, "Create")
+      	
+      	// Creates the object
+      	oReference <- __MGRCreateObject((stLocalInfo))
+      	sName				= oReference..Name
+      	
+      	oReference..Visible	= True
+      	
+      	ActionDeclareUndo(__CancelCreateObject)
+      	INTERNAL PROCEDURE __CancelCreateObject()
+      		
+      		Pop(ActionsStack)
+      		
+      		// Line_Delete
+      		__MGRDeleteObject(sName)
+      	end
+      	
+      	return True
+      end
+      
+      
+      return oReference		
+     type : 458752
+   -
+     name : MGRCreateObject
+     internal_properties : CAAAAAgAAACcx0H0F14kJ3qNtchXKjse4o5doUdQ5wsRCYJ24lxFqfEJjXAsdGRfrpuZ6FZpVB+cF5UXiVsZHddJKHn07ARHGqW9v6D/2hI5XpJHA6FOhaYBm5jVAZuizR25GI4W2gLsdatRRObOLP5MrHUGbPdGeGk3Hkl/H34PN3nPeiC2K4aM
+     procedure_id : 1160397367664955750
+     type_code : 14
+     code : |1+
+      // Summary: Creates an object into the space from an existing control
+      // Syntax:
+      //[ <Result> = ] MGRObjectCreate (<oSource> is control [, <nX> is int [, <nY> is int]])
+      //
+      // Parameters:
+      //	oSource (control): Source of control that will be cloned
+      //	nX (integer - default value=6): X position
+      //	nY (integer - default value=6): Y position
+      // Return value:
+      // 	control: Created control
+      //
+      procedure MGRCreateObject(oSource is Control, local nX is int = 6, local nY is int = 6)
+      
+      oReference		is Control
+      sSourceControl	is string	= oSource..FullName
+      sSourceName		is string	= oSource..Name
+      sName			is string
+      
+      // Declares the action and creates the object
+      WinEdDo(MGRSpace, __ObjectCreate)
+      INTERNAL PROCEDURE __ObjectCreate()
+      	
+      	Push(ActionsStack, "Create")
+      	
+      	// Clones the source
+      	oReference <- ControlClone(sSourceControl, (MGRSpace..FullName + "." + MGRGetUniqueName(sSourceName)), nX, nY)
+      	
+      	// Allows the edit
+      	oReference..WinEditAllowed = True
+      	
+      	// Adds the object to the document
+      	MGRAddObject(oReference)
+      	sName = oReference..Name
+      	
+      	ActionDeclareUndo(__CancelCreateObject)
+      	INTERNAL PROCEDURE __CancelCreateObject()
+      		
+      		Pop(ActionsStack)
+      		
+      		// Line_Delete
+      		__MGRDeleteObject(sName)
+      	end
+      	
+      	return True
+      end
+      
+      return oReference	
+     type : 458753
+   -
+     name : MGRDeleteObject
+     internal_properties : CAAAAAgAAAA6C5XM47acBSJ0ddzbzf9o8KfyvwJBpfT1OcQoPE0ohep1tXuLXW0s9SBVXWR87i8InbFSKnooj848Qb2sr44BnFp6w90z4oUCxXNAgF80SdabEinu+c6j4Ym+LXDPHNteI7UYnzTZDvM2HoXh
+     procedure_id : 1160397367665021286
+     type_code : 14
+     code : |1-
+      // Summary: Deletes an object
+      // Syntax:
+      //[ <Result> = ] MGRObjectDelete (<oReference> is control)
+      //
+      // Parameters:
+      //	oReference (control): Control to delete
+      // Return value:
+      // 	boolean: True if the object was deleted, False otherwise
+      //
+      procedure MGRDeleteObject(oReference is Control) : boolean
+      
+      nNbDeleted	is int
+      arrProps	is array of ControlObject
+      
+      // Stores the properties of controls
+      // The properties are stored outside WinEdDo (__MGRRunDeletionFromProps): once run, the controls don't exist anymore
+      // therefore, they would not be accessible in case of cancelation (to re-create them) or when restoring the action (REDO) ...
+      // because the controls would have been re-created
+      Add(arrProps, __MGRSaveObjectProperties(oReference))
+      
+      // Cancels the selection of objects
+      WinEdDeselectAll(MGRSpace)
+      
+      // Performs the deletion from properties
+      nNbDeleted = __MGRRunDeletionFromProps(arrProps, False)
+      
+      return (nNbDeleted > 0)
+     type : 458752
+   -
+     name : MGRDeleteObject
+     procedure_id : 1160397367665021286
+     type_code : 14
+     code : |1-
+      // Summary: Deletes an object from its name
+      // Syntax:
+      // [ <Result> = ] MGRObjectDelete (<sName> is string)
+      //
+      // Parameters:
+      //	sName (ANSI string): Name of object
+      // Return value:
+      // 	boolean: True if the object was deleted, False otherwise
+      //
+      procedure MGRDeleteObject(sName is string) : boolean
+      
+      oReference is Champ <- {sName, indControl}
+      
+      // Checks
+      if oReference = Null _or_ oReference..Type = 0 then
+      	ErrorThrow(500, "Unknown control")
+      	return False
+      end
+      
+      return MGRDeleteObject(oReference)
+     type : 458753
+   -
+     name : __MGRRunDeletionFromProps
+     internal_properties : CAAAAAgAAADWd4ewN5T0lVIUxbwrva+4oMcCL2KxpfQVKaR4PI3IZSplFRt7nb2chYBl3VQMvh8YneFCKqrwB0akCcWk52ZpJLLyu9VbCr26DXto+LfM0R5TakHGAdabudGGFQhHNIPmO01QN3z5DAVA8ukN
+     procedure_id : 1160397367665086822
+     type_code : 14
+     code : |1-
+      // Summary: Runs a deletion from a list of properties (with management of UNDO/REDO)
+      // Syntax:
+      //[ <Result> = ] __MGRRunDeletionFromProps (<arrProps> is array [, <bCut> is boolean])
+      //
+      // Parameters:
+      //	arrProps (array): Properties
+      //	bCut (boolean - default value=0): True if the deletion is performed further to a cut in the clipboard, False otherwise
+      // Return value:
+      // 	integer: Number of deleted objects
+      //
+      procedure private __MGRRunDeletionFromProps(arrProps is array of ControlObject, local bCut is boolean = False) : int
+      
+      oReference		is Control
+      nNbDeleted		is int
+      arrLocalProps	is array of ControlObject <= arrProps
+      
+      // Saves the action and runs the deletion
+      WinEdDo(MGRSpace, __DeletionFromProps)
+      INTERNAL PROCEDURE __DeletionFromProps()
+      	
+      	Push(ActionsStack, (bCut ? "Cut" else "Delete"))
+      	
+      	// Reset the number of deleted elements
+      	// => during REDO, the context of the procedure will be restored, therefore you must
+      	// reinitialize this variable in entry
+      	nNbDeleted = 0
+      	arrDeletedProps is array of ControlObject
+      	
+      	MGRSpace..DisplayEnabled = False
+      	
+      	for i = 1 _to_ arrLocalProps.Count
+      		
+      		// Deletes the control physically
+      		Add(arrDeletedProps, __MGRDeleteObject(arrLocalProps[i].Name))
+      	end
+      	
+      	// Sort so that the links are always at the top of the list
+      	Sort(arrDeletedProps, asFunction, ReorderDeletion)
+      	INTERNAL PROCEDURE ReorderDeletion(stA is ControlObject, stTwo is ControlObject)
+      		if stA.Type = typWire then return -1
+      		if stTwo.Type = typWire then return -1
+      		return 0
+      	end
+      	
+      	nNbDeleted					= (arrDeletedProps.Count > 0)
+      	MGRSpace..DisplayEnabled	= True
+      	
+      	// Declares the cancelation
+      	ActionDeclareUndo(__CancelDeleteObjects)
+      	INTERNAL PROCEDURE __CancelDeleteObjects()
+      		
+      		Pop(ActionsStack)
+      		
+      		MGRSpace..DisplayEnabled = False
+      		
+      		// Cancels the current selection
+      		WinEdDeselectAll(MGRSpace)
+      		
+      		// Restore the controls in the reverse order of deletion
+      		// to maintain their relative z-order and to restore the links at the end 
+      		for i = arrDeletedProps.Count _to_ 1 STEP -1
+      			
+      			// Ignores the invalid controls
+      			dbgCheckDifferent(arrDeletedProps[i].Type, 0)
+      			if arrDeletedProps[i].Type = 0 then continue
+      			
+      			// Creates the control from the properties
+      			oReference <- __MGRCreateObject(arrDeletedProps[i])
+      			
+      			// Re-selects the object
+      			WinEdSelectPlus(MGRSpace, oReference)
+      			
+      			// Makes the control visible
+      			oReference..Visible = True				
+      		end
+      		
+      		MGRSpace..DisplayEnabled = True
+      	end
+      	
+      	return (nNbDeleted > 0)
+      end
+      
+      return nNbDeleted
+     type : 458752
+   -
+     name : Modified
+     procedure_id : 1160397367665152358
+     type_code : 14
+     code : |1+
+      // Summary: Returns the modified status of document
+      // Syntax:
+      //[ <Result> = ] Modified ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True if the document was modified, False otherwise
+      //
+      procedure Modified() : boolean
+      return ((AAFCanRedo() _or_ AAFCanUndo()) _and_ not Saved)
+     type : 458752
+   -
+     name : MGROpenAlignmentMenu
+     procedure_id : 1160397367665217894
+     type_code : 14
+     code : |1-
+      // Summary: Opens the alignment menu
+      // Syntax:
+      //MGROpenAlignmentMenu (<nX> is int, <nY> is int)
+      //
+      // Parameters:
+      //	nX (integer): X position
+      //	nY (integer): Y position
+      // Return value:
+      // 	None
+      //
+      procedure MGROpenAlignmentMenu(nX is int, nY is int)
+      
+      // Refreshes the menu
+      __MGRRefreshMenu()
+      
+      // Aperture
+      OpenPopupMenu(MENU_WORKSPACE.OPT_ED_ALIGNMENT, nX, nY)
+     type : 458752
+   -
+     name : MGRModifySelectionProperty
+     internal_properties : CAAAAAgAAACJAo0TcRt7WdD59ShwHCiqQNp1ccj1Qs8x2MI9w41KHTVzn6RodmQzvzk+AY4zTc8iw+0NAdwc8kJm6vewb6jLrUXizTkSTjRFRPWtNmHF94X/+E6e6K02YzUosKGxvsDRHS7SWuorEqjmCJnCobhJZX74bYx8sq92zuiQ8aI2l6r+OFWvgh9RxaZIsty7U7/HyUHk3ufSfGV+Xt2oUvOVDag49QZzFzLeeRF72wYGTuvilJzP6HanOCis++KPIz2Olg==
+     procedure_id : 1160397367665283430
+     type_code : 14
+     code : |1-
+      // Summary: Modifies a property of the current selection
+      // Syntax:
+      //[ <Result> = ] MGRModifySelectionProperty (<sProperty> is string, <Value>)
+      //
+      // Parameters:
+      //	sProperty (ANSI string): Name of property to modify
+      //	Value: Value of property
+      // Return value:
+      // 	boolean: True if the action was performed, False otherwise
+      //
+      procedure MGRModifySelectionProperty(sProperty is string, Value)
+      
+      oReference		is Control
+      sPropertyName	is string	= sProperty
+      vPropertyValue	is variant	= Value
+      aaProps			is ASSOCIATIVE ARRAY of variants
+      arrControls		is array of strings
+      nNbModified		is int
+      
+      // At least one control must be selected
+      if not WinEdSelectOccurrence(MGRSpace) >= 1 then
+      	ErrorThrow(500, "No current selection")
+      	return False
+      end
+      
+      // Enumeration
+      for i = 1 _to_ WinEdSelectOccurrence(MGRSpace)
+      	
+      	// Reference
+      	oReference <- WinEdSelect(MGRSpace, i)
+      	Add(arrControls, oReference..FullName)		
+      end
+      
+      // Saves the action and runs the change of property value	
+      WinEdDo(MGRSpace, __MGRRunSelectionProperty)
+      INTERNAL PROCEDURE __MGRRunSelectionProperty()
+      	
+      	Push(ActionsStack, "Modify style")
+      	
+      	MGRSpace..DisplayEnabled = False
+      	
+      	// Enumeration
+      	for each sControlName of arrControls
+      		
+      		oReference <- {sControlName, indControl}
+      		
+      		// If the property exists on this control
+      		when exception in
+      			
+      			// Special case for the border
+      			if StringStartsWith(sPropertyName, "Border", ccIgnoreCase) then
+      				
+      				// Retrieves the full border
+      				oBorder is Border = oReference..Border
+      				
+      				// Stores the full border
+      				aaProps[sControlName + ".." + sPropertyName] = oBorder
+      				
+      				// Updates the border property
+      				if Position(sPropertyName, "..") > 0 then
+      					
+      					// According to the sub-property
+      					switch Lower(ExtractString(sPropertyName, 2, ".."))
+      						case "color"
+      							oBorder..Color = vPropertyValue
+      							
+      							// In order for the color to appear, the border thickness must be set to at least one pixel
+      							if oBorder..Thickness = 0 then oBorder..Thickness = 1
+      							
+      						case "thickness"
+      							oBorder..Thickness = vPropertyValue		
+      					end						
+      				else
+      					// All the properties
+      					oBorderValue is Border = vPropertyValue
+      					oBorder..Color		= oBorderValue..Color
+      					oBorder..Thickness	= oBorderValue..Thickness
+      				end
+      				
+      				// Border with a non-null thickness: default line and border
+      				if oBorder..Thickness > 0 _and_ oBorder..Line <> LineSolid then 
+      					oBorder..Line	= LineSolid
+      					oBorder..Edges	= BorderAll
+      					oBorder..Round	= 0
+      				end
+      				
+      				// Border with a null thickness: no line, no border
+      				if oBorder..Thickness = 0 then 
+      					oBorder..Line	= LineNone
+      					oBorder..Edges	= BorderNone
+      					oBorder..Round	= 0
+      				end
+      				
+      				// Applies the new border
+      				oReference..Border = oBorder
+      			else
+      				
+      				// Stores then modifies the property
+      				ExecuteCode(StringBuild([
+      						aaProps[sControlName + ".." + sPropertyName] = oReference..%1
+      						oReference..%1 = vPropertyValue
+      				], sPropertyName, sControlName))
+      			end
+      			
+      			nNbModified ++
+      		do
+      			continue
+      		end
+      	end
+      	
+      	MGRSpace..DisplayEnabled = True
+      	
+      	// Declares the UNDO
+      	ActionDeclareUndo(__CancelProperty)
+      	INTERNAL PROCEDURE __CancelProperty()
+      		
+      		Pop(ActionsStack)
+      		
+      		MGRSpace..DisplayEnabled = False
+      		
+      		// Enumeration
+      		for each sControlName of arrControls
+      			
+      			// Restore operation possible?
+      			if aaProps[sControlName + ".." + sPropertyName]..Empty = False then 
+      				
+      				oReference <- {sControlName, indControl}
+      				
+      				// Special case for the border
+      				if StringStartsWith(sPropertyName, "Border", ccIgnoreCase) then
+      					
+      					// Retrieves the border
+      					oBorder is Border = aaProps[sControlName + ".." + sPropertyName]
+      					
+      					// Border with a non-null thickness: default line and border
+      					if oBorder..Thickness > 0 _and_ oBorder..Line <> LineSolid then 
+      						oBorder..Line	= LineSolid
+      						oBorder..Edges	= BorderAll
+      						oBorder..Round	= 0
+      					end
+      					
+      					// Border with a null thickness: no line, no border
+      					if oBorder..Thickness = 0 then 
+      						oBorder..Line	= LineNone
+      						oBorder..Edges	= BorderNone
+      						oBorder..Round	= 0
+      					end
+      					
+      					// Applies the new border
+      					oReference..Border = oBorder							
+      				else
+      					
+      					// Restores the property
+      					ExecuteCode(StringBuild([
+      							oReference..%1 = aaProps[sControlName + ".." + sPropertyName]
+      					], sPropertyName))
+      				end
+      			end
+      		end	
+      		
+      		MGRSpace..DisplayEnabled = True		
+      	end
+      	
+      	return (nNbModified > 0)
+      end
+      
+      return True
+     type : 458752
+   -
+     name : __MGRSaveControls
+     internal_properties : CAAAAAgAAAC41336fovJZEg4sa/u7tGqSSi6H1DaV6266PH3E5imyGqGFoxUHvoZDqegX7hH+Tst6qI21Pp9sMxl3DBwIsyws/4DeXYYMqLNktqfe2AZ/z48yvlWGM+Id8oymzQIDLVBdPZ9gSfbMHEa2IRvWHMSuStWzhtRLKeNwLpRtsmTrhthPOGNX4pLBhEWz24hGdOfKepiag+mKpnWyBiXZ97Yuqo1wg==
+     procedure_id : 1160397367665348966
+     type_code : 14
+     code : |1-
+      // Summary: Enumerates the controls found and saves them
+      // Syntax:
+      //__MGRSaveControls ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure private __MGRSaveControls()
+      
+      n				is int	= 1
+      sControl		is string
+      oControl		is Control
+      tabUsefulCtrl 	is array of strings = [ BTN_CTRL_D.Name, BTN_CTRL_C.Name, BTN_CTRL_A.Name, BTN_CTRL_0.Name, BTN_DEL.Name, BTN_CTRL_X.Name, BTN_CTRL_V.Name, BTN_ALT_V.Name ]
+      
+      loop
+      	
+      	// Enumerates the control
+      	sControl = EnumControl(MGRSpace, n, byCreationOrder)
+      	if sControl = "" then break
+      	
+      	// Takes a reference on the control
+      	oControl <- {MGRSpace..Name + ["."] + sControl, indControl}
+      	if oControl = Null then continue
+      	
+      	// Layout control or control useful in the space
+      	if tabUsefulCtrl.Seek(tccIgnoreCase + asLinear, oControl..Name) > 0 then continue
+      	
+      	// Adds the object to the space
+      	MGRAddObject(oControl)	
+      	
+      	// Indicate the start and end controls of the link
+      	if oControl.Type = typWire then
+      		__MGRObjectStoreLink(oControl..StartControl, oControl..Name, True)
+      		__MGRObjectStoreLink(oControl..EndControl, oControl..Name, True)
+      	end	
+      	
+      	continue:
+      n ++
+      end
+     type : 458752
+   -
+     name : MGROpenStyleMenu
+     procedure_id : 1160397367665414502
+     type_code : 14
+     code : |1-
+      // Summary: Opens the style menu
+      // Syntax:
+      //MGROpenStyleMenu (<nX> is int, <nY> is int)
+      //
+      // Parameters:
+      //	nX (integer): X position
+      //	nY (integer): Y position
+      // Return value:
+      // 	None
+      //
+      procedure MGROpenStyleMenu(nX is int, nY is int)
+      
+      // Refreshes the menu
+      __MGRRefreshMenu()
+      
+      // Aperture
+      OpenPopupMenu(MENU_WORKSPACE.OPT_ED_STYLE, nX, nY)
+     type : 458752
+   -
+     name : MGRLockSelection
+     procedure_id : 1160397367665480038
+     type_code : 14
+     code : |1-
+      // Summary: Locks/Unlocks the selection
+      // Syntax:
+      //[ <Result> = ] MGRLockSelection ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True if the action was performed, False otherwise
+      //
+      procedure MGRLockSelection() : boolean
+      
+      // At least one control must be selected
+      if not WinEdSelectOccurrence(MGRSpace) >= 1 then
+      	ErrorThrow(500, "No current selection")
+      	return False
+      end
+      
+      // Saves the action and runs the lock
+      WinEdDo(MGRSpace, __MGRRunSelectionLock)
+      
+      return True
+     type : 458752
+   -
+     name : __MGRRunSelectionLock
+     internal_properties : CAAAAAgAAABW9wcwJ/RcBSI0dRz7jV8oMEcyP2KhZTS1uUSonI0IRWqVtTsrfS0sNWDV3cS8Tm+IvTGSChq4P57M8Y1cP35xLAoKE61DMrVSlePQ8O8kuaaL4nl+SR6Tsdmu/WAfTIvuU0XorwRpHIXAcmmN
+     procedure_id : 1160397367665545574
+     type_code : 14
+     code : |1-
+      // Summary: Runs the lock (for UNDO/REDO)
+      // Syntax:
+      //[ <Result> = ] __MGRRunSelectionLock ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True if the lock was applied, False otherwise (no backup for UNDO/REDO)
+      //
+      procedure private __MGRRunSelectionLock() 
+      
+      arrControls		is array of champs
+      oReference		is Control
+      bLockStatus		is boolean
+      aaLock			is ASSOCIATIVE ARRAY of booleans
+      
+      Push(ActionsStack, "Modify the lock of the selection")
+      
+      // Retrieves the selected controls
+      for i = 1 _to_ WinEdSelectOccurrence(MGRSpace)
+      	oReference <- WinEdSelect(MGRSpace, i)
+      	Add(arrControls, oReference)
+      end
+      
+      // The highest selected control is the reference control
+      oReference <- arrControls[1]
+      MGRSpace..DisplayEnabled = False
+      
+      // Gets the lock status of reference control
+      nControl is int = Seek(MGRObjects, asLinear, "Name", oReference..Name)
+      if nControl > 0 then
+      	bLockStatus = MGRObjects[nControl].Locked
+      end	 
+      
+      // For all the controls
+      for i = 1 _to_ arrControls.Count
+      	
+      	// Modifies the lock status of control
+      	nControl = Seek(MGRObjects, asLinear, "Name", arrControls[i]..Name)
+      	if nControl > 0 then
+      		
+      		// Stores the previous status
+      		aaLock[arrControls[i]..FullName]	= MGRObjects[nControl].Locked
+      		
+      		// Modifies the status
+      		MGRObjects[nControl].Locked			= (not bLockStatus)
+      		arrControls[i]..VisualEffect		= (not bLockStatus) ? veBlueShade else veNone
+      		
+      		// If the control is flagged as locked
+      		if bLockStatus = False then
+      			
+      			// Deselect it
+      			WinEdSelectMinus(MGRSpace, arrControls[i])
+      		end
+      	end
+      end
+      
+      MGRSpace..DisplayEnabled = True
+      
+      // Declares the cancelation
+      ActionDeclareUndo(__CancelLock)
+      INTERNAL PROCEDURE __CancelLock()
+      	
+      	Pop(ActionsStack)
+      	MGRSpace..DisplayEnabled = False
+      	
+      	// Restores the controls
+      	for i = 1 _to_ arrControls.Count
+      		
+      		nControl = Seek(MGRObjects, asLinear, "Name", arrControls[i]..Name)
+      		if nControl > 0 then
+      			
+      			// Restores the status
+      			MGRObjects[nControl].Locked		= aaLock[arrControls[i]..FullName]
+      			arrControls[i]..VisualEffect	= aaLock[arrControls[i]..FullName] ? veBlueShade else veNone
+      			
+      			// If the control is flagged as locked
+      			if aaLock[arrControls[i]..FullName] then
+      				
+      				// Deselect it
+      				WinEdSelectMinus(MGRSpace, arrControls[i])
+      			end
+      		end			
+      	end			
+      	
+      	MGRSpace..DisplayEnabled = True	
+      end
+      
+      return True
+     type : 458752
+   -
+     name : __MGROnSelection
+     procedure_id : 1160397367665611110
+     type_code : 14
+     code : |1-
+      // Summary: Run when selecting an object
+      // Syntax:
+      //[ <Result> = ] __MGROnSelection ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True if the selection is possible, False otherwise
+      //
+      procedure protected __MGROnSelection() : boolean
+      
+      return = True
+      
+      // Gets the subscript of last selected control
+      nLastSelect is int = WinEdSelectOccurrence(MGRSpace)
+      if nLastSelect > 0 then
+      	
+      	// Retrieves the selected control
+      	oControl is Control <- WinEdSelect(MGRSpace, nLastSelect)
+      	if oControl <> Null then
+      		
+      		// Checks the control
+      		nControl is int = Seek(MGRObjects, asLinear, "Name", oControl..Name)
+      		if nControl > 0 then
+      			
+      			// If the control is locked
+      			if MGRObjects[nControl].Locked then
+      				
+      				// The control can be selected with the right button
+      				if not KeyPressed(kpRButton) then 
+      					
+      					// Prevents the selection
+      					WinEdSelectMinus(MGRSpace, oControl)
+      					return False
+      				end
+      			end
+      		end	 
+      	end
+      end
+      
+      __MGRRefreshMenu()
+     type : 458752
+   -
+     name : __MGROnMove
+     procedure_id : 1160397367665676646
+     type_code : 14
+     code : |1-
+      // Summary: Run when moving an object
+      // Syntax:
+      //[ <Result> = ] __MGROnMove ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True if the move is possible, False otherwise
+      //
+      procedure protected __MGROnMove() : boolean
+      
+      return = True
+      
+      Push(ActionsStack, "Move")
+     type : 458752
+   -
+     name : __MGROnResize
+     procedure_id : 1160397367665742182
+     type_code : 14
+     code : |1-
+      // Summary: Run when resizing an object
+      // Syntax:
+      //[ <Result> = ] __MGROnResize ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True if the resize is possible, False otherwise
+      //
+      procedure protected __MGROnResize() : boolean
+      
+      return = True
+      
+      Push(ActionsStack, "Resizing")
+     type : 458752
+   -
+     name : AafUndoCaption
+     internal_properties : CAAAAAgAAAAeQeZWqR4YD9gNuw5ISpse4q5d4YfQh8vxSSLWonylqfGpzXAstIQfjtu5yNZJ9N/c91UXiZv53fcJCNn0zKQH2jXtD1BPimLproJX87E+1RbRiyhFUUvyPW0p6P5mipLcRRthNLb+/G4cHMU2fOcWaLmnLrlIMic+6HTcyeP/rQgO
+     procedure_id : 1160397367665807718
+     type_code : 14
+     group : 3
+     code : |1-
+      // Summary: Returns the caption of last action
+      // Syntax:
+      //[ <Result> = ] AafUndoCaption ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	ANSI string: Text of last action
+      //
+      // Automatic process of exceptions:   run CASE EXCEPTION:
+      //
+      
+      procedure AafUndoCaption() : string
+      
+      sCaption is string
+      
+      // Expands the action
+      Pop(ActionsStack, sCaption)
+      
+      // Re-folds the action
+      Push(ActionsStack, sCaption)
+      
+      return sCaption
+      
+      case exception:
+      return False
+     type : 458752
+   -
+     name : MGRCreateLink
+     procedure_id : 1160397367665873254
+     type_code : 14
+     code : |1-
+      // Summary: Creates a Wire control starting from the selected object
+      // Syntax:
+      //  MGRCreateLink ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure MGRCreateLink()
+      
+      // Two controls must be selected
+      if not WinEdSelectOccurrence(MGRSpace) = 2 then
+      	ErrorThrow(500, "There must be two selected objects to create a link")
+      	return False
+      end
+      
+      // Register the action and execute the creation
+      WinEdDo(MGRSpace, __MGRExecuteLinkCreation)
+      
+      return True
+     type : 458752
+   -
+     name : __MGRExecuteLinkCreation
+     internal_properties : CAAAAAgAAACaq9P806D6QZJgtYwLETewgPv290JpfSBNLbQw/OkoveoRcZtb9SXw7Sz9XSQIlj/YiXWSCjrStQBmK0/6vXhzbiRYZTs55OOc132y1g0Gm4j10AvUPwjZy6Pwt9aN7iVw3UsKdVoVSPF8viVB
+     procedure_id : 1160397367665938790
+     type_code : 14
+     code : |1-
+      // Summary: Executed when a link is created
+      // Syntax:
+      //[ <Result> = ] __MGRExecuteLinkCreation ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True if the operation was successful, False otherwise
+      //
+      procedure protected __MGRExecuteLinkCreation()
+      
+      stLink	is ControlObject
+      oStart	is Control
+      oEnd	is Control
+      
+      // Retrieves the selected controls
+      for i = 1 _to_ WinEdSelectOccurrence(MGRSpace)		
+      	if oStart = Null then
+      		oStart <- WinEdSelect(MGRSpace, i)
+      	else if oEnd = Null then
+      		oEnd <- WinEdSelect(MGRSpace, i)			
+      	else
+      		break
+      	end
+      end
+      
+      // If there is no end control, 
+      if oEnd = Null then
+      	ErrorThrow(500, "No end control selected")
+      	return False
+      end
+      
+      Push(ActionsStack, "Create a link")
+      
+      MGRSpace..DisplayEnabled			= False
+      
+      // Describes the object to create
+      stLink.Name							= "WIRE_LINK"
+      stLink.Type							= typWire
+      
+      // Properties
+      if oStart <> Null then stLink.Properties["StartControl"] = oStart..FullName
+      if oEnd <> Null then stLink.Properties["EndControl"] = oEnd..FullName
+      
+      // Create the Wire control
+      oLink is Control <- __MGRCreateObject(stLink)
+      
+      // Make it visible
+      oLink..Visible				= True	
+      
+      MGRSpace..DisplayEnabled	= True
+      
+      // Declares the cancelation
+      ActionDeclareUndo(__CancelDuplication)
+      INTERNAL PROCEDURE __CancelDuplication()
+      	
+      	Pop(ActionsStack)
+      	
+      	// Deletes the copies
+      	__MGRDeleteObject(oLink)		
+      end
+      
+      return True
+     type : 458752
+   -
+     name : MGRWireChangeShape
+     internal_properties : CAAAAAgAAADKe4OsE/BW8aqozcTj6Y+YsFum99KJZagN7fRg/PnI3YL5mWOTncVQVQRlBZwQjpe4iaVS2soG+WQC/+vuiURPMsCk8ZeNODcgo4F+WknCx2xxLHdwc0yd7w80o+q5qmEECWe20Z5V6CEs7vUR
+     procedure_id : 1160397367666004326
+     type_code : 14
+     code : |1+
+      // Summary: Changes the shape of one end of a link
+      // Syntax:
+      //[ <Result> = ] MGRWireChangeShape (<bStart> is boolean, <nShape> is int)
+      //
+      // Parameters:
+      //	bStart (boolean): True if the start is modified, False if the end is modified
+      //	nShape (int): Shape of the end to be applied
+      // Return value:
+      // 	boolean: True if the operation was successful, False otherwise
+      //
+      procedure MGRWireChangeShape( local bStart is boolean, local nShape is int ) : boolean
+      
+      oWire			is Control
+      sWireControl	is string
+      
+      // Only one control must be selected
+      if not WinEdSelectOccurrence(MGRSpace) = 1 then
+      	ErrorThrow(500, "No current selection")
+      	return False
+      end
+      
+      // Retrieves the selected control
+      oWire <- WinEdSelect(MGRSpace, 1)
+      
+      if oWire..Type <> typWire then
+      	ErrorThrow(500, "A Wire control must be selected")
+      	return False
+      end
+      
+      // Store the full name of the wire
+      sWireControl = oWire..FullName
+      
+      // Register the action and execute the change
+      WinEdDo(MGRSpace, __MGRWireChangeShape)
+      
+      INTERNAL PROCEDURE __MGRWireChangeShape()
+      	
+      	Push(ActionsStack, "Modify link properties")
+      	
+      	nShapeBackup is int
+      	
+      	// Change the shape of the selected end
+      	if bStart then
+      		
+      		nShapeBackup				= oWire..ShapeExtremityStart
+      		oWire..ShapeExtremityStart	= nShape
+      		
+      	else
+      		
+      		nShapeBackup				= oWire..ShapeExtremityEnd
+      		oWire..ShapeExtremityEnd	= nShape
+      		
+      	end
+      	
+      	// Declares the cancelation
+      	ActionDeclareUndo(__CancelChangeShape)
+      	INTERNAL PROCEDURE __CancelChangeShape()
+      		
+      		Pop(ActionsStack)
+      		
+      		// If the control still exists
+      		if ControlExist(sWireControl) then
+      			
+      			// Add another reference to the Wire control
+      			oWire <- { sWireControl, indControl }
+      			
+      			// Restore the shape of the selected end
+      			if bStart then
+      				
+      				oWire..ShapeExtremityStart	= nShapeBackup
+      				
+      			else
+      				
+      				oWire..ShapeExtremityEnd	= nShapeBackup
+      				
+      			end	
+      		end
+      	end
+      end
+      
+      return True
+      
+     type : 458752
+   -
+     name : __MGRObjectStoreLink
+     procedure_id : 1160397367666069862
+     type_code : 14
+     code : |1-
+      // Summary: Stores a link for an object
+      // Syntax:
+      //__MGRObjetStoreLink (<oReference>, <sLinkName> is string, <bAddLink> is boolean)
+      //
+      // Parameters:
+      //	oReference: Reference control
+      //	sLinkName (ANSI string): Name of the link to be stored
+      //	bAddLink (boolean): True if the link is created, False if it is deleted
+      // Return value:
+      // 	None
+      //
+      procedure __MGRObjectStoreLink(oReference, sLinkName is string, bAddLink is boolean)
+      
+      // Search for the object in the list
+      nControl is int = Seek(MGRObjects, asLinear, "Name", oReference..Name)
+      if nControl > 0 then
+      	
+      	// Search for the link
+      	nLink is int = Seek(MGRObjects[nControl].Links, asLinear, sLinkName)
+      	
+      	if bAddLink then
+      		
+      		// If the link does not exist
+      		if nLink < 1 then			
+      			
+      			// Create it
+      			Add(MGRObjects[nControl].Links, sLinkName)
+      		end		
+      	else
+      		
+      		// If the link exists
+      		if nLink > 0 then
+      			
+      			// Delete it
+      			Delete(MGRObjects[nControl].Links, nLink)
+      		end
+      	end
+      	
+      end	 
+     type : 458752
+   -
+     name : __MGRControlObjectNul
+     procedure_id : 1160397367666135398
+     type_code : 14
+     code : |1-
+      // Summary: Returns an invalid control
+      // Syntax:
+      //[ <Result> = ] __MGRControlObjectNul ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	ControlObject: Invalid control
+      //
+      procedure __MGRControlObjectNul()
+      
+      stControl is ControlObject
+      
+      return stControl
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fca459e00d42bd3
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

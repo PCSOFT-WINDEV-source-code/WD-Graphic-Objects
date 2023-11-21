@@ -1,0 +1,951 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_MAIN
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_MAIN
+ identifier : 0x201a8f4113dcce69
+ internal_properties : CAAAAAgAAAA08OSSz3OavPVcRgET9KU8iuYsqdxzJWDsUD6eWXur0O97zJJvAgJ7kTnE6//o29/ctEcqit008rhLHXLEZo+/NTyeIM5ZFSNdZB7f1PfR4dW7YeD3aYwckL6aNawyt8g/ykZKxaC3p/FyD4hqdN/6+iq7XI1NxDoD/vxYPcMdf0kQ4WYd/yGh2fCHkkwK91Be8Z7rNHqlCxXu6An8+RftPyonma5E38QsMySzV9+bsCOvvGg6C4feF6DQt8IcSWqRxZFsZ8mOadh02OiKx9jN4piM+XuvBWDyYVJloIZ4LaMnawmCOjPyhrcy6TaCBkswt2wWyI7HOfKdzrUuXPzx2gEz07uyZYhPAs71+i5Ag8Gj6jKAU6CGGx9+Q+EryPBqeJb5iQAsOLrXOc+IGpdavPqS50H5p0dMwzVrCIA2gm6k3ISszfK5IN4LYLiYMJOXS6Ecpm0oMj5DrUPp33IOM07AxDnGRTuzafuL65X5ihMrW4K9OylOQ16TQDrH7g0OM50XDDU9tPcy34uUuHVneKHm3CCb0Y+w0nyFBCUnASox5mKqHxsuACobqbcx/6ZBnsh0rTj0csuLgxZIdBcPus6qjv9qUhZsnWzSQjBQ9al9AJuHO+116ShyrhJqzfl/svTG5hJQwuEq86jysiDwmz04ur5F3TthW3OO5vvB0cuFZScJWhPl4UzHRaL2AuJ53Zdeq4mRI7hpdTOtkbXdokEs/q4klJoTpA68FZ5a8CChLMRSKe/K/cWx5EVHsVvBBQ==
+ properties :
+  width : 800
+  height : 600
+  widthClient : 798
+  heightClient : 568
+ controls :
+  -
+    name : IMG_TOOLS
+    identifier : 0x201a8f4113e1ce69
+    internal_properties : CAAAAAgAAADBGrqhikpy7baE0yLv9ro/RRZA003Qh/ULNqJ5Wg/letKHhrTZmiVDWS1sr+Zm4rZJSs2IqsfDDZJ2cAsx8USw0vF3z1UJZyGopCsaKzylp1fgUKHlW/pDA/SI/MscEW2aqfqF9R4Nb6JvL+77myEIo/NolOCLRU3NBOWELUU72SVNZ9xgxu0jAWqsHhWlwKKCbaxZtYtPMxmzYg9534Fw5aD89rg0N+1PeV62LrjvErzQ2VVczj8ZVxsDlPvDH84moL0yc695ZeqNyMi2ijGeJdtLRmus00tnnXr4lLisOtVa76zoqSrQQEvGW4Ibo+SLnReN8U6KzIkUnFWSuD6coZmSD8DR6hYJtL6Kd69vKgd/nCB/mXl+Eyusm3kDJGVN1jaLNa9LlMjn5Y9P/iuLFBBie9iaBPkNJ9K6pZQ8KU1Efux7MHcB5UjUnh/Xm77urihDn1FEu4XJUGl5qqPpZ3U6Cd2eUPuDdwuAb7Z1EAHZL8k4+rCBrdl7xOUVm8XW7BnbzACxk8SYmKxxop2k6abDDd85c5h0gYMYZnpYgSBy2NDj0mP6IE+cpGN4Cu6Uax0PqfE7P4lo4GTfaVvHtpNYbxdDHiluCx4Lcqsf0Gcd44r4GsRUKtGiGm1Fr37oU5GDxKGUWWxrmIg7lwV9rjxX6ExwCi441piEEV0FpDuWyDGUrshJ
+    properties :
+     width : 798
+     height : 56
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : CIW_DOCUMENT
+    identifier : 0x201a8f4113f2ce69
+    internal_properties : CAAAAAgAAABp5jbKo+YJOAbUqxEFCnolkZ85VZpjUG3n+gAWS6uR3/w7CRT15oFEfR9xyOZSODZZsaPW4PxQAcNtNENaGcLud8O9oQAqCzDFvERkLW/pvDndhi5utxwLdIJ2g1YQZjNvuE5Ao6bike0TgpyINXHQu7/k/smxPWppE2DKGlD260ui2ujk62IqU+0ltZUVHzJS8+5JCqb8ZJz4Fe2Qr7HQ2/7dNvdXZ9/gIcZ9+JDg4gZG8ZrTbqFDrVtwHhLE5I+XYnAv0UYLr4qtEc/6Q+uiLDFkL52fkdvsTpFFyWK4Vb9mh99EMd3U1gVoYxyIogzge0BwJw2VzCiMkj007/SACGq0/1PO2mU1ohNMgL7BL5ukCe0h7oLq68CgYvbLqRJjlyO45v2X0ygvmiXuiJu30U9lrUkYo1OR+4xdOna3OSGeIuUXKpSIobY0A/fdr3yyEp1DobjIff151QfdFt8kNq0ZLTK6zCmJiOdUzP3qRTKOqomXXCBULHgd6BCp8wu3D6aywIcyHR0KV65eYmSM6bZrqDBw/I6LiN7Ru+PWXL0NssACq1Hat07JT79UJY7Mp7Tey1vRxJxzQvn9il+fuw/s2i4=
+    properties :
+     y : 56
+     width : 798
+     height : 512
+    controls : []
+    type : 31
+    code_elements :
+     type_code : 73
+     p_codes :
+      -
+        type : 33
+        enabled : false
+  -
+    name : BTN_NEW
+    identifier : 0x201a8f4113e2ce69
+    internal_properties : CAAAAAgAAAD9f49woi7PXk48nLmFQsdSsdNGskV8t/v3kGRNupWe4HfVhFHnSo7EPQJIor8QEd1u598wzf3a61wNCEk5/vA4ieK9DgAbmyq6Raa00pMcwHayP2b8XOU73aYGOWCqvAUwn7MvIrz5bXoL41+SqAsEZqqml5Sq1dorI8Ai3id5E722WLtJ+/Qph3ET0zNgwZ9TzwqfonAZCIpmeL6TWFvf9c3/FHqfX5odshvA1BH5z7qy5QNwP1g8nK+lPQEmZ1jJznNGUm2Me5IMxiggmLUo8FSg2y9a7iIk7Cefn3cHTIje8biUctWiQYWDcYesLAtV5IXIw3Cg3Xt5ytTcWcgyLzH8fp5hTxFzlDfU/RejjrZltdILN/ISwj1ipbZ5y/87m3gzA5s5hzGGwBEA2fX4IyVloNFg4TuHFQrSl+z28rcICjuYmiqImPqSKWk88Ps9q+U+7nFMLL/SlBKjcJzeYc0kzJrFgfSb1JDVDHHt0zPSBamkr2vGGKR7ZVHtBEuvzq8h72qMTbphlB2MvbCnX3zPIFiphMNmxeW3ZH8FEizfAZddmd3bzZ1KdzzEXQCqKk6hcUT+LG3VPK4X5HDzfaJfSwZ6nexoPo2EAC8fyvtWZGnq8qZ2B6mkm+SknMcXv8J7zlQmi5ErtcxEidD3oKUOnaPVbCzj/4dN5EvgNVYZZDkYLAq5imonlQ+y3Ikv1nub1TdJQI6gLGZnaDmCxN39tyDNYvn1usZM+iovuAFGiFqZhCNJ8JTDdoH6na7Rg/UpCLPDpKl3mm+/SQfMmlbZgFa9aPyiRVxouVmYsR3E3BeiSXI50l+qUJDO7DH/AJEWQqaD8sM3VOpo9yZNoaJl2cV+MMcNq/4GJlKjUY+uzNPSCC8S0bMLFnRVVn1HAbgznMCBWIuZwn+jVWwzftko3fw+D14EjztcjkVGXN+lPP65y2WqyeFsojumug53JPWKRhQBwVKU6ajFPgytPrXP+rzfZlg/O804QSxRgV4yJJJAnwDWfac8guY=
+    properties :
+     x : 6
+     y : 4
+     width : 48
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // If this document was modified
+         if CIW_DOCUMENT.Modified() then
+         	
+         	// Ask whether the modifications must be saved
+         	switch Dialog("The modifications made have not been saved." + CR + "Do you want to save them now?", ["Save", "Don't save", "Cancel"], 1, 3, dlgIconQuestion)
+         	
+         		// Record
+         		case 1
+         			
+         			// Saves the document
+         			ExecuteProcess(BTN_SAVE, trtClick)
+         			
+         		// Cancel
+         		case 3
+         			return
+         			
+         		// Don't save
+         		case 2
+         			// Let do it
+         	end		
+         end
+         
+         EndAutomatedProcedure(UPDButtonsState)
+         
+         // Loads the internal window
+         ChangeSourceWindow(CIW_DOCUMENT, IW_WORKSPACE, "", "")	
+         Empty					= False
+         
+         // Title
+         MyWindow.Title			= ProjectInfo(piProjectName) + " - " + "New document"
+         
+         // Blank document
+         CIW_DOCUMENT.Note		= ""
+         CIW_DOCUMENT.Visible	= True
+         
+         // Follows the status of the document to update the toolbar buttons
+         UPDButtonsState()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Open
+    identifier : 0x201a8f4113e3ce69
+    internal_properties : CAAAAAgAAACUC5LII3ll3sq/9RssZwYA+vgzc/DPHJDm7Blmc8vF+9hEQtVOY0yuomZ9q+EGFUAFAMOOMAJ9e5Hh0eYzN12Z4hTW5c7g+8NDFuvE+WDr/VikyUZPBUS7R/i4VA+oyQeZ33uhcBuv5GqCJJdDh3erwjaVSLwEyh9013WUZ6l3ASFOlrb5TJGXBaQx0if8NiOq3LYvo5gk3K7YRPuGA7FZERUl2xp41LcWSE3ftkvgbFGm2NUIoH4YIj3vx9ey9TKaTFYPDLMXCLaBw4fxy8k5kNhmEvF10yTJ+qAWJcEffSCXC2gK0LgEUshOTDIwUdODw0tZrrFr+OydNt1E5xtgQSrZCSJL69D4s1ouAf8ow3LQ3YA/koqVZoZLdwa5+leqKiPW8oLzazcqI3/HCHs163KK5KRRuPPfzzCGhPxDcy7ZU2rvccAvAyNKgakL1WWC5itxqQ25ekDdkYEtn89NH7m4SAjImkP0F4q3DXHqcdBfcGGbDk218v+tlObDFpAI1W1uIsTqXCpFIrK6iqDb6s7nO1V+XzAtS1hJiGRdLZU/CtX05cYQ1UMBGhc8Xby8oKSq2w8sY7S98lu02FYV2fLNQakDjxU2wJ5SLrWc1jaWfSdRGzWJYdLIEuXMRtKTv5379ilzk1rOxeclDkucNZgOb4owVMZIkKzFTFh/q3r4az52+Fpqwka40M85cXThKwJC2AvlHB7D46QxLWDwHBYlQIf1TA/FJg0DijeeFQCm2SIaY5tFNu86XUu314OIEfIc69snzAAsU6agwLs/LUPmUw7a8r1cqgnkxv5Va4BlytqFyooaFWxGdUwCY6DYBs3d2agEYQtHOM0KPvG4c0QaZsuGQOeq68V98/aIIMdyKardvuo+muj1LgeRrFUztRnplvns8dA2O/Tp99YmaHsfx4tpxHJHWzvTBRgm7CIaxXd+QXOKwsxmhDUSK1a+gE4BhOvgLpjJWubAXU2PrL9aB0Kh6cy/7YnfojYb4uMwIyuM2uvMug==
+    properties :
+     x : 55
+     y : 4
+     width : 48
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         sFile is string
+         
+         // If this document was modified
+         if CIW_DOCUMENT.Modified() then
+         	
+         	// Ask whether the modifications must be saved
+         	switch Dialog("The modifications made have not been saved." + CR + "Do you want to save them now?", ["Save", "Don't save", "Cancel"], 1, 3, dlgIconQuestion)
+         	
+         		// Record
+         		case 1
+         			
+         			// Saves the document
+         			ExecuteProcess(BTN_SAVE, trtClick)
+         			
+         		// Cancel
+         		case 3
+         			return
+         			
+         		// Don't save
+         		case 2
+         			// Let do it
+         	end		
+         end
+         
+         // Opens the file picker
+         sFile = fSelect("", "", "Start...", "All the files (*.*)" + TAB + "*.*" + CR + "Graphic document (*.WDDOC)" + TAB + "*.WDDOC", "WDDOC", fselOpen)
+         if sFile = "" then
+         	return
+         end
+         
+         EndAutomatedProcedure(UPDButtonsState)
+         
+         // Loads the internal window
+         ChangeSourceWindow(CIW_DOCUMENT, IW_WORKSPACE, "", sFile)	
+         Empty					= False
+         
+         // Title
+         MyWindow.Title			= ProjectInfo(piProjectName) + " - " + fExtractPath(sFile, fFileName + fExtension)
+         
+         // Document loaded
+         CIW_DOCUMENT.Note		= sFile
+         CIW_DOCUMENT.Visible	= True
+         
+         // Follows the status of the document to update the toolbar buttons
+         UPDButtonsState()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_SAVE
+    identifier : 0x201a8f4113e4ce69
+    internal_properties : CAAAAAgAAAA0aPugO2POLsvSo8ncufZtcydTBWP6BMkEh5I6WUfiXbFAZT8IqkXBiHmqODl/ZzPsFWtO28unaQDY7d3VYnPoc+shx2wnolu+grIWXEkOSnQa2oiu0HcxWO2FVoPHZHBeFt2UMyDpVzvObasEx2dWMNI9vKloF8oPsagqKVXT/ElqlOZJNhNHlHk3VKlklDp62qmbmFyn04PKUlKc4RJnDGChm/iIh9xepj4BYMKWPJ4vVaNRb76U9uVLSeUQNJ07wXW5BfOUyz4z03yIrci1AL6+w5zkxQNY8o0KDGiNISFuTMKmXxLJx33TOElvHtDFPT+iIlxgjMO0o5LIqfhwbjeNdpaYwc4DDqFk3hdbUfBzDFGEs43GxAtNsL8vpk67iyh9FXdIwBviR7hoonnicxL6nVxwIglv2X3E8Pq9JvNJrEbx6rWTHYoLdqgDcxaSpG3ccAVbcDzy1zl6/q5VFko9v9jiWRyXNQ52Xtruq2kKMit/8ez8RTBOFRueiAgRBrvJrWXAtX4PXUJBAOuxm5x4lk65KQSp0SKAMW8dQ2ZVLCELabQF2P2WkflSvKLH7E32xpEhbdP6ok+r1ZQSl6PwDRWYacloLo4gtIKvNrwI2kXAr/YHrnLPOH92oGyEAp5gyadeZptp+NstuakFyjAspaPZTA++J7j+PWVb8/l3av86sgUDMFpOW+v5NHxJXAG/9izhHThwWd4q7bEdjJM1la/5ZQEtK6meQI9ZI4yteMW0Q/vFKKGoPYC8PTKNNyIW6qtQnpgymid0cV1ijAavgLel++x9y+b/ZCLyWwOHqaKGresLxDx1A5ORfyVCfZsZRDCL1lAR5uu9tv8FbtQRJECEP9u8G/d9LAM33ezESvQZovjUjERQHoREDCMI56J//WHHUYIupv4oGqC+Ymer2mp0qwWeV5tQfb6oTdF2gSCbzCh817u8ezXvC5E6tA21EKfa1MNctYF5UPEQ0j8c/GI9WEvip/r4HAB2nwEWv0zDJ3/LiGq3T6kbFIHLHSHG
+    properties :
+     x : 109
+     y : 4
+     width : 52
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         sFile is string
+         
+         // No current document
+         if CIW_DOCUMENT.SourceWindow = "" then return
+         
+         // The opened document was saved in ..Note of the control
+         // If ..Note is empty, it is a blank document
+         if CIW_DOCUMENT.Note = "" then
+         	
+         	// Opens the file picker
+         	sFile = fSelect("", "", "Save as...", "All the files (*.*)" + TAB + "*.*" + CR + "Graphic document (*.WDDOC)" + TAB + "*.WDDOC", "WDDOC", fselCreate + fselExist)
+         	if sFile = "" then
+         		return
+         	end
+         	
+         else
+         	
+         	// File opened
+         	sFile = CIW_DOCUMENT.Note	
+         end
+         
+         HourGlass(True)
+         
+         // Full backup
+         if WinEdSave(CIW_DOCUMENT, sFile, weModeFull) then
+         	
+         	// Loads the internal window
+         	ChangeSourceWindow(CIW_DOCUMENT, IW_WORKSPACE, "", sFile)	
+         	
+         	// Title
+         	MyWindow.Title			= ProjectInfo(piProjectName) + " - " + fExtractPath(sFile, fFileName + fExtension)
+         	
+         	// Stores the file name for next backup
+         	CIW_DOCUMENT.Note		= sFile
+         	CIW_DOCUMENT.Visible	= True
+         	
+         	// Inform that the backup was successful	
+         	ToastDisplay("Document saved", toastShort, vaMiddle, haCenter)
+         else
+         	Error()
+         end
+         
+         HourGlass(False)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_INS_IMAGE
+    identifier : 0x201a8f4113e5ce69
+    internal_properties : CAAAAAgAAABEjZuOhcSDem9wLP61E+y8KNOAQdchLGEUSP0ca+lr0RH0JKf2xNUjkEmQehjhQ1AYaHH+vN6kQprWmN/vlm9sZ4wbsgdEPQwYxh7NfVMvvZ16+uHJ0YuyBVQDoDpidQOHv6c8xeBYTfmGxbBrEnyqz6RMVktuRvvdE7jU2PHfxMbRi0Fl7nInGOG2uHxSrY1xr+AoxhjjfVn3Gltwjabkp2GZ6p6p6YadOi/qiiizxvcmVEj1bNLuCz0U3Cf7plBGs99LAClQD2ttc3kQkT55QOJ+J9X1LwwuYDsVN0JaRza8sLYQsOvl4Lp+WJBGsQiQL7ss2S1TjvVtMPnhb/15PQCYhFqWuBwsK6jXkTwVXhyRmDTOzRucmweb3d8wyTsSn45WX8Xf96vcLGNZ8fw6+cU/aFfNWN9CmXHtoF8BkaPB2iqp7sQR4SZFSSevJvw5lRqr4MmxvpLatSYry5NC58unzUszwvqpkBgGBMDqxGDX4NuKMeSY9orP9He/Eph87CpS/j1BJ7IUR2/hp/+qWGTV1nfnyrZbBR3IZufPQJNOlPStPqZwIqEvhILDOJ3QvzyLt+iFqyN82dpabniNRMrHTJ389oXiWiC/kTvtJuAzJrhvMq8rTViMOeYDBwVW6l5PX9AbShiTm1csyYTNREHgFgG2/iBcV0GQPzcSRh94ElpqABPoWtpO9mKC6pD5xJrESg3+FfCv9TFfBMZXFP7IdTlRrFUpt+RySN3cHnN5epv/dsvLUXRP8tWrucIwZ/de/M25W6LSkgQncmava8F0G1SMofXKX4WBiJkq4bybLMCST+lysoYEkIivLONCg6fxb3AgYZvIOHSw2FkuOQo4jzAuv2wdHIIc8smI5BHohy8E0f2ueo2qSH3lrE7HGfN5u7RhZ08HopyVYlVz52d+lyPZ1Dy/GxlbK6HskNDg+RsKC02LVQyifsBh9rOwK88WjP8D6v2mBl8RvJxl+wqwPR7Nce25/ofTeo5fwY5aTn6IGiHjNUeJJ8oua6g=
+    properties :
+     x : 167
+     y : 4
+     width : 48
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABBNhrv6cfAj0ribwxOLsBbMkYwphHrcv5H0JpkYJerb2jNUSH2jTsPLAeknZ/CEXYXG+EPUsNYs6qj8+xlYX/OQq6oQjme0NrqE33MBPSXPliVPEDC3sBHIhPeCi54E8Uq1qHp287uAaiaMEtmZ4EPGsnPyaQxOhP01U+2sR3OTQ==
+        code : |1-
+         
+         sFile			is string
+         oSource			is Image
+         oControl		is Control
+         stObjectInfo	is ControlObject
+         nWidth, nHeight	are int
+         
+         // No current document
+         if CIW_DOCUMENT.SourceWindow = "" then return
+         
+         // Opens the image picker
+         sFile = fImageSelect(fExeDir, "", "Select an image...")
+         if sFile = "" then return
+         
+         // Describes the object to create
+         stObjectInfo.Name						= "IMG_IMAGE"
+         stObjectInfo.Type						= typImage
+         stObjectInfo.Properties["X"]			= CIW_DOCUMENT.X + 6
+         stObjectInfo.Properties["Y"]			= CIW_DOCUMENT.Y + 6
+         stObjectInfo.Properties["Value"]		= sFile
+         stObjectInfo.Properties["BrushColor"]	= Transparent
+         stObjectInfo.Properties["ImageMode"]	= imgHCWIS + imgHQ	// Homothetic Centered Without Enlargement + High Quality
+         stObjectInfo.Properties["Visible"]		= True				// The control is visible and active
+         stObjectInfo.Properties["Animation"]	= True				// The control is animated
+         
+         // Loads the image
+         oSource									= sFile 
+         
+         // Real image dimensions
+         nWidth									= oSource.Width
+         nHeight									= oSource.Height
+         
+         // Calculates the homothety required to display the entire image in the control
+         Homothety(nWidth, nHeight, 100, 100, True)
+         
+         // Adapted dimensions
+         stObjectInfo.Properties["Width"]	= nWidth
+         stObjectInfo.Properties["Height"]	= nHeight
+         
+         // Asks the document to create the object: with management of UNDO
+         oControl <- CIW_DOCUMENT.MGRCreateObject(stObjectInfo)
+         
+         // Allows the edit
+         oControl..WinEditAllowed = True
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_INS_SHAPE
+    identifier : 0x201a8f4113e6ce69
+    internal_properties : CAAAAAgAAAAmeGTJ9q527maqIOL/X15plcWlpoFxKqoCgcD96rxh56MPi2DOB/AJfu5kuf20Ku7NBGUXU7c3NAepIhCZhiG5KaVBch5DS9+Z491v5nXMhRu9djmq8Sgz0teV2Yad2xt8U5fEgRvorEb5us0PXE7g4now2OA4qpH/XV5tc96unE/PV8mcCeT0FAVrVGuyBHtdJ8W3qGj5wz7M5PWeTlf39/osaSpi2AwoHRZYva7LaiBkUioTzothCbRk6ntWMKFQ52ncv2G92mivIr9ae0OsGm2MdqBK+EmLR7ZjBpqSVinVXf5yicfhvhV0qrNjhYAS677GefsQ/i3+sVpphiBTyfbHRSh+4ADPk57uHAtW5nyURvaT3qmeqkzv57Va2OgEnhJrzKq+++VgigeAqoVeaXSMq3ODDnBpCvqpuMb1TITwTQooCxjo66M81UVpWo9GlFCOz0poliJmuciEhVUzf9AQMdT1kwN83CBi+t1dk+4nwsERGsbdO79dS15xKIb8KaV36fgOm03hAAkIiQ71KJmgAtDLNF6de1q9/gwjxxRF+gs5NybcMS17RqOApO7IYhswwQ910G1lGhSflRXdDAO9QgEr5LB2KmtVg00GzzPze8xgtYf+SdADGcmJerhMRLp/MrHyFCAHMBgd5RZOJ7SbKOVvlVTIWVUMNo7r1rMKGPAjIePJUWp8upgQ3ahlFWcrU9Y6fi/ZXjpmTTvyOOrZIBevMS5819VrZdql/RAFPUc3wmlgpghH8TwxlJGIHcTKQv2ANv/oJNjFGMoXOJ7hdCQvudXnAFqXVv40pEyrsw9CfYYWxTQIS+AKQ4caWV1qlLIMzKCQLZ9vYrkfVfTg5Kl5bxSzFd2syEDe6sCEqvAGs2a9Q09LBGMgdZKTKZw12UCFbbUAop+rTTwqziREj/2XbrdR4WhRNgirtamI5idad69h4Jlzk1fiJkn5O95ZpCYqvBK/Cu3YqGByKRI/UvKjq67azFqVZjVjvJvdKUXJ0Ge7n6bGaro8HX+oXj5FtgcCCOAqrR30RpAtLTU=
+    properties :
+     x : 216
+     y : 4
+     width : 48
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // No current document
+         if CIW_DOCUMENT.SourceWindow = "" then return
+         
+         // Creation menu
+         OpenPopupMenu(MENU_SHAPE, MySelf.X, MySelf.Y + MySelf.Height)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_CANCEL
+    identifier : 0x201a8f4113e7ce69
+    internal_properties : CAAAAAgAAADayjL7x0L+GkcnLoLC0P5EZEcAZYrIeeF7V5dms+GQl0BLoYZAc09p8K3XZxAi225+Tysb2mlVWrVfEcY9uAeaJ4A6DD0YxeV7+gagBJ8w9IM3rcviEbKdsDk69dm/E/u2UxC3VKm7D0rSmF9fq6w3f6V5xZE2prcgCRgZ3EYW0Ij2dCfvs/NDrwdgEWsKIN0eApiaLUwzS0/EmZdzpEAuuNBedr0jZpRdwbIKFYiEIXEYZYdZtrffbxIW+7Qkrmd+MRRObX5BlUAR0AyYCikHvTgeO3CR8qswUBMZ8fVM0F7ioH5wTGv8evpQNakyK7QuoVlmAgIEmhArEpBszVA5jhMp+w3ldwKVA+a9P3Kc2Thxw9zZaV3qNcqRfBL75+pu1eO36n/nC8/4m9NFyuMJ7+ThJnvFXkQm+ipWEmQkPw4Yy4Wdw1Vo60B8WkUfn6N4WrOsUjxXFL2A9bG96SBVSvFJaq4HbqQOi6U8HXvawDx83yxkaf+rTe/BbV58BIyquYgAUhmPzES/CZ9kuht+4plEfjLAsCPNAvBuck5iWtBRzOWRpxfCzFPKxXPkBjSS9cf6rp2WVf+zs5z/20VdHInL55isIRU3DCfP4YAEQH80Wq9jaGWfPPfy15JeqDAyNFp4X1zV2+NLDMgE3PzN8Vw0A2mYz4+j3v0wgV1XrMZ5KxKu5ORarIVAqGpm7UXQF1+Hvmrz+/4d0kvDkEImntrL/3aK9QWYGYAW7K0ls2Eo9/culXuZWjhCE5RAG1Kr0j+FU4OiLaw8kgzA7oIN32K3plb9sJFlwpxliBwoil3oabursqYo6Nx9nNq3v0xylwzIVO6+ADlSebxOHLhQFvX06XtVjFgutW7PcpmpH4GirxRGEs/4hifuzGKuIJkqyT2mzAW0VGKEhm1Qu5/k/nT/UKgcvSgXsz1nzS0NDOtjK82oB81PEQQFvsfJL8LnHobH50L8dvcMRxqvs1mHqhdUs7GgOXtAoab7fsL6N/Jmntkc8GWBl++L0Vt9yB0CFHirbQ9RC7F1Bp0=
+    properties :
+     x : 270
+     y : 4
+     width : 48
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // No current document
+         if CIW_DOCUMENT.SourceWindow = "" then return
+         
+         // Cancel
+         WinEdUndo(CIW_DOCUMENT)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_RESTORE
+    identifier : 0x201a8f4113e8ce69
+    internal_properties : CAAAAAgAAAA12wv42wDMRe0vsxsCKGiiVusWh4aL0psaCpjAQyodcuGYWB67qVmlTB43U7Mbs96aAbcPMWSFQfFPrIjZIlGGJcsOUVy42t8T3pZ0oia5QofW7V++LxvPhZHmxqZ7DkpRyeAUZlq6MRGbwjxaIVX7X13f0tdLFizrzK0vsXtyFQUGiUQAHteoTowR+8XcGbc906sR2IoaRnudq227LKhEQshShBMzdvW/9eOpdTF1lYSXWdi4yygMJolYo922Ot4r88Emq5XCKnJ/eKLVAK7jL7y2lpoKjIGOqZAhMPfhSLDdCSzzXp68g9k0T9ysv9Qfvu6Ia4AZ4Vra1XACrPzBcG82JdqVFfTMhaixCHencDWb3ptlMv5INkSxgNkXw95JbQ9ssn0lmGJ8hQVPiWLY0n120udSIVaPL//ZrYIjVxqgLKw4m5o/1dNbaweYdteGTaIFz2VEXMD2LEnAG4Z9O42Blpif7qdVXrQcp/lQ/SJVG5zicXhumeCXdjWi6iZqQlzExzYaxWCcE7Rv8z2Sbc14B2WpmdZNpQQHl11g0n+Jdj7mBgpjMKZMyAhbLLTpi9NFheL3oKsqObUMugUrSXe9eCWbqBY7Jy9iCB2SsEhcTCwivcrm3CBMHCkD/nSVjlapGrU6MiUeUM09B1qJxnK8OBwpYowZ6dtNhD7nprVH3Vcvd40ZPMpEHY/dK82VUyHuc4GklkqMRux2Kegem4S/eLlz8JJ6HPxjOdxF2VIWRWqhHnRk9IXIwF3zi7SmCiPSvnR57g4dXi05ud5zCBinAbO0VUA/Tz4aTzlGyr5ID4jkrQVVvB3hM5NC5ex3jbwhkYXFNc3Lt913N6QiH+HsEii8201Acpq0BxCD+/5KDwUNR+phALjO0gDcQSqmvBIq2jPmpBvKnauitWpfbhcqOhR5t+4Ooeb/Wd2e0RMwPq2qwZd9+OYwxPlTSEfpKR3BVei0Woje6nSgphkFHdMaOownpRyb9vWA3rzRv7S1FYe+MkdqS9a3nWPhP48fJfVgXwlFXdc/
+    properties :
+     x : 319
+     y : 4
+     width : 48
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // No current document
+         if CIW_DOCUMENT.SourceWindow = "" then return
+         
+         // Restore
+         WinEdRedo(CIW_DOCUMENT)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_ALIGNMENT
+    identifier : 0x201a8f4113e9ce69
+    internal_properties : CAAAAAgAAABzgaN09bC09zBSp6Ild07nUBJoG5jiJt/Qn9MR3v6SltNFwIg9htjG86ugL5OY/sx6bKwkPKIxwLRcC6zxkuPfqWRfSKPWtOkE3vBdDV8FV4/eAElf7PgZzPcZ5SSdApduUi9nT3LGJupwcct/S241qtAaeVVj3T7sPI2iF6LhLUkMS4V6f4hTSRBo6FCSAxcEPh9JeV4ch+0xEVyLYQ32ORFCz1g5L01tKEEWJgiTUtzdXXyyNBzQo9UWVuxXGajgoWigagAsmx4dmBqU/XmW6aUzzJOGUO+dxMMO0SN9IPmqbdMDArTgQ0i7r663tmNPCbN9G+2vdUGjc1XZnO0RXCS0pRQvbl0yNxsV62pzxHsDsbDzFn+XymP5YK/5cyrUrrFXAVv3WXWGaw3MR0ns0WZRpaLgls1S14YVp7ttHRpNWlhR5CHkx5LJ+wr3i0JyMTtoEDUQOEHahvzo98ut/XvVBxyLPPrSSE/RfMWlA9a0O3cGbxvlbZW6tYj0yzvjcBuzhpQ0Ty1M8+iuXeIrrselhJDzlXISa4yDds3rTaJ5Hx/hWAob674AoA2NG2NEodg6lBpfoCY2YRFJhCTiLuVUTyBNStDc5TMCzw+Jd3n8tZ1bxWaSVQyIDPL/D0UKlk9yN8NwuBqWileadXkkC5Tfq8nDtoBCkcMZU94c0+6TcKLeZ4vn2aaaG7L9sqy4tTBN5vHCDNu+ADafcbUv6tBMyV4dVugz+EphJnY+tuU2IKmalpS0N+nQvHwlFvOv+KIlWQpZtonFnCPQawEqj3AwwnJUzahAgTZexF9tKV9kyoufE1Nzr79LFbasuB/SKRs46PmXZy7bVUuCS5eF3JmLHS8MuVNR9LbsqOToNJce+JbsJf6PA7CA/T32MHexBKzyUD7N3yTxSeshnxd/JSAgZcwebBwB8EUMfGHq0+FVmtRcabgvM4o1bjW0nr5elNPkpAXZVVZyEHklz2B9dDdztGEO+P3D0lm88Dxe8Qu2f6HfHnIc6c6KUN7F
+    properties :
+     x : 685
+     y : 4
+     width : 52
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // No current document
+         if CIW_DOCUMENT.SourceWindow = "" then return
+         
+         // Opens the popup menu for the alignment of working space
+         CIW_DOCUMENT.MGROpenAlignmentMenu(MySelf.X, MySelf.Y + MySelf.Height)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SHA_DIAMOND
+    identifier : 0x201a8f4113eace69
+    internal_properties : CAAAAAgAAAARmTINWd1zw7j8LNVdn83K25oaTS4O9dX6HfUPcQBTujeT2YN5i4DlfnFqtML6R861+jBCNmLh+hsn1cVVnhW+COpEIdCzFEBlDxHug5IipMhRcrkSEDAU3rksS0KwwNVbKthOuX2oEt3AVfsnb9enDRDWm9WUPs+uRJhSgFSpl+xWs7vTIQGv9kA/lPSMDMbloYJ8X5x0abviNzXNL6WJIVgC6cbOaJKXCuXO/bB8nUI78day90NV3Rw8i7bB9Yx39i7OdQsTMChZhSCTz3sFYELQK0K0ryAGe1zzzdqrB40SFMH9TI5IdF96dNK1CAIBVmVD7jBFoyd0TpD5HJhazcjpgcyT0SRZBR1+R9SPETXXZg1/PLQQVk8js8mWPv0=
+    properties :
+     x : -146
+     y : -44
+     width : 100
+     height : 100
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+  -
+    name : SHA_RECTANGLE
+    identifier : 0x201a8f4113ebce69
+    internal_properties : CAAAAAgAAAB5sRr1ocEf94RRm6qreU0TzYQ8N1j4Uy9gBx8wkXDj6ufiNpljTpef1Av7cBRBHYGVQzMuIN28oLRQq+MP1Obq8Fj8L5oC04leFS1UE6SwcbacSVlr/VzOG9hn3isrdaA8Gib2go8JIokafBl8njSuuiepMJ/OpR+PpElJtDWDQ8rZxFhShsmPxt3/4vKqdXPzM3S27ZocgqFDioggvDbeddqFHwMXWfBB9oNuuHwsJbg70Q3YlVWVf1E7gkSkk6SgNv2Lev13+q6fURwfayJgPTcxSqkFEIc9OqpNZzAd+YMYAqu3ynqy58LZBakWradkMQzUCOqbGYl2omSNl85g01Zzd5pt18oTTzdEDT4liy7IVcYhA5RoxqeLa7G+FtU=
+    properties :
+     x : -146
+     y : 60
+     width : 100
+     height : 100
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : SHA_CIRCLE
+    identifier : 0x201a8f4113ecce69
+    internal_properties : CAAAAAgAAAA7c0TnqzsVwZJD3RTlb0+tv64+kYKaIbHWuZGENfyino2gnAfbXgu19LeHHDi1Y+H7ke1wFFnENnj8sx97uExahn5a3b7eS4vifXn80wSmEZCuy5vNA8q6rbKVsCWBhVasShZe0E1H4ldU8i+6oKA4av+5yL3Ug7NV+lMLZmsj0Z7loJT8WIu/dBthVCzw0U0q+k0VrOvNF6iag8dlV6GxjAGuZrqokq1ItTStxfd34LOubqD7+hraVrCUeennjkejwQL+NdZY94m6hsfMplkLqBo6cbB6iXzgRaOEXPOULLa7s3p2D+MzBqHeKBZBSO4PZC2Ll0PMzlRBC8MuJunPdixFZahv1cgdWdHy88iDdThCz1wPFaJ20LGFcb+A1Bc=
+    properties :
+     x : -146
+     y : 164
+     width : 100
+     height : 100
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : BTN_COPY
+    identifier : 0x201a8f4113edce69
+    internal_properties : CAAAAAgAAADTklS6wp04GMOmOAWIlfrhnsT60FZJX6atJvvxmVJaMA6PLD6V2J9K6u19ZByxw5auDqF6V7pxDKPG8zb2fQOlYGdrDK8QLZkffDaXAdH8yXQKWpFDdwpR+lr+SvzB9JWtMh9pk0UFpDwdKlt301u+HO3T4mRE0ndCuUSa3OK+RiTepqZ9V67SIUOuU03PWax9BO4mbMcruHZOOEDKNRv5O7bdtl1wjP7OZLIMuoKuPdvteeKNIBWK7AUpEWg8l7AY1Ls3E6O41/9ueXfr/mckVtG9s742XaFQGrHH530SaEqeJaSyslH+O75dhT+aJca/2Ml9HHUR2C7oxEYekFx7UjfEmyvTq0tOu0XRB1VP9HtfQKZTBGQq2b4dkrSQ9sV/l+rh+z62b3kwf8zGtUgglrIGtvTinLSWuuMTt5MLdl1C/E7K2gN2/4WUYV22soLvYReE6FV3bmL6nGWRGds7FTaOuoy1qrKG/6Bsg99QzmHE7GbBUCfqJIsus28jWxjAbA6PZr1lNrcozyWGzMWoE3TM8uD2qglqSdqIKKS01BkwvLeBA8devQrM42u4+hzJnrPe6gVChSrEbTSRzRmFCVgxFUIm+0NC0R0JxYioMHJtXP1ZlmNRQa4kqaiMVr7NsQga/cqJE6RqtnCgpIp7qKFScfOikRUgDbdit+N7DOsYGxCuAFr0mbAmuhriCUWfFD33AsKbJ5G2EgWB/oA0IyknD1pCi9+l5DZkfFk3bU6/A5tIFzMVC5d+JyTE9exuB8Mdtb34n7HrLLbw8rYN2KE3CvIFaIWijVCjKBAMmmi11T8VLEyqU6UHbijVzwBljGhsnkC6QBpZ4yzk0jzYzTJ2YfU/IPgVYsytfslFd+pBMYLKcl0qW7LKCx+p7ZCccSBbMyqJpYZiA9aTbEJCgxg801Oap3nTwaTqDIqZQx3fFrQJcg5SE/RApeRA9HE5gkXsAsvVlU343HOHMV6GOEPCbLx0WSeUA1y48NQyhTkWodxTJ2/DaK+WrpJK7VilN8ah
+    properties :
+     x : 533
+     y : 4
+     width : 48
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // No current document
+         if CIW_DOCUMENT.SourceWindow = "" then return
+         
+         // Copy
+         CIW_DOCUMENT.MGRSelectionCopy()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_CUT
+    identifier : 0x201a8f4113eece69
+    internal_properties : CAAAAAgAAAAkYJfu14JOm1bkGf0FU0OjkfCh1yg+9X5miES6jjolBZ7J3kAAEyuYg3hOrwR0tjifuqrlyjUsd/0QWGDAPnISNaHS+M99PWQX5JtBwmy4j9Pt/sqvPW6m1eHC+h7JcSGe/el/fT7gt5L2cRs027TcrKG3pTioGaUiUM4IKpotbsh0jmdcVkZpZXuCr68E40qgcJnrQ/YmVeeXFzcfII6R5L8PbsQAWOMkTlvqfLrwj7+Hlltvczi8OiK9eKFqy1DNr6xUTaasPpp15F/24EzZ01Kgf924pGUoax5xJoe7bks1BdDRMH+oWkHgMfbO7jltu1KtLqjXpG5YbfSl5rZt3VeSFTCkhHJxQ5QEWXhUziqlHoDm5CZKzrz1Zz7wFEqmGT7hd8ft5KSNlvSYxMMe2UXX93e4c7CEEHgAnDlouV0ju+k47yYqXbA7YiaTmSyqcVgOK/dpCM9Irt89cxNm0n+TOCClVh2enIqYe1Wzezs1koUq0OdkTDCeh4iCnl+bqoYK89TPVqJqre6RrWxNUflqAdsnKNEvr0bh5RvRE8kF9BxIqCOonmzgGBg/35MNVyPhvUagNQesmXlmBNYEk3GDBlvhb2HRkbv6LPVXjUisOJSefS9zWrrWbrt14Qet+vIhsANh5U/e1K0PkY+qmmK07KxdifPJlW8lNliQ26VVBROdLTqWmky8sSsFBO4N/RMQ/WuflS7ecB5sF/HXE2ij8HNVS5Xi8PYdoVi0tO7Y72yDeKU9tgFWpjsZiP12VNnI4jTkWYhZUiVDu3n+mOY76RkyOo2f8yoavWcvexLa+XrcgZayHMd1Qy+iEJux8dQtwbHcrJMRSXcZkQex2yUAOkCAQkhIfPwuX8wq7gRyA421mxMGAhwOgTEx96Mr/vxksxAlfUN9J5tLyVqJH1WFmCBU1iOc4pmqUkgLjm6bPY3iY0rOVJ0FQdBseOZMeAQeuezBu/ISJJ0RmC08rHqX3vMNJMdrOe4gtqINLqVsWq5baiQpYWuHPdJMREsxNQ==
+    properties :
+     x : 582
+     y : 4
+     width : 48
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // No current document
+         if CIW_DOCUMENT.SourceWindow = "" then return
+         
+         // Cut
+         CIW_DOCUMENT.MGRSelectionCut()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_PASTE
+    identifier : 0x201a8f4113efce69
+    internal_properties : CAAAAAgAAABcl/r7l5M97Ohj27zHBu7+HA04DuJLKLkOSf78pnezY6JmSrK/u1SD1/2cTEVSep/4d7EaJo+ReJXVKRi9RcOSL/bg1WsgW67Cfc73l9uxdM8mOfTRgbFIzjyT3mFaSeByDIxA7pcIYCWyKoOcNTHlAQzyIfx22MYxXKqQCNZ4o3Pp0a9hxBBYAtpZXkJ2w3Alg9kulTPe+m/kx9IFTYLZs5+BliuZMYVcHmQ//UXDwMAEGjYkG1dhp2bLvaX8/Y7KS0uYEdspxgPBDygUgNmPBM0biffXJz+NTGMTKoKA9EPtalSX/y/HWwwxcYybha6b81I+2LS0xkGaX+NSPjHj4Zyk9L0dVQcGj3JSmnkRhA4oClWB+tVsbn8xjZ+Ubz19aUF/Zm72T3deNwKj5dBWebuzr3EFZMZdvjaAKLofDLEVxw05ip1MmEn2AwliMPx+VG3Sm/xzL2A0RWvIARTh/wiGBEUzjQwQwqPw7MHhUdYuYiPiS3HnOl7JXQwEfgPXLS9GhJzryBfb3Mwkzeslt/pzQUgdLmGEiGfZznEkh0Pgp/IhbIu2Q4ON+tkdMn8DVtTpVlYE0+I3FmtZ9AM+kxA4KmYvpZl2slg8h3f4VV5LW2z3daNNay9DtBh5EDkJE8Ppu1fB94pTY49c1QS+hItncPnlPe1aBpKLS+C19+dCdLsk+6j++UPrt5RpZ9RlYPhQDo0JMbkxJ8qxb+Jd45NuGpTZu6vrNU1trMDp3obNjEZ69mNhJdKD3hRzi+NWoZQyOXBUv4MkkSlcVZpMQN8wPXBGAlNeUtEuxtF+Q6BrED5dpSZI4zD0GyJukftnyA8phBv+gKAAsFNQFzSt+eibdGvwdlJZ4QtEMjal+u4HrG+QGycxNLSqZQlH3NT+fVfo6QP05un1xPk2OLeOzOb74l0UiAUFsDen5AOg+qWxReEBO2yMUw9qIMfYx5obd9cYcRJ5egjFaznLiSANQCxTPpSadQmqHlpBADNgpIhzgP0lR/EdZpoquI+PZiNjTd0=
+    properties :
+     x : 631
+     y : 4
+     width : 48
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // No current document
+         if CIW_DOCUMENT.SourceWindow = "" then return
+         
+         // Paste
+         // Via the button, paste at 0;0
+         oPoint is point = [0, 0]
+         CIW_DOCUMENT.MGRPasteFromClipboard(oPoint)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_STYLE
+    identifier : 0x201a8f4113f0ce69
+    internal_properties : CAAAAAgAAABX7+yL5AVW4TSjXG8q4L1Set3t/2cMsNMiWzi09vUXwt06oicBZMLKGj3UdiRE/hXe4PPnjt1etDnkSpo30kNxZZwRBIZPtW2REK3l5jTAaU94daznxgY91v58HJZhVYm6i6gUOUsU5mwZl385kRZjbO6rNIGYTRrDYc8Q2ZVmq5wboDfOMyR/h/jAp9p46VQ6UonuN/zbUNSwvHpGdQgvR8Nv2xZsLrto5gceq1xpocRpj3zULr9CvaNahmBZivRpSK04Rjyj8Kgo5vkgkO34+yyZh2pEHiVB5QpfCALZx6k8rwpl8mnYDsrNKMKy5nTOBUwJvDq06jatBfQppiyfvF55lRrk3nhXR27F1nDsnBW+Z8ik8E6wxT4miHjJflFrzauWgcTMz6fxYfkUwe8dPtA6n37XHP0ISXGkhTaW6Kj9PLzSmp5izO9om76iBmBPFZGlNhe99cUlPWAga+zGf7RxLf81Lla1F3euZyefMNjG+bzyhrUQtkflOuRg9ta9/LiHX+QpGeO6tWR7QjIs5F6q7eYoYMbpvCjsOlfgzIWxJgkKb5wdjAv6g+IITD4ldH1aMwFpIpEqpblB5rpfQa99anFxTVHOttcsVjDjjm4fgnKfR6OGaACyNFy00ZYVfrLZcFi37d368e8H1REY5rMniziq1T2JVCAP5JPpIuv/cfvKkMs9mVkrVf8UMoR13PQbiHHqSBfOrKYUYgwzfojKtnloJbZWI/A2iBIi3mrFeZ6lc/QgEqNNAcAs63gOFWSBVWvLSWcOMnWkqkmQttvYgF9EYluqvBuAvUtzZpvzTXLelCg804YVg6Wq1LBpagD3dgTWxTdURfmv8mSkIyyq9ZTtPK6nnkULiRnHNvWEbBphpSgaVuGNuOpr61X0ZdPsc1Z7gIMZOOgQtuVqotQCi8xMBP/hrW2S10gUtIkURa+9oZUf1UZNOrcg+9GuWLYBZY5mhM7ahxzPUHzskU6xrunn7L3dCC7c3dq28woVlNRIEw==
+    properties :
+     x : 739
+     y : 4
+     width : 52
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // No current document
+         if CIW_DOCUMENT.SourceWindow = "" then return
+         
+         // Opens the popup menu for the style of working space
+         CIW_DOCUMENT.MGROpenStyleMenu(MySelf.X, MySelf.Y + MySelf.Height)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_Press_CTRNL_N_New
+    identifier : 0x201a8f4113f1ce69
+    internal_properties : CAAAAAgAAACPgxT4GA6m/z7w92aCKMmP9X9N9JQYJWILoSdpEsdEB3zPFlX4a8bsGlWuyl1jBj4hVqJ2i1llUIf0llVqIr+gNLu/sdYaRHvDiqcutyFExqEJli2kpmRTFzfjZg69L2tGvUY0NWtJoOnmQ09clJVgE8MtAH5ZlWC7YBDFu+gNeBt9iW94VF08qvCGUEkYBTQML77Y+2X9yLD2o5KRMa8ZKA53W4Y2b1Ym+GdiVnunKNcGjiS+lPZvK5d5Sthz1rhM+O4yx2idOQSA9m89S7TLZNrQYJl3q6DPpKBrnxTltdE9JNSEJyXZYi85g1IweUrQXrgkZG0Bnz40YxepjqD8xt+wFeN+0MKMZZPkruA0pNKCv6eFwtA57aB4CVMKsj1KDmED3XsXqWmNU+YOPipiOOZU0nb/KXGsgX7Ltr0v+p/W6liQkA6NcmspFy2iPb8X1NFfe6KZPLXru3TMXGYwUtAvizx+LzRldzh9t1kJNxRG0fwI
+    properties :
+     x : 310
+     y : 268
+     width : 178
+     height : 33
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_ABANDON
+    identifier : 0x201a8f4113f3ce69
+    internal_properties : CAAAAAgAAAAjfGbSyuByj/8bwvYAAJHm24tUYja+Z37pVUUODFuj6xoT8n14OEfQzx7EqU/lK+t65lXhEpfq8mrOquK3czBcT2MF7uF02AhSFDWXh8RxnAzQgNEGZg3ZOsensFmWKdL0ufN1EDbVk9RE9I0MpLKvxQqKabn2ybB2zqgJitn06igBbpD/biJCl4maYVhNVe8aUshqqshWPe2B4Eumc7spGXhcIpNWbvrGLwR7ai/R8iVMMvbpGCJAxBFcLu+WM1QYoXikpj0uVTn0tScGdriUh4Vw5+9tnj5xV73Hql74vow0XjNI1a4A3OCKCTQibTAzYFzmaRQLJmSF1zixwnFvlb1UsYOkORJQ1IT5zrirBe+96d1N6tn3hwL53g+SEpRK3STxwp41Vobtn3dZQTbrRODABvbPPosjIdkp80z6HPWO8XsBOVl3K3DakWzP+xScQEJEty7RgRU4zupn4wEbpoeFK5NbeZVNbSEFUq93M9/RcNkrWpOb91/RAy2xG4vZbZ/tMwZ4CtWMhgWBaoxh6/J6onGStBdhethyAVHjhNA5csjzhIVf02JC1fi1y0qCdviwbuahewX6dLah3YCq/WwrE+LDaZGtvfJYYeAUdW7BunUubWWYpKAaqHnDN9mHXxI5VZxqeE4PCa8Jq/92GDF7q7+SUX4BHOd3sBc=
+    properties :
+     x : 6
+     y : -61
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // If this document was modified
+         if CIW_DOCUMENT.Modified() then
+         	
+         	// Ask whether the modifications must be saved
+         	switch Dialog("The modifications made have not been saved." + CR + "Do you want to save them now?", ["Save", "Don't save", "Cancel"], 1, 3, dlgIconQuestion)
+         	
+         		// Record
+         		case 1
+         			
+         			// Saves the document
+         			ExecuteProcess(BTN_SAVE, trtClick)
+         			
+         		// Cancel
+         		case 3
+         			return
+         			
+         		// Don't save
+         		case 2
+         			// Let do it
+         	end		
+         end
+         
+         Close()
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ popup_menus :
+  -
+    name : MENU_SHAPE
+    identifier : 0x201a8f4113f4ce69
+    internal_properties : CAAAAAgAAAAVfQdFONCtKIqZvbc/+31ZEGbbQ2hSWPyQapBJANqIkILZss76w/ZbQszlyyXYbZoAjzfzgiH7eqzVqGjngpfLbMt5pStn5ZmOnjmzkgfqjxEWZBktTnQQZTeKractOgEWjr6Bl+K64Ybv6ZS9FOgevwI1FiUw/jHBmep3acnxAFOiWaIBD8oNmCZHENIJAWECGGk9nugxDp3ta+E/KLCrJ2NO0pa3sqZ4rlltvD/sOZZR7fbAdlSUw1gf/WdTEEJLTXonc+D0rvdE3FVp2Er6OUh1QSOehg/T5yK3DSixbI2okudpwBftEk0N1TBGVy5IgYpo4KLAwqGSygHWeNyYDQ310POTQF5eh3weZQaNRdl8OOJCbBGs3VuPoGks3kGtscbMYTGG
+    options :
+     -
+       name : OPT_SHA_RECTANGLE
+       identifier : 0x201a8f4113f5ce69
+       internal_properties : CAAAAAgAAACA8o94MzKQLRjYLwRgQczsHj6kqqMzupOyII6T/eSRxBf3IOrxJDJ8OgbekHBz35U/KS/ML78+hK7P4HgDZ2c/LatwC9IbWDfIX7VK9MSLkZuzqtU1WAUNdcHnkKYDd6GYHNOfgQAOQ7oCz9jqQdpktaI9d+mpXe619KUY0zjXWEAVgDLkpd5VJXruOkRheC28VZJBkL0tUqafoOpsSkaIER1sLOTh7ZeWyIsK9FIpBI5bXYvvqYpFuVc3oEyZoivcDi4u3srngYmIkTUlBGJOY9JgvwkLJxPR+UD9KrRg9w2r0j7LwAR45gLOvO6bmtxXIJazOlNAL3dekSJOcoDDkIaIYlbzcjnkUUsjMSVAR/FMn/fJELcQOaDnoIIsDfN6VHVC/zfoDY+lETPN7ElHh48=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Creates a rectangle/square
+            CreateShape(SHA_RECTANGLE)
+           type : 32
+     -
+       name : OPT_SHA_CIRCLE
+       identifier : 0x201a8f4113f6ce69
+       internal_properties : CAAAAAgAAADL/YgqTOInCH3cxIdsWJ8b63IfYcxLr+KrVeaSxLdDy4m6xizMrkdWeSKGBehf9tfBP2X//n8LZxZjahZzz21RQ9d4cAggehUiLD6YaD0/KNDH0bQ6qnkoIKzmUh7FcvFhUrIOkWmScjcwaG1WZu47tkMLLFrWVvWgjkICtRjhxudkO16JQch8cf1oXTINFTjfnJNFo9tMwFApeXMZfORn/TBZg3tgkgHjigAqHKX2ZAfkbivtzHEUXPpPQ4Y4yi3wemwTM/Czl3p6vF/17Tv9YJ5vyc3HIHRNvOG5k6tvsvsRyAkCyEFdwaa6RgzPpLn17XnPA1zuavupXXig749mj03GySHB00FYxE5EUsDTb17mHgebODwa1BSqirj2HkbFzBB8W/F7kc1GF4w=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            
+            // Creates a round/circle
+            CreateShape(SHA_CIRCLE)
+           type : 32
+     -
+       name : OPT_SHA_DIAMOND
+       identifier : 0x201a8f4113f7ce69
+       internal_properties : CAAAAAgAAABk3UaVCnEu2rY7FuqNAAUZmzjy/LC0u1KGPceyD/8xJgaKd9sBPfJkXm6J7Y52SdHp5VcOweR08wtKmQ9iPH4QS9ppwx3gi5iXnaHO72wSuJ6JGojfOmTE2iZe51cAtQIwGKyfHfw4tNYmms9RXxInnV3MPoZ31OTu0/4gzRcsUtl6RGbXUqD8zUcHMDFyhUmenB4rlDmvsONN+8/UEwf9c4UXDAqC8LglQPwuRarnxhHl5ESNc3OdCnduJMxkAG7zGkNJwijV3twN5XKWWlQBpFcH/svKhQI8fE0B6coOgMmmRY1ZKWjeFEi3RzssaGdjbd6EEptBiBe5gkfnIyI2PsE7sb3GlxIabo82F6uCu3HwfLIWtGlWOIZAvDWD7YU7l2UQnnfRazN3nFH9yXM=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            
+            // Creates a diamond
+            CreateShape(SHA_DIAMOND)
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - en-GB
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      procedure MyWindow()
+      
+      Empty is boolean = True
+      
+      // Loads the internal window
+      ChangeSourceWindow(CIW_DOCUMENT, IW_WORKSPACE)	
+      
+      // No initial document
+      CIW_DOCUMENT.Note = ""
+      
+      // Disables the edit on the internal window
+      WinEdActive(CIW_DOCUMENT, False)
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+  procedures :
+   -
+     name : UPDButtonsState
+     internal_properties : CAAAAAgAAAC3XIrAPU3dxPS3WxkDu16ghzngQkY3n//yPB69+saFvSexCXAjzcjwZ9qr/VJEnJMZ1hdqI56Te/uhwUjUNetJRbkbbmf2nzGQRwNuxHR+s/GYxdzobDQZWAVDZ0KDJAOh0LL4t5DXXHw3w7sTLQ9H0BZ6/Av9+FA/blrt/Ss4Ow==
+     procedure_id : 1160397363367956073
+     type_code : 14
+     code : |1-
+      // Summary: Update the state of buttons
+      // Syntax:
+      //UPDButtonsState ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      // Automatic procedure:
+      // The procedure is run manually, during a call in the code
+      // It will be repeated in loop, with 50 hundredths of a second between each call
+      // A new timer is created for each call to the procedure
+      // 
+      
+      procedure UPDButtonsState()
+      
+      if Empty then
+      	
+      	// Disables all the tools
+      	DisableTool(BTN_SAVE, 
+      	BTN_INS_IMAGE, 
+      	BTN_INS_SHAPE, 
+      	BTN_CANCEL, 
+      	BTN_RESTORE, 
+      	BTN_ALIGNMENT, 
+      	BTN_STYLE, 
+      	BTN_COPY, 
+      	BTN_CUT, 
+      	BTN_PASTE)		
+      	
+      else
+      	
+      	// Enables the tools
+      	EnableTool(BTN_SAVE, 
+      	BTN_INS_IMAGE, 
+      	BTN_INS_SHAPE)
+      	
+      	// UNDO
+      	if CIW_DOCUMENT.AAFCanUndo() then
+      		EnableTool(BTN_CANCEL)
+      	else
+      		DisableTool(BTN_CANCEL)			
+      	end
+      	
+      	// REDO
+      	if CIW_DOCUMENT.AAFCanRedo() then
+      		EnableTool(BTN_RESTORE)
+      	else
+      		DisableTool(BTN_RESTORE)			
+      	end
+      	
+      	// PASTE
+      	if ClipboardFormat(CF_CONTROLOBJECT) then
+      		EnableTool(BTN_PASTE)
+      	else
+      		DisableTool(BTN_PASTE)
+      	end
+      	
+      	// ALIGNMENT, COPY/CUT
+      	if WinEdSelectOccurrence(CIW_DOCUMENT) > 0 then
+      		
+      		// If an object is selected
+      		if WinEdSelectOccurrence(CIW_DOCUMENT) = 1 then
+      			
+      			// Retrieve the selected object
+      			oSelection is Control <- WinEdSelect(CIW_DOCUMENT,1)
+      			
+      			// If it is a link
+      			if oSelection <> null _and_ oSelection..Type = typWire then
+      				
+      				// No style, alignment or clipboard possible
+      				DisableTool(BTN_ALIGNMENT, 
+      				BTN_STYLE, 
+      				BTN_COPY, 
+      				BTN_CUT)
+      				
+      				return
+      			end
+      		end
+      		
+      		
+      		EnableTool(BTN_ALIGNMENT, 
+      		BTN_STYLE, 
+      		BTN_COPY, 
+      		BTN_CUT)
+      		
+      	else
+      		DisableTool(BTN_ALIGNMENT, 
+      		BTN_STYLE, 
+      		BTN_COPY, 
+      		BTN_CUT)
+      		
+      		
+      	end
+      end
+      
+      // Disables one or more controls (style rather than ..Grayed)
+      INTERNAL PROCEDURE DisableTool(*)
+      	for i = 1 _to_ MyParameters..NbReceived
+      		if MyParameters[i]..State <> Inactive then
+      			MyParameters[i]..State		= Inactive
+      			MyParameters[i]..Opacity	= 50
+      		end
+      	end
+      end
+      
+      // Enables one or more controls (style rather than ..Grayed)
+      INTERNAL PROCEDURE EnableTool(*)
+      	for i = 1 _to_ MyParameters..NbReceived
+      		if MyParameters[i]..State <> Active then
+      			MyParameters[i]..State		= Active
+      			MyParameters[i]..Opacity	= 100
+      		end
+      	end
+      end
+     type : 458752
+   -
+     name : Homothety
+     internal_properties : CAAAAAgAAAAPmjo3Cwbow3PBobCzogtEEGXInRoTa+/XFJ9MrNa2bBy0AyDKvbyAd7hPxzoKpFOQdsaRLo5axdUADA==
+     procedure_id : 1160397363368021609
+     type_code : 14
+     code : |1-
+      // Summary: Calculate the homothety of an image
+      // Syntax:
+      //[ <Result> = ] Homothety (<rIniWidth> is int, <rIniHeight> is int, <rWidth> is 4-byte real, <rHeight> is 4-byte real [, <bExtended> is boolean [, <bWithoutEnlarging> is boolean]])
+      //
+      // Parameters:
+      //	rIniWidth (integer): Initial width, will contain the new width
+      //	rIniHeight (integer): Initial height, will contain the new height
+      //	rWidth (4-byte real): Maximum width
+      //	rHeight (4-byte real): Maximum height
+      //	bExtended (boolean - default value=0): Extended mode
+      //	bWithoutEnlarging (boolean - default value=0): True if the homothety calculation must not exceed the initial dimensions, False otherwise
+      // Return value:
+      // 	4-byte real: Image ratio
+      //
+      procedure Homothety(rIniWidth is int, rIniHeight is int, local rWidth is 4-byte real, local rHeight is 4-byte real, local bExtended is boolean = False, local bWithoutResizing is boolean = False) : 4-byte real
+      
+      rRatio		is 4-byte real
+      rScaleX		is 4-byte real	= rWidth / rIniWidth
+      rScaleY		is 4-byte real	= rHeight / rIniHeight
+      rMinScale	is 4-byte real	= (bExtended ? ((rScaleX < rScaleY) ? rScaleY else rScaleX) else ((rScaleX < rScaleY) ? rScaleX else rScaleY))
+      
+      rDispWidth	is 4-byte real
+      rDispHeight	is 4-byte real
+      
+      // Destination
+      if (bWithoutResizing _and_ rIniWidth > rWidth or rIniHeight > rHeight) or not bWithoutResizing then
+      	rDispWidth	= rIniWidth * rMinScale
+      	rDispHeight	= rIniHeight * rMinScale
+      else
+      	rDispWidth	= rIniWidth
+      	rDispHeight	= rIniHeight
+      end
+      
+      rIniWidth	= rDispWidth
+      rIniHeight	= rDispHeight
+      
+      // Calculates the ratio
+      if rDispWidth > rDispHeight then
+      	rRatio = rDispHeight / rDispWidth
+      else
+      	rRatio = rDispWidth / rDispHeight		
+      end
+      
+      return rRatio
+     type : 458752
+   -
+     name : Homothety
+     internal_properties : CAAAAAgAAAAPmjo3Cwbow3PBobCzogtEEGXInRoTa+/XFJ9MrNa2bBy0AyDKvbyAd7hPxzoKpFOQdsaRLo5axdUADA==
+     procedure_id : 1160397363368021609
+     type_code : 14
+     code : |1+
+      procedure Homothety(stOrgSize is point, local rWidth is 4-byte real, local rHeight is 4-byte real, local bExtended is boolean = False, local bWithoutResizing is boolean = False) : 4-byte real
+      return Homothety(stOrgSize.X, stOrgSize.Y, rWidth, rHeight, bExtended, bWithoutResizing)
+     type : 458753
+   -
+     name : CreateShape
+     procedure_id : 1160397363368087145
+     type_code : 14
+     code : |1+
+      // Summary: Creates a shape
+      // Syntax:
+      //[ <Result> = ] ShapeCreate (<oShapeSource> is control)
+      //
+      // Parameters:
+      //	oShapeSource (control): Source of the shape
+      // Return value:
+      // 	control: Created shape
+      //
+      procedure CreateShape(oSourceShape is Control)
+      
+      oControl is Control
+      
+      // Creates a copy of source
+      oControl <- CIW_DOCUMENT.MGRCreateObject(oSourceShape)
+      
+      return oControl
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAAspXRQsX4kpYpRJzI8SMGEUfXYJhQeqig0H9mPZLI9hoPnkeFEnSQ8t7JVd8VUY9eLyST/2DyAYB+9rK7lbHVOclfSdkhgAQ9dNjlmStKMpPl9
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1644b4e2005bca5b
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : "http://www.windev.com/lst"
+     index : 0
+   -
+     text :
+      en-GB : Error taking screenshot
+     index : 1
+   -
+     text :
+      en-GB : Unexpected image format
+     index : 2
+   -
+     text :
+      en-GB : Error saving screenshot
+     index : 3
+   -
+     text :
+      en-GB : "Click [YES] to print the image"
+     index : 4
+   -
+     text :
+      en-GB : "Click [NO] to view the image"
+     index : 5
+   -
+     text :
+      en-GB : Error previewing screenshot
+     index : 6
+   -
+     text :
+      en-GB : ScreenShot.bmp
+     index : 7
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
